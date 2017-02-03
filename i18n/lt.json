@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"changeauthor-pagenameform-go": "Pirmyn",
+	"changeauthor-comment": "Komentaras:",
+	"changeauthor-changeauthors-single": "Keisti autorių",
+	"changeauthor-nosuchtitle": "Nėra puslapio pavadinimu \" $1 \"."
+}

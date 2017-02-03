@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Roan Kattouw"
+		]
+	},
+	"changeauthor": "Change revision author",
+	"changeauthor-desc": "Allows changing a revision's author",
+	"changeauthor-title": "Change the author of a revision",
+	"changeauthor-search-box": "Search revisions",
+	"changeauthor-pagename-or-revid": "Page name or revision ID:",
+	"changeauthor-pagenameform-go": "Go",
+	"changeauthor-comment": "Comment:",
+	"changeauthor-changeauthors-multi": "Change {{PLURAL:$1|author|authors}}",
+	"changeauthor-explanation-multi": "With this form you can change revision authors.\nSimply change one or more usernames in the list below, add a comment (optional) and click the \"Change author(s)\" button.",
+	"changeauthor-changeauthors-single": "Change author",
+	"changeauthor-explanation-single": "With this form you can change a revision author.\nSimply change the username below, add a comment (optional) and click the \"Change author\" button.",
+	"changeauthor-invalid-username": "Invalid username \"$1\".",
+	"changeauthor-nosuchuser": "No such user \"$1\".",
+	"changeauthor-revview": "Revision #$1 of $2",
+	"changeauthor-nosuchtitle": "There is no page called \"$1\".",
+	"changeauthor-weirderror": "A very strange error occurred.\nPlease retry your request.\nIf this error keeps showing up, the database is probably broken.",
+	"changeauthor-invalidform": "Please use the form provided by the [[Special:ChangeAuthor|special page]] rather than a custom form.",
+	"changeauthor-success": "Your request has been processed successfully.",
+	"changeauthor-rev": "r$1",
+	"log-name-changeauth": "Author change log",
+	"log-description-changeauth": "This is a log of changes to the authors of revisions.",
+	"logentry-changeauth-changeauth": "$1 changed author of {{int:Changeauthor-rev|$4}} of $3 from $5 to $6",
+	"action-changeauthor": "change the author of a revision",
+	"right-changeauthor": "Change the author of a revision"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"changeauthor": "Зьмена аўтарства вэрсіі",
+	"changeauthor-desc": "Дазваляе зьмяняць аўтарства вэрсіі",
+	"changeauthor-title": "Зьмена аўтарства вэрсіі",
+	"changeauthor-search-box": "Пошук вэрсіяў",
+	"changeauthor-pagename-or-revid": "Назва старонкі альбо ідэнтыфікатар вэрсіі:",
+	"changeauthor-pagenameform-go": "Далей",
+	"changeauthor-comment": "Камэнтар:",
+	"changeauthor-changeauthors-multi": "Зьмена {{PLURAL:$1|аўтара|аўтараў}}",
+	"changeauthor-explanation-multi": "З дапамогай гэтай формы Вы можаце зьмяніць аўтара вэрсіі рэдагаваньняў.\nПроста зьмяніце ніжэй адно ці некалькі імёнаў удзельнікаў, дадайце камэнтар (неабавязковы) і націсьніце кнопку «Зьмяніць аўтара(аў)».",
+	"changeauthor-changeauthors-single": "Зьмена аўтара",
+	"changeauthor-explanation-single": "З дапамогай гэтай формы можна зьмяніць аўтарства рэдагаваньня. Проста зьмяніце ніжэй імя ўдзельніка, дадайце камэнтар (неабавязковы) і націсьніце кнопку «Зьмяніць аўтара».",
+	"changeauthor-invalid-username": "Няслушнае імя ўдзельніка «$1».",
+	"changeauthor-nosuchuser": "Няма такога ўдзельніка «$1».",
+	"changeauthor-revview": "Вэрсія #$1 з $2",
+	"changeauthor-nosuchtitle": "Няма старонкі з назвай «$1».",
+	"changeauthor-weirderror": "Адбылася дзіўная памылка.\nКалі ласка, паўтарыце Ваш запыт.\nКалі памылка зноў узьнікне, гэта азначае, што база зьвестак пашкоджана.",
+	"changeauthor-invalidform": "Калі ласка, выкарыстоўвайце форму на [[Special:ChangeAuthor|спэцыяльнай старонцы]], а не якую-небудзь іншую.",
+	"changeauthor-success": "Ваш запыт быў пасьпяхова выкананы.",
+	"changeauthor-logentry": "зьмененае аўтарства $2 $1 з $3 на $4",
+	"log-name-changeauth": "Журнал зьменаў аўтарства",
+	"right-changeauthor": "зьмена аўтарства вэрсіі"
+}

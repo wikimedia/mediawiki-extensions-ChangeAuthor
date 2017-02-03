@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alison"
+		]
+	},
+	"changeauthor-comment": "Nóta tráchta:",
+	"changeauthor-invalid-username": "Ainm úsáideoir \"$1\" neamhbhailí.",
+	"changeauthor-nosuchuser": "Níl úsáideoir \"$1\".",
+	"changeauthor-revview": "Leagan #$1 as $2",
+	"changeauthor-nosuchtitle": "Níl aon leathanach ab ainm \"$1\"."
+}

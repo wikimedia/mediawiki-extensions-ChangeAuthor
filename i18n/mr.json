@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Htt",
+			"Kaustubh",
+			"Mahitgar"
+		]
+	},
+	"changeauthor": "आवृत्तीचा लेखक बदला",
+	"changeauthor-desc": "एखाद्या आवृत्तीचा लेखक बदलण्याची परवानगी देतो",
+	"changeauthor-title": "एखाद्या आवृत्तीचा लेखक बदला",
+	"changeauthor-search-box": "आवृत्त्या शोधा",
+	"changeauthor-pagename-or-revid": "पानाचे नाव किंवा आवृत्ती क्रमांक:",
+	"changeauthor-pagenameform-go": "चला",
+	"changeauthor-comment": "प्रतिक्रीया:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|लेखक|लेखक}} बदला",
+	"changeauthor-explanation-multi": "खालील अर्ज वापरुन तुम्ही आवृत्त्यांचे लेखक बदलू शकता. खालील यादीतील एक किंवा अनेक सदस्यनावे बदला, शेरा लिहा (वैकल्पिक) व 'लेखक बदला' या कळीवर टिचकी द्या.",
+	"changeauthor-changeauthors-single": "लेखक बदला",
+	"changeauthor-explanation-single": "हा अर्ज वापरून तुम्ही एका आवृत्तीचा लेखक बदलू शकता. फक्त खाली सदस्यनाव बदला, शेरा लिहा (वैकल्पिक) व 'लेखक बदला' कळीवर टिचकी द्या.",
+	"changeauthor-invalid-username": "चुकीचे सदस्यनाव \"$1\".",
+	"changeauthor-nosuchuser": "\"$1\" नावाचा सदस्य अस्तित्वात नाही.",
+	"changeauthor-revview": "$2 ची #$1 आवृत्ती",
+	"changeauthor-nosuchtitle": "\"$1\" यानावाचा लेख अस्तित्वात नाही.",
+	"changeauthor-weirderror": "एक अतिशय अनोळखी त्रुटी आढळलेली आहे. कृपया क्रिया पुन्हा करा. जर ही त्रुटी दिसत राहिली, तर डाटाबेसमध्ये मोठा बिघाड झालेला असण्याची शक्यता आहे.",
+	"changeauthor-invalidform": "स्वत: तयार केलेला अर्ज वापरण्याऐवजी Special:ChangeAuthor वरील अर्ज वापरा.",
+	"changeauthor-success": "तुमची मागणी व्यवस्थितरीत्या पूर्ण झालेली आहे.",
+	"changeauthor-logentry": "$1 च्या $2 आवृत्तीचा लेखक $3 पासून $4 ला बदललेला आहे",
+	"log-name-changeauth": "लेखक बदल सूची"
+}

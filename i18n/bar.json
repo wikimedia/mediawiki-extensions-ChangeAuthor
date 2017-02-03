@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Man77"
+		]
+	},
+	"changeauthor": "Autor vu ana Veasion ändan",
+	"changeauthor-desc": "Ealaubt s'Ändan vum Autor vu ana Version",
+	"changeauthor-title": "Autor vu ana Veasion ändan",
+	"changeauthor-search-box": "Veasion suacha",
+	"changeauthor-pagename-or-revid": "Seitnnãm oda Veasionsnumma:",
+	"changeauthor-pagenameform-go": "Suach",
+	"changeauthor-comment": "Kommentar:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|In Autor|D'Autoan}} ändan",
+	"changeauthor-explanation-multi": "Mit dem Formular kãnnst d'Autoan vu da Veasion ändan. Ända oafåch an oda mearare Autornnãmen in da Listn, eagänz an Kommentar (opzional) und klick auf d'„Autor ändan“-Schåitflächn.",
+	"changeauthor-changeauthors-single": "Autor ändan",
+	"changeauthor-explanation-single": "Mit dem Formular kãnnst in Autoa vu da Veasion ändan. Ända oafåch in Autornnãmen in da Listn, eagänz an Kommentar (opzional) und klick auf d'„Autor ändan“-Schåitflächn.",
+	"changeauthor-invalid-username": "Ungüitiga Benutzanãm „$1“.",
+	"changeauthor-nosuchuser": "Es gibt kan Benutza „$1“ ned.",
+	"changeauthor-revview": "Veasion #$1 vu $2",
+	"changeauthor-nosuchtitle": "Es gibt ka Seitn „$1“ ned.",
+	"changeauthor-weirderror": "Då is iatst a söitsãma Fehla passiad. Sei so guad und probia's nu amåi. Wãnn's nu amåi zu dem Fehla kimmd, håd de Datnbank wåascheinli a grebas Problem.",
+	"changeauthor-invalidform": "Sei so guad und nimm s'Foamular auf da [[Special:ChangeAuthor|Spezialseitn]].",
+	"changeauthor-success": "Dei Ändarung is eafoigreich duachgfüahd woan.",
+	"changeauthor-logentry": "håd in Autoannãmen vu $2 vu $1 vu $3 auf $4 gändat",
+	"log-name-changeauth": "Autoanändarungs-Logbiachl",
+	"right-changeauthor": "In Autoan vu ana Veasion ändan"
+}

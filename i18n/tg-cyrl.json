@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"changeauthor": "Тағйири муаллифи нусха",
+	"changeauthor-desc": "Барои тағйир додани муаллифи нусха иҷозат медиҳад",
+	"changeauthor-title": "Тағйир додани муаллифи нусха",
+	"changeauthor-search-box": "Ҷустуҷӯи нусхаҳо",
+	"changeauthor-pagename-or-revid": "Номи саҳифа ё нишонаи нусха:",
+	"changeauthor-pagenameform-go": "Бирав",
+	"changeauthor-comment": "Тавзеҳ:",
+	"changeauthor-changeauthors-multi": "Тағйири муаллиф(он)",
+	"changeauthor-explanation-multi": "Бо ин форм шумо метавонед муаллифони нусхаро тағйир диҳед.\nБасоддагӣ як ё якчанд номҳои корбариро дар феҳристи зер тағйир диҳед, тавзеҳотеро илова кунед (ихтиёрӣ) ва тугмаи 'Тағйири муаллиф(он)'-ро пахш кунед.",
+	"changeauthor-changeauthors-single": "Тағйири муаллиф",
+	"changeauthor-explanation-single": "Бо ин форм шумо метавонед муаллифи нусхаеро тағйир диҳед. Басоддагӣ номи корбарии зерро тағйир диҳед, тавзеҳотеро илова кунед (ихтиёрӣ) ва тугмаи 'Тағйири муаллиф'-ро пахш кунед.",
+	"changeauthor-invalid-username": "Номи корбарии номӯътабар \"$1\".",
+	"changeauthor-nosuchuser": "Чунин корбар нест \"$1\".",
+	"changeauthor-revview": "Нусхаи #$1 аз $2",
+	"changeauthor-nosuchtitle": "Саҳифае бо унвони \"$1\" нест.",
+	"changeauthor-weirderror": "Хатои хеле ғайриоддӣ рух дод.\nЛутфан дубора дархости худро такрор кунед.\nАгар ин хато такроран намоиш шавад, эҳтимолан пойгоҳи дода шикаста аст.",
+	"changeauthor-invalidform": "Лутфан аз форми тавассути Special:ChangeAuthor истифода кунед, нисбат аз форми оддӣ.",
+	"changeauthor-success": "Дархости шумо бо муваффақият пардозиш шуд.",
+	"changeauthor-logentry": "Муаллифи $2 аз нусхаи $1 аз $3 ба $4 иваз шуд",
+	"log-name-changeauth": "Гузориши тағйири муаллиф"
+}

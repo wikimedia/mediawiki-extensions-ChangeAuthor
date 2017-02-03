@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"changeauthor-pagenameform-go": "Los",
+	"changeauthor-comment": "Kommentar:",
+	"changeauthor-nosuchuser": "Gifft keen Bruker „$1“.",
+	"changeauthor-revview": "Version #$1 vun $2"
+}

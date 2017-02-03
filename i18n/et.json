@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska"
+		]
+	},
+	"changeauthor": "Muuda redigeerimise autorit",
+	"changeauthor-desc": "Lubab muuta redigeerimise autorit",
+	"changeauthor-title": "Redigeerimise autori muutmine",
+	"changeauthor-search-box": "Otsi redigeerimisi",
+	"changeauthor-pagename-or-revid": "Lehekülg või redigeerimise ID:",
+	"changeauthor-pagenameform-go": "Mine",
+	"changeauthor-comment": "Kommentaar:",
+	"changeauthor-changeauthors-single": "Muuda autorit",
+	"changeauthor-invalid-username": "Kehtetu kasutajanimi \"$1\".",
+	"changeauthor-nosuchuser": "Ei ole sellist kasutajat nagu \"$1\".",
+	"changeauthor-weirderror": "Väga veider viga ilmnes.\n\nPalun ürita uuesti.\n\nKui see viga kordub, on ilmselt viga andmebaasis."
+}

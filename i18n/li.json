@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pahles"
+		]
+	},
+	"changeauthor": "Outäör versie aanpasse",
+	"changeauthor-desc": "Maak 't mäögelik de outäör van 'n versie aan te passe",
+	"changeauthor-title": "De outäör van 'n bewirkingsversie aanpasse",
+	"changeauthor-search-box": "Versies zeuke",
+	"changeauthor-pagename-or-revid": "Paginanaam of versienómmer:",
+	"changeauthor-pagenameform-go": "Gank",
+	"changeauthor-comment": "Opmirking:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Outäör|Outäörs}} aanpasse",
+	"changeauthor-explanation-multi": "Mit dit formeleer kans doe de outäör van 'n bewirkingsversie aanpasse. Pas sumpeleweg ein of mier gebroekersname in de lies hie-onger aan, veug 'n opmirking toe (neet verplich) en klik op de knop 'Outäör(s) aanpasse'.",
+	"changeauthor-changeauthors-single": "Outäör aanpasse",
+	"changeauthor-explanation-single": "Mit dit formeleer kans doe de outäör van 'n bewirkingsversie aanpasse. Pas sumpeleweg ein gebroekersname in de lies hie-onger aan, veug 'n opmirking toe (neet verplich) en klik op de knop 'Outäör aanpasse'.",
+	"changeauthor-invalid-username": "Ongeljige gebroekersnaam \"$1\".",
+	"changeauthor-nosuchuser": "Gebroeker \"$1\" besjteit neet.",
+	"changeauthor-revview": "Bewirkingsnómmer $1 van $2",
+	"changeauthor-nosuchtitle": "D'r is gein pagina \"$1\".",
+	"changeauthor-weirderror": "D'r is 'n erg vraemde fout opgetraoje.\nPerbeer 't nog 'ns.\nEs doe dees foutmeljing jedere kier weer zuus, is de database allezelaeve kepot.",
+	"changeauthor-invalidform": "Gebroek 't formeleer van de [[Special:ChangeAuthor|speciaal pagina]], in plaats van 'n aangepas formeleer.",
+	"changeauthor-success": "Diene aanvraog is verwirk.",
+	"changeauthor-logentry": "Outäör van $2 van $1 aangepas van $3 nao $4",
+	"log-name-changeauth": "Outäörsaanpassingelogbook",
+	"right-changeauthor": "De outäör van 'n bewirking aanpasse"
+}

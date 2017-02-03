@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"changeauthor": "Autor vun ere Version ändere",
+	"changeauthor-desc": "Erlaubt s dr Autor vun ere Version z ändere",
+	"changeauthor-title": "Autor vun ere Version ändere",
+	"changeauthor-search-box": "Version sueche",
+	"changeauthor-pagename-or-revid": "Sytename oder Versionsnummere:",
+	"changeauthor-pagenameform-go": "Sueche",
+	"changeauthor-comment": "Kommentar:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Autor|Autore}} ändere",
+	"changeauthor-explanation-multi": "Mit däm Formular chasch Du d Autore vu dr Versione ändere. Ändere eifach ein oder mehreri Autorenäme in dr Lischt, ergänz e Kommentar (optional) un druck uf d „Autor ändere“-Schaltflächi.",
+	"changeauthor-changeauthors-single": "Autor ändere",
+	"changeauthor-explanation-single": "Mit däm Formular chasch Du dr Autor vun ere Versione ändere. Ändere eifach dr Autorename in dr Lischt, ergänz e Kommentar (optional) un druck uf d „Autor ändere“-Schaltflächi.",
+	"changeauthor-invalid-username": "Nit giltige Benutzername „$1“.",
+	"changeauthor-nosuchuser": "S git kei Benutzer „$1“.",
+	"changeauthor-revview": "Version #$1 vu $2",
+	"changeauthor-nosuchtitle": "S git kei Syte „$1“.",
+	"changeauthor-weirderror": "E seli sältene Fähler isch ufträtte. Bitte widerhol Dyyni Änderig. Wänn dää Fähler nomol uftritt, isch wahrschyns d Datebank hii.",
+	"changeauthor-invalidform": "Bitte bruuch s Formular uf dr [[Special:ChangeAuthor|Spezialsyte]].",
+	"changeauthor-success": "Dyyni Änderig isch erfolgryych durgfiert wore.",
+	"changeauthor-logentry": "het dr Autorename vu dr $2 vu $1 vu $3 uf $4 gänderet",
+	"log-name-changeauth": "Autorename-Änderigslogbuech",
+	"right-changeauthor": "Dr Autor vun ere Version ändere"
+}

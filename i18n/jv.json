@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meursault2004",
+			"Pras"
+		]
+	},
+	"changeauthor": "Ngganti révisi pangripta",
+	"changeauthor-title": "Ganti pangripta sawijining révisi",
+	"changeauthor-search-box": "Golèk révisi",
+	"changeauthor-pagename-or-revid": "ID jeneng kaca utawa révisi:",
+	"changeauthor-pagenameform-go": "Tumuju",
+	"changeauthor-comment": "Komentar:",
+	"changeauthor-changeauthors-multi": "Ganti {{PLURAL:$1|penulis|penulis}}",
+	"changeauthor-changeauthors-single": "Ganti pangripta",
+	"changeauthor-invalid-username": "Jeneng panganggo \"$1\" ora absah.",
+	"changeauthor-nosuchuser": "Ora ana panganggo \"$1\".",
+	"changeauthor-revview": "Révisi #$1 saka $2",
+	"changeauthor-nosuchtitle": "Ora ana kaca sing diarani \"$1\".",
+	"changeauthor-weirderror": "Ana kaluputan anèh sing dumadi.\nMangga diulang manèh panyuwunan panjenengan.\nYèn kaluputan iki tetep dumadi manèh, tegesé basis data iki mbok-menawa rusak.",
+	"changeauthor-success": "Panyuwunan panjenengan wis kasil diprosès.",
+	"log-name-changeauth": "Log owah-owahan pangripta"
+}

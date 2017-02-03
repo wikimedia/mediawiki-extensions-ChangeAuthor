@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"changeauthor": "تغيير مؤلف المراجعة",
+	"changeauthor-desc": "يسمح بتغيير مؤلف مراجعة",
+	"changeauthor-title": "تغيير مؤلف مراجعة",
+	"changeauthor-search-box": "بحث في المراجعات",
+	"changeauthor-pagename-or-revid": "اسم الصفحة أو رقم المراجعة:",
+	"changeauthor-pagenameform-go": "اذهب",
+	"changeauthor-comment": "تعليق:",
+	"changeauthor-changeauthors-multi": "تغيير {{PLURAL:$1|المؤلف|المؤلفين}}",
+	"changeauthor-explanation-multi": "باستخدام هذه الاستمارة يمكنك تغيير مؤلفي المراجعات.\nببساطة غير واحدا أو أكثر من أسماء المستخدمين في القائمة بالأسفل ، أضف تعليقا (اختياري) واضغط على زر 'تغيير المؤلف(ين)'.",
+	"changeauthor-changeauthors-single": "تغيير المؤلف",
+	"changeauthor-explanation-single": "باستخدام هذه الاستمارة يمكنك تغيير مؤلف مراجعة.\nببساطة غير اسم اسم المستخدم بالأسفل، أضف تعليقا (اختياري) واضغط على زر 'تغيير المؤلف'.",
+	"changeauthor-invalid-username": "اسم مستخدم غير صحيح \"$1\".",
+	"changeauthor-nosuchuser": "لا يوجد مستخدم بالاسم \"$1\".",
+	"changeauthor-revview": "المراجعة #$1 من $2",
+	"changeauthor-nosuchtitle": "لا توجد صفحة بالاسم \"$1\".",
+	"changeauthor-weirderror": "حدث خطأ غريب جدا.\nمن فضلك حاول القيام بطلبك مرة ثانية.\nلو استمر هذا الخطأ، إذا فقاعدة البيانات على الأرجح مكسورة.",
+	"changeauthor-invalidform": "من فضلك استخدم الاستمارة الموفرة بواسطة [[Special:ChangeAuthor|الصفحة الخاصة]] بدلا من استمارة معدلة.",
+	"changeauthor-success": "طلبك تمت معالجته بنجاح.",
+	"changeauthor-logentry": "غير مؤلف $2 ل$1 من $3 إلى $4",
+	"log-name-changeauth": "سجل تغيير المؤلفين",
+	"changeauthor-rev": "ن$1",
+	"right-changeauthor": "تغيير مؤلف مراجعة"
+}

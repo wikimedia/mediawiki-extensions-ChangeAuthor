@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"DaSch",
+			"Imre",
+			"Raimond Spekking",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"changeauthor": "Autor einer Version ändern",
+	"changeauthor-desc": "Erlaubt es den Autor einer Version zu ändern",
+	"changeauthor-title": "Autor einer Version ändern",
+	"changeauthor-search-box": "Version suchen",
+	"changeauthor-pagename-or-revid": "Seitenname oder Versionsnummer:",
+	"changeauthor-pagenameform-go": "Suche",
+	"changeauthor-comment": "Kommentar:",
+	"changeauthor-changeauthors-multi": "Ändere {{PLURAL:$1|Autor|Autoren}}",
+	"changeauthor-explanation-multi": "Mit diesem Formular kannst du die Autoren der Versionen ändern. Ändere einfach einen oder mehrerer Autorenname in der Liste, ergänze einen Kommentar (optional) und klicke auf die „Autor ändern“-Schaltfläche.",
+	"changeauthor-changeauthors-single": "Autor ändern",
+	"changeauthor-explanation-single": "Mit diesem Formular kannst du den Autoren einer Version ändern. Ändere einfach den Autorenname in der Liste, ergänze einen Kommentar (optional) und klicke auf die „Autor ändern“-Schaltfläche.",
+	"changeauthor-invalid-username": "Ungültiger Benutzername „$1“.",
+	"changeauthor-nosuchuser": "Es gibt keinen Benutzer „$1“.",
+	"changeauthor-revview": "Version $1 von $2",
+	"changeauthor-nosuchtitle": "Es gibt keine Seite „$1“.",
+	"changeauthor-weirderror": "Ein sehr seltener Fehler ist aufgetreten. Bitte wiederhole deine Änderung. Wenn dieser Fehler erneut auftritt, ist vermutlich die Datenbank fehlerhaft.",
+	"changeauthor-invalidform": "Bitte benutze das Formular auf der [[Special:ChangeAuthor|Spezialseite]].",
+	"changeauthor-success": "Deine Änderung wurde erfolgreich durchgeführt.",
+	"changeauthor-logentry": "änderte Autorenname der $2 von $1 von $3 auf $4",
+	"log-name-changeauth": "Autorenänderungs-Logbuch",
+	"changeauthor-rev": "Version $1",
+	"right-changeauthor": "Autor einer Version ändern"
+}

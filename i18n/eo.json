@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"changeauthor": "Ŝanĝu aŭtoron de revizio",
+	"changeauthor-desc": "Permesas la ŝanĝadon de aŭtoro de revizio",
+	"changeauthor-title": "Ŝanĝi la aŭtoron de revizio",
+	"changeauthor-search-box": "Serĉu reviziojn",
+	"changeauthor-pagename-or-revid": "Paĝnomo aŭ revizia identigo:",
+	"changeauthor-pagenameform-go": "Ek!",
+	"changeauthor-comment": "Komento:",
+	"changeauthor-changeauthors-multi": "Ŝanĝi {{PLURAL:$1|aŭtoron|aŭtorojn}}",
+	"changeauthor-explanation-multi": "Kun ĉi tiu paĝo vi povas ŝanĝi aŭtorojn de revizioj.\nSimple ŝanĝu unu aŭ pliajn salutnomojn en la jena listo, aldonu komenton (nedeviga) kaj klaku la butonon 'Ŝanĝi aŭtoro(j)n'.",
+	"changeauthor-changeauthors-single": "Ŝanĝi aŭtoron",
+	"changeauthor-invalid-username": "Nevalida salutnomo \"$1\".",
+	"changeauthor-nosuchuser": "Neniu uzanto \"$1\".",
+	"changeauthor-revview": "Revizio #$1 de $2",
+	"changeauthor-nosuchtitle": "Estas neniu pagxo titolata \"$1\".",
+	"changeauthor-weirderror": "Tre stranga eraro okazis.\nBonvolu reprovi vian peton.\nSe ĉi tiu eraro daŭras okazi, tiel la datumbazo verŝajne estas rompita.",
+	"changeauthor-success": "Via peto estis traktita sukcese.",
+	"changeauthor-logentry": "Ŝanĝis aŭtoron de $2 de $1 de $3 al $4",
+	"log-name-changeauth": "Protokolo pri ŝanĝoj de aŭtoroj",
+	"right-changeauthor": "Ŝanĝi la aŭtoro de revizio"
+}

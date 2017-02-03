@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"changeauthor": "Auteur vun enger Versioun änneren",
+	"changeauthor-desc": "Erlaabt et den Auteur vun enger oder méi Versiounen z'änneren",
+	"changeauthor-title": "Auteur vun enger Versioun änneren",
+	"changeauthor-search-box": "Versioune sichen",
+	"changeauthor-pagename-or-revid": "Säitenumm oder Versiounsnummer:",
+	"changeauthor-pagenameform-go": "Lass",
+	"changeauthor-comment": "Bemierkung:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Auteur|Auteuren}} änneren",
+	"changeauthor-explanation-multi": "Mat dësem Formulaire kënnt Dir d'Auteure vun de Versiounen äneren.\nÄnnert einfach een oder méi Benotzernimm an der Lëscht ënnendrënner, setzt eng Bemierkung derbäi (fakultativ) a klickt op de Knäppchen 'Auteur änneren'.",
+	"changeauthor-changeauthors-single": "Auteur änneren",
+	"changeauthor-explanation-single": "Mat dësem Formulaire kënnt Dir den Auteur vun enger Versioun änneren.\nÄnnert de Benotzernumm hei ënnendrënner einfach, setzt eng Bemierkung derbäi (fakultativ) a klickt op de Knäppchen 'Auteur änneren'.",
+	"changeauthor-invalid-username": "Benotzernumm „$1“ ass net gëlteg!",
+	"changeauthor-nosuchuser": "Et gëtt kee Benotzer \"$1\".",
+	"changeauthor-revview": "Versioun #$1 vun $2",
+	"changeauthor-nosuchtitle": "Et gëtt keng Säit mam Numm \"$1\".",
+	"changeauthor-weirderror": "E seelene Feeler ass geschitt.\nProbéiert w.e.g. nach eng Kéier.\nWann dëse Feeler sech widderhëlt dann ass d'Datebank waarscheinlech futti.",
+	"changeauthor-invalidform": "Benotzt w.e.g. de Formulaire op der Säit [[Special:ChangeAuthor|Spezialsäit]] (éischter wéi een anere Formulaire).",
+	"changeauthor-success": "Är Ufro gouf duerchgefouert.",
+	"changeauthor-logentry": "Den Auteur gouf vun $2 op $1 vum $3 op den $4 geännert",
+	"log-name-changeauth": "Lëscht vun den Ännerunge vun dësem Auteur",
+	"changeauthor-rev": "Versioun $1",
+	"right-changeauthor": "Den auteur vun enger Versioun änneren"
+}

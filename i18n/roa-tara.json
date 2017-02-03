@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"changeauthor-pagenameform-go": "Veje",
+	"changeauthor-comment": "Commende:",
+	"changeauthor-changeauthors-single": "Cange autore",
+	"changeauthor-nosuchtitle": "Non g'esiste 'na pàgene chiamete \"$1\"."
+}

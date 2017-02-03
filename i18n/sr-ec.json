@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"changeauthor": "Промени аутора ревизије",
+	"changeauthor-desc": "Омогући промене аутора ревизија",
+	"changeauthor-title": "Промени аутора неке ревизије",
+	"changeauthor-search-box": "Претражи измене",
+	"changeauthor-pagename-or-revid": "Име странице или ИД ревизије:",
+	"changeauthor-pagenameform-go": "Иди",
+	"changeauthor-comment": "Коментар:",
+	"changeauthor-changeauthors-multi": "Промени {{PLURAL:$1|аутора|ауторе}}",
+	"changeauthor-changeauthors-single": "Промени аутора",
+	"changeauthor-invalid-username": "Погрешно корисничко име \"$1\".",
+	"changeauthor-nosuchuser": "Нема корисника \"$1\".",
+	"changeauthor-revview": "Измена $1 од $2",
+	"changeauthor-nosuchtitle": "Не постоји страница под називом \"$1\".",
+	"changeauthor-success": "Баш захтев је био успешно обрађен.",
+	"changeauthor-logentry": "Промењен аутор $2 на $1, са $3 на $4",
+	"log-name-changeauth": "Историја промене аутора",
+	"changeauthor-rev": "изм. $1",
+	"right-changeauthor": "Промени аутора ревизије"
+}

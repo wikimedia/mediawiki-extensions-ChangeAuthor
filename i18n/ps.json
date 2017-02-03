@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"changeauthor-pagenameform-go": "ورځه",
+	"changeauthor-comment": "تبصره:",
+	"changeauthor-changeauthors-single": "ليکوال بدلول",
+	"changeauthor-nosuchtitle": "داسې هېڅ کوم مخ نشته چې نوم يې \"$1\" وي.",
+	"changeauthor-success": "ستاسو غوښتنه په برياليتوب سره پلي شوه."
+}

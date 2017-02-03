@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"changeauthor": "Spremeni avtorja redakcije",
+	"changeauthor-desc": "Omogoča spreminjanje avtorja redakcije",
+	"changeauthor-title": "Spreminjanje avtorja redakcije",
+	"changeauthor-search-box": "Iskanje redakcij",
+	"changeauthor-pagename-or-revid": "Ime strani ali ID redakcije:",
+	"changeauthor-pagenameform-go": "Pojdi",
+	"changeauthor-comment": "Pripomba:",
+	"changeauthor-changeauthors-multi": "Spremeni {{PLURAL:$1|avtorja|avtorje}}",
+	"changeauthor-explanation-multi": "S tem obrazcem lahko spremenite avtorje redakcije.\nNa spodnjem seznamu preprosto spremenite eno ali več uporabniških imen, dodajte pripombo (po želji) in kliknite gumb »Spremeni avtorje«.",
+	"changeauthor-changeauthors-single": "Spremeni avtorja",
+	"changeauthor-explanation-single": "S tem obrazcem lahko spremenite avtorja redakcije.\nSpodaj preprosto spremenite uporabniško ime, dodajte pripombo (po želji) in kliknite gumb »Spremeni avtorja«.",
+	"changeauthor-invalid-username": "Neveljavno uporabniško ime »$1«.",
+	"changeauthor-nosuchuser": "Uporabnik »$1« ne obstaja.",
+	"changeauthor-revview": "Redakcija #$1 $2",
+	"changeauthor-nosuchtitle": "Stran z imenom »$1« ne obstaja.",
+	"changeauthor-weirderror": "Prišlo je do zelo nenavadne napake.\nProsimo, ponovite svojo zahtevo.\nČe se ta napaka ne preneha pojavljati, je zbirka podatkov verjetno poškodovana.",
+	"changeauthor-invalidform": "Namesto obrazca po meri, prosimo, uporabite obrazec na [[Special:ChangeAuthor|posebni strani]].",
+	"changeauthor-success": "Vaša zahteva je bila uspešno obdelana.",
+	"changeauthor-logentry": "je spremenil(-a) avtorja $2 strani $1 iz $3 v $4",
+	"log-name-changeauth": "Dnevnik sprememb avtorjev",
+	"right-changeauthor": "Spreminjanje avtorjev redakcij"
+}

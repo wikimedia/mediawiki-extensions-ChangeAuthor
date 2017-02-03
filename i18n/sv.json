@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lejonel",
+			"M.M.S.",
+			"Najami"
+		]
+	},
+	"changeauthor": "Ändra upphovsman för sidversion",
+	"changeauthor-desc": "Gör det möjligt att ändra upphovsman för sidversioner",
+	"changeauthor-title": "Ändra upphovsman för en sidversion",
+	"changeauthor-search-box": "Välj sidversion eller sida",
+	"changeauthor-pagename-or-revid": "Sidnamn eller versions-ID:",
+	"changeauthor-pagenameform-go": "Gå",
+	"changeauthor-comment": "Kommentar:",
+	"changeauthor-changeauthors-multi": "Ändra {{PLURAL:$1|författare|författare}}",
+	"changeauthor-explanation-multi": "Med hjälp av det här formuläret kan du ändra upphovsmännen för sidversioner. Byt ut ett eller flera av användarnamnen i listan härunder, skriv (om du vill) en kommentar och tryck sedan på knappen \"Ändra\".",
+	"changeauthor-changeauthors-single": "Ändra",
+	"changeauthor-explanation-single": "Med hjälp av det här formuläret kan du ändra upphovsmannen för en sidversion. Byt ut användarnamnet härunder, skriv (om du vill) en kommentar och tryck sedan på knappen \"Ändra\".",
+	"changeauthor-invalid-username": "Användarnamnet \"$1\" är ogiltigt.",
+	"changeauthor-nosuchuser": "Det finns ingen användare med namnet \"$1\".",
+	"changeauthor-revview": "Version #$1 av $2",
+	"changeauthor-nosuchtitle": "Det finns ingen sida med namnet \"$1\".",
+	"changeauthor-weirderror": "Ett mycket konstigt fel inträffade. Försök en gång till. Om samma fel upprepas så är databasen förmodligen trasig.",
+	"changeauthor-invalidform": "Var vänlig använd formuläret som finns på [[Special:ChangeAuthor|specialsidan]], istället för ett formulär som någon annan skapat.",
+	"changeauthor-success": "Upphovsmansändringen är genomförd.",
+	"changeauthor-logentry": "ändrade upphovsman för $2 av $1 från $3 till $4",
+	"log-name-changeauth": "Upphovsmansändringslogg",
+	"right-changeauthor": "Ändra författaren för en version"
+}

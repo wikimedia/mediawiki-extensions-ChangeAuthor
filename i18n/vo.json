@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"Smeira"
+		]
+	},
+	"changeauthor": "Votükön lautani revida",
+	"changeauthor-desc": "Dälon votükami revidalautana",
+	"changeauthor-title": "Votükön revidalautani",
+	"changeauthor-search-box": "Sukön revidis",
+	"changeauthor-pagename-or-revid": "Padanem u revidanüm:",
+	"changeauthor-pagenameform-go": "Ledunolöd",
+	"changeauthor-comment": "Küpet:",
+	"changeauthor-changeauthors-multi": "Votükön {{PLURAL:$1|lautani|lautanis}}",
+	"changeauthor-explanation-multi": "Me fomet at kanol votükön revidalautanis.\nMutol te votükön gebananemi bal u plu bali pö lised dono, penön küpeti (if vilol) e välön knopi: „Votükön lautani(s)“.",
+	"changeauthor-changeauthors-single": "Votükön lautani",
+	"changeauthor-explanation-single": "Me fomet at kanol votükön revidalautani.\nMutol te votükön gebananemi dono, penön küpeti (if vilol) e välön knopi: „Votükön lautani“.",
+	"changeauthor-invalid-username": "Gebananem no lonöföl: „$1“.",
+	"changeauthor-nosuchuser": "Geban: „$1“ no dabinon.",
+	"changeauthor-revview": "Revid #$1 se $2",
+	"changeauthor-nosuchtitle": "No dabinon pad tiädü „$1“.",
+	"changeauthor-weirderror": "Pöl vemo bisarik ejenon.\nSteifülolös dönu.\nIf pöl at dönu ojenon, nünodem ba edädikon.",
+	"changeauthor-invalidform": "Gebolös fometi su [[Special:ChangeAuthor|pad patik]], no votiki.",
+	"changeauthor-success": "Beg olik peledunon benosekiko.",
+	"changeauthor-logentry": "Lautan revida: $2 pada: $1 pevotükön de: $3 ad: $4.",
+	"log-name-changeauth": "Jenotalised lautanivotükamas",
+	"right-changeauthor": "Votükön revidalautani"
+}

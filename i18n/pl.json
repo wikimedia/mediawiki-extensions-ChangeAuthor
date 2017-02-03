@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derbeth",
+			"Equadus",
+			"Leinad",
+			"Matma Rex",
+			"McMonster",
+			"Sp5uhe",
+			"Wpedzich"
+		]
+	},
+	"changeauthor": "Zmień autora wersji",
+	"changeauthor-desc": "Pozwala na zmianę autora wersji",
+	"changeauthor-title": "Zmiana autora wersji artykułu",
+	"changeauthor-search-box": "Szukaj wersji",
+	"changeauthor-pagename-or-revid": "Nazwa strony lub ID wersji:",
+	"changeauthor-pagenameform-go": "Dalej",
+	"changeauthor-comment": "Powód zmiany autora:",
+	"changeauthor-changeauthors-multi": "Zmień {{PLURAL:$1|autora|autorów}}",
+	"changeauthor-explanation-multi": "Tutaj możesz zmienić autora wersji artykułu.\nZmień jedną lub wiele nazw użytkowników na poniższej liście, dodaj komentarz (opcjonalny) i wciśnij przycisk 'Zmień autorów'.",
+	"changeauthor-changeauthors-single": "Zmień autora",
+	"changeauthor-explanation-single": "Tutaj możesz zmienić autora wersji artykułu.\nZmień nazwę użytkownika na poniższej liście, dodaj komentarz (opcjonalny) i wciśnij przycisk 'Zmień autora'.",
+	"changeauthor-invalid-username": "Niepoprawna nazwa użytkownika „$1”.",
+	"changeauthor-nosuchuser": "Brak użytkownika „$1”.",
+	"changeauthor-revview": "Wersja #$1 z $2",
+	"changeauthor-nosuchtitle": "Brak strony „$1”.",
+	"changeauthor-weirderror": "Wystąpił nieznany błąd.\nSpróbuj powtórzyć polecenie.\nJeśli błąd wystąpi ponownie, prawdopodobnie uszkodzona jest baza danych.",
+	"changeauthor-invalidform": "Zamiast tej strony co zazwyczaj użyj [[Special:ChangeAuthor|strony specjalnej]].",
+	"changeauthor-success": "Twoje polecenie zostało wykonane z powodzeniem.",
+	"changeauthor-logentry": "zmienił autora wersji $2 strony $1 z $3 na $4",
+	"log-name-changeauth": "Rejestr zmiany autora",
+	"right-changeauthor": "Zmiana autora wersji"
+}

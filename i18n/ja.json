@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fievarsty",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Shirayuki",
+			"Whym"
+		]
+	},
+	"changeauthor": "特定版投稿者の変更",
+	"changeauthor-desc": "版の投稿者の変更を可能にする",
+	"changeauthor-title": "特定版の投稿者を変更",
+	"changeauthor-search-box": "特定版の検索",
+	"changeauthor-pagename-or-revid": "ページ名または特定版ID:",
+	"changeauthor-pagenameform-go": "検索",
+	"changeauthor-comment": "変更理由:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|著者}}を変更",
+	"changeauthor-explanation-multi": "このフォームから各版の著者を変更することができます。下に記載されている一人または複数の利用者名を変更し、コメントを付記し (省略可能)、変更ボタンを押してください。",
+	"changeauthor-changeauthors-single": "変更",
+	"changeauthor-explanation-single": "このフォームから版の著者を変更することができます。下記の利用者名を変更し、コメントを付記し (省略可能)、変更ボタンを押してください。",
+	"changeauthor-invalid-username": "\"$1\" は不正な利用者名です。",
+	"changeauthor-nosuchuser": "\"$1\" という利用者は存在しません。",
+	"changeauthor-revview": "$2 の特定版 #$1",
+	"changeauthor-nosuchtitle": "\"$1\" という名前のページはありません。",
+	"changeauthor-weirderror": "予測不能なエラーが発生しました。もう一度操作してください。それでもエラーが発生する場合は、恐らくデータベースが破壊されています。",
+	"changeauthor-invalidform": "独自のフォームではなく、[[Special:ChangeAuthor|特別ページ]]が提供するフォームを利用してください。",
+	"changeauthor-success": "要求された処理が完了しました。",
+	"changeauthor-logentry": "$1 の$2 の著者を $3 から $4 へ変更しました",
+	"log-name-changeauth": "投稿者変更記録",
+	"changeauthor-rev": "第 $1 版",
+	"right-changeauthor": "版の投稿者を変更"
+}

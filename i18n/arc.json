@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Basharh"
+		]
+	},
+	"changeauthor-pagename-or-revid": "ܫܡܐ ܕܦܐܬܐ ܐܘ ܗܝܝܘܬܐ ܕܬܢܝܬܐ:",
+	"changeauthor-pagenameform-go": "ܙܠ",
+	"changeauthor-changeauthors-multi": "ܫܚܠܦ {{PLURAL:$1|ܣܝܘܡܐ|ܣܝܘܡ̈ܐ}}",
+	"changeauthor-changeauthors-single": "ܫܚܠܦ ܣܝܘܡܐ"
+}

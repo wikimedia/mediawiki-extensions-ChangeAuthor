@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"changeauthor": "Llamk'apuqpa sutinta hukchay",
+	"changeauthor-desc": "Kaywanqa llamk'apuqpa sutinta hukchaytam atinki",
+	"changeauthor-title": "Llamk'apuqpa sutinta hukchay",
+	"changeauthor-search-box": "Musuqchasqakunata maskay",
+	"changeauthor-pagename-or-revid": "P'anqap sutin icha musuqchasqap kikin huchhan:",
+	"changeauthor-pagenameform-go": "Riy",
+	"changeauthor-comment": "Llamk'apuqpa nisqan pisichayta hukchay",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Llamk'apuqpa|Llamk'apuqkunap}} sutinta hukchay",
+	"changeauthor-explanation-multi": "Kay hunt'ana p'anqawanqa llamk'apuqkunap sutinkunata hukchaytam atinki.\nKay qatiq sutisuyupi ruraqkunap sutinkunata hukchaspa pisichay willaytachá yapaspa 'Llamk'apuqpa sutinta hukchay' nisqapi ñit'illay.",
+	"changeauthor-changeauthors-single": "Llamk'apuqpa sutinta hukchay",
+	"changeauthor-explanation-single": "Kay hunt'ana p'anqawanqa llamk'apuqpa sutinta hukchaytam atinki.\nKay qatiq ruraqpa sutinta hukchaspa pisichay willaytachá yapaspa 'Llamk'apuqpa sutinta hukchay' nisqapi ñit'illay.",
+	"changeauthor-invalid-username": "\"$1\" nisqa ruraqpa sutinqa manam allinchu.",
+	"changeauthor-nosuchuser": "\"$1\" sutiyuq ruraqqa manam kanchu.",
+	"changeauthor-revview": "$2-manta #$1 kaq musuqchasqa",
+	"changeauthor-nosuchtitle": "\"$1\" sutiyuq p'anqaqa manam kanchu.",
+	"changeauthor-weirderror": "Ancha wamaq pantasqam tukurqan.\nAma hina kaspa, musuqmanta mañaykachay.\nKay pantasqa musuqmanta kanqaptinqa, willañiqintin waqllisqachá.",
+	"changeauthor-invalidform": "Ama hina kaspa, [[Special:ChangeAuthor|sapaq p'anqa]] nisqap hunt'ana p'anqanta llamk'achiy, amataq sapsi p'anqatachu.",
+	"changeauthor-success": "Mañakusqaykiqa aypalla rurapusqañam.",
+	"changeauthor-logentry": "$2-manta $1-pa llamk'apuqninpa sutinta $3-manta $4-man hukchasqa",
+	"log-name-changeauth": "Llamk'apuq suti hukchay hallch'asqa",
+	"right-changeauthor": "Llamk'apuqpa sutinta hukchay"
+}

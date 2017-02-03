@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"changeauthor": "Cambiar l'autor de las revisions",
+	"changeauthor-desc": "Permet de cambiar lo nom de l’autor d’una o mantuna modificacions",
+	"changeauthor-title": "Cambiar l'autor d'una revision",
+	"changeauthor-search-box": "Recercar de revisions",
+	"changeauthor-pagename-or-revid": "Títol de l'article o ID de revision :",
+	"changeauthor-pagenameform-go": "Anar",
+	"changeauthor-comment": "Comentari :",
+	"changeauthor-changeauthors-multi": "Cambiar {{PLURAL:$1|autor|autors}}",
+	"changeauthor-explanation-multi": "Amb aqueste formulari, podètz cambiar los autors de las revisions. Modificat un o mantun nom d'utilizaire dins la lista, apondètz un comentari (facultatiu) e clicatz sul boton ''Cambiar autor(s)''.",
+	"changeauthor-changeauthors-single": "Cambiar l'autor",
+	"changeauthor-explanation-single": "Amb aqueste formulari, podètz cambiar l'autor d'una revision. Cambiatz lo nom d'autor çaijós, apondètz un comentari (facultatiu) e clicatz sul boton ''Cambiar l'autor''.",
+	"changeauthor-invalid-username": "Nom d'utilizaire « $1 » invalid.",
+	"changeauthor-nosuchuser": "Pas d'utilizaire « $1 »",
+	"changeauthor-revview": "Revision #$1 de $2",
+	"changeauthor-nosuchtitle": "Pas d'article intitolat \"$1\"",
+	"changeauthor-weirderror": "Una error s'es producha. Ensajatz tornamai. Se aquesta error es apareguda mantun còp, la banca de donadas es probablament corrompuda.",
+	"changeauthor-invalidform": "Utilizatz lo formulari generit per [[Special:ChangeAuthor|la pagina especiala]] puslèu qu'un formulari personal",
+	"changeauthor-success": "Vòstra requèsta es estada tractada amb succès.",
+	"changeauthor-logentry": "Modificacion de l'autor de $2 de $1 dempuèi $3 cap a $4",
+	"log-name-changeauth": "Jornal dels cambiaments faches per l'autor",
+	"right-changeauthor": "Modificar l'autor d'una revision"
+}

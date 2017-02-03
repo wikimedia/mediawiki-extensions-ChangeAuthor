@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"changeauthor": "Autor fon ne Version annerje",
+	"changeauthor-desc": "Ferlööwet dän Autor, ne Version tou annerjen",
+	"changeauthor-title": "Autor fon ne Revision annerje",
+	"changeauthor-search-box": "Version säike",
+	"changeauthor-pagename-or-revid": "Siedennoome of Versionsnummer",
+	"changeauthor-pagenameform-go": "Säik",
+	"changeauthor-comment": "Kommentoar:",
+	"changeauthor-changeauthors-multi": "Uur {{PLURAL:$1|Autor|Autore}}",
+	"changeauthor-explanation-multi": "Mäd dit Formular koast du do Autore fon do Versione annerje. Annere eenfach aan of moor Autorennoomen in ju Lieste, moak n Kommentoar (optionoal) un klik ap dän „Autor annerje“-Knoop.",
+	"changeauthor-changeauthors-single": "Autor annerje",
+	"changeauthor-explanation-single": "Mäd dit Formular koast du do Autoren fon ne Version annerje. Annerje eenfach dän Autorennoome in ju Lieste, beoarbaidje n Kommentoar (optionoal) un klik ap dän „Autor annerje“-Knoop.",
+	"changeauthor-invalid-username": "Uungultige Benutsernoome „$1“.",
+	"changeauthor-nosuchuser": "Dät rakt naan Benutser „$1“.",
+	"changeauthor-revview": "Version #$1 fon $2",
+	"changeauthor-nosuchtitle": "Dät rakt neen Siede „$1“.",
+	"changeauthor-weirderror": "N gjucht säildenen Failer is aptreeden. Wierhoal dien Annerenge. Wan dissen Failer fonnäien apträt, is fermoudelk ju Doatenboank fernäild.",
+	"changeauthor-invalidform": "Benutsje dät Formular ap ju [[Special:ChangeAuthor|Spezioalsiede]].",
+	"changeauthor-success": "Dian Annerenge wuude mäd Ärfoulch truchfierd.",
+	"changeauthor-logentry": "annerde Autorennoome fon ju $2 fon $1 fon $3 ap $4",
+	"log-name-changeauth": "Autorennoome-Annerengslogbouk",
+	"changeauthor-rev": "Version $1",
+	"right-changeauthor": "Annerje dän Autor fon ne Revision"
+}

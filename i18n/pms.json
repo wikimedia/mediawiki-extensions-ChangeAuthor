@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"changeauthor": "Cambia autor ëd la revision",
+	"changeauthor-desc": "A përmett ëd cambié l'autor ëd na revision",
+	"changeauthor-title": "Cambia l'autor ëd la revision",
+	"changeauthor-search-box": "Serca revision",
+	"changeauthor-pagename-or-revid": "Nòm pàgina o ID revision:",
+	"changeauthor-pagenameform-go": "Va",
+	"changeauthor-comment": "Coment:",
+	"changeauthor-changeauthors-multi": "Cambia {{PLURAL:$1|autor|autor}}",
+	"changeauthor-explanation-multi": "Con sta forma-sì it peule cambié j'autor ëd la revision.\nCambia un o pì nòm utent ant la lista sota, gionta un coment (opsional) e sgnaca ël boton \"Cambia autor\".",
+	"changeauthor-changeauthors-single": "Cambia autor",
+	"changeauthor-explanation-single": "Con sta forma-sì it peule cambié l'autor ëd na revision.\nCambia ël nòm utent sota, gionta un coment (opsional) e sgnaca ël boton \"Cambia autor\".",
+	"changeauthor-invalid-username": "Stranòm \"$1\" pa bon.",
+	"changeauthor-nosuchuser": "Pa gnun utent \"$1\".",
+	"changeauthor-revview": "Revision #$1 ëd $2",
+	"changeauthor-nosuchtitle": "A-i é pa gnun-e pàgine ciamà \"$1\".",
+	"changeauthor-weirderror": "A l'é capitaje n'eror motobin dròlo.\nPër piasì arpet toa arcesta.\nSe sto eror-sì a continua a ess-ie, a peul esse che ël database a sia rompù.",
+	"changeauthor-invalidform": "Për piasì, ch'a deuvra la forma dàita da la [[Special:ChangeAuthor|pàgina special]] nopà che na forma përsonalisà.",
+	"changeauthor-success": "Toa arcesta a l'é stàita tratà da bin.",
+	"changeauthor-logentry": "Cambi autor ëd $2 ëd $1 da $3 a $4",
+	"log-name-changeauth": "Registr dij cangiament fàit da l'autor",
+	"right-changeauthor": "Cambia l'autor ëd na revision"
+}

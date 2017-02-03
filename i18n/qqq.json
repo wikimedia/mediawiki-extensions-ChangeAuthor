@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Jon Harald Søby",
+			"Meno25",
+			"Purodha",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"changeauthor": "Name of the special page on [[Special:SpecialPages]]",
+	"changeauthor-desc": "{{desc}}",
+	"changeauthor-title": "Title of the [[Special:ChangeAuthor]] special page",
+	"changeauthor-search-box": "Caption of the fieldset on the revision search form",
+	"changeauthor-pagename-or-revid": "Caption of the input box on the revision search form",
+	"changeauthor-pagenameform-go": "Caption of the submit button on the revision search form\n\n{{Identical|Go}}",
+	"changeauthor-comment": "Caption of the comment input box on the main form\n\n{{Identical|Comment}}",
+	"changeauthor-changeauthors-multi": "Caption of the submit button on the main form (for multiple revisions)",
+	"changeauthor-explanation-multi": "Text above the comment box on the main form (for multiple revisions)",
+	"changeauthor-changeauthors-single": "Caption of the submit button on the main form (for one revision)",
+	"changeauthor-explanation-single": "Text above the comment box on the main form (for one revision)",
+	"changeauthor-invalid-username": "Error message. $1 is the username that was entered.",
+	"changeauthor-nosuchuser": "Error message. $1 is the username that was entered.",
+	"changeauthor-revview": "Displayed instead of the page title if a revision ID was entered",
+	"changeauthor-nosuchtitle": "Error message. $1 is the page title that was entered.",
+	"changeauthor-weirderror": "Error message displayed only when very weird things happen.",
+	"changeauthor-invalidform": "Error message displayed when expected form values aren't found.",
+	"changeauthor-success": "Displayed after a successful change.",
+	"changeauthor-logentry": "The log message for author changes. $1 is the page title, $2 includes {{msg-mw|changeauthor-rev}} in the site language, $3 the old author and $4 the new one",
+	"log-name-changeauth": "Displayed on top of Special:Log/changeauth and in the list of available logs.",
+	"changeauthor-rev": "{{optional}}",
+	"right-changeauthor": "{{doc-right|changeauthor}}"
+}

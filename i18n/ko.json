@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Klutzy",
+			"Yknok29"
+		]
+	},
+	"changeauthor": "판의 저자 변경",
+	"changeauthor-desc": "특정 판의 저자를 변경할 수 있는 기능",
+	"changeauthor-title": "특정 판의 저자 변경",
+	"changeauthor-search-box": "판 검색",
+	"changeauthor-pagename-or-revid": "문서 이름 혹은 특정 판 ID:",
+	"changeauthor-pagenameform-go": "가기",
+	"changeauthor-comment": "이유:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1}}저자 변경",
+	"changeauthor-explanation-multi": "아래의 양식을 이용해 특정 판의 저자를 변경할 수 있습니다.\n아래 목록에서 변경하려는 부분의 저자를 편집한 다음에, 이유를 입력하고 '저자 변경'을 클릭해 주세요.",
+	"changeauthor-changeauthors-single": "저자 변경",
+	"changeauthor-explanation-single": "아래의 양식을 이용해 특정 판의 저자를 변경할 수 있습니다. 저자를 변경한 다음, 이유를 입력하고 '저자 변경'을 클릭해 주세요.",
+	"changeauthor-invalid-username": "‘$1’은(는) 잘못된 사용자 이름입니다.",
+	"changeauthor-nosuchuser": "‘$1’ 사용자가 존재하지 않습니다.",
+	"changeauthor-revview": "$2의 $1 판",
+	"changeauthor-nosuchtitle": "‘$1’ 문서가 존재하지 않습니다.",
+	"changeauthor-weirderror": "알 수 없는 오류가 발생했습니다. 다시 시도해주세요. 계속 오류가 나오는 경우 데이터베이스에 문제가 있을 수 있습니다.",
+	"changeauthor-invalidform": "별개 양식을 사용하지 말고, [[Special:ChangeAuthor|여기]]의 양식을 사용해주세요.",
+	"changeauthor-success": "변경이 완료되었습니다.",
+	"changeauthor-logentry": "$1 문서의 $2를 $3 사용자에서 $4 사용자로 변경",
+	"log-name-changeauth": "저자 변경 기록",
+	"right-changeauthor": "특정 판의 작성자 이름을 변경하기"
+}

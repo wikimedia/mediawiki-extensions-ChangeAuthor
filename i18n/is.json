@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"S.Örvarr.S"
+		]
+	},
+	"changeauthor-pagenameform-go": "Áfram",
+	"changeauthor-comment": "Athugasemd:",
+	"changeauthor-invalid-username": "Rangt notandanafn „$1“.",
+	"changeauthor-nosuchuser": "Notandi ekki til „$1“.",
+	"changeauthor-nosuchtitle": "Engin síða er nefnd „$1“."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Crazymadlover",
+			"Omnipaedista"
+		]
+	},
+	"changeauthor-search-box": "Αναζήτηση αναθεωρήσεων",
+	"changeauthor-pagenameform-go": "Πηγαίνετε",
+	"changeauthor-comment": "Σχόλιο:",
+	"changeauthor-changeauthors-single": "Αλλαγή δημιουργού",
+	"changeauthor-invalid-username": "Άκυρο όνομα-χρήστη  \"$1\".",
+	"changeauthor-nosuchuser": "Κανένας χρήστης ονόματι \"$1\".",
+	"log-name-changeauth": "Ημερολόγιο αλλαγών ανά χρήστη"
+}

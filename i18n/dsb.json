@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"changeauthor": "Awtora wersije změniś",
+	"changeauthor-desc": "Dowólujo změnjenje awtora wersije",
+	"changeauthor-title": "Awtora wersije změniś",
+	"changeauthor-search-box": "Wersije pytaś",
+	"changeauthor-pagename-or-revid": "Mě boka abo ID wersije:",
+	"changeauthor-pagenameform-go": "Pytaś",
+	"changeauthor-comment": "Komentar:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Awtora|Awtorowu|Awtorow|Awtorow}} změniś",
+	"changeauthor-explanation-multi": "Z toś tym formularom móžoš awtorow wersijow změniś.\nZměń jadnorje jadno wužywarske mě abo někotare wužywarske mjenja ze slědujuceje lisćiny, pśidaj komentar (opcionalny) a klikni na tłocašk  \"Awtorow změniś\".",
+	"changeauthor-changeauthors-single": "Awtora změniś",
+	"changeauthor-explanation-single": "Z toś tym formularom móžoš awtora wersije změniś.\nZměń jadnorje jadno wužywarske mě ze slědujuceje lisćiny, pśidaj komentar (opcionalny) a klikni na tłocašk \"Awtora změniś\".",
+	"changeauthor-invalid-username": "Njepłaśiwe wužywarske mě \"$1\".",
+	"changeauthor-nosuchuser": "Njejo wužywaŕ \"$1\".",
+	"changeauthor-revview": "Wersija #$1 z $2",
+	"changeauthor-nosuchtitle": "Njejo bok z mjenim \"$1\".",
+	"changeauthor-weirderror": "Wjelgin źiwna zmólka jo wustupiła.\nWóspjetuj pšosym swóju změnu.\nJolic toś ta zmólka dalej wustupujo, jo nejskerjej datowa banka wobškóźona.",
+	"changeauthor-invalidform": "Wužyj pšosym formular ze [[Special:ChangeAuthor|specialnego boka]] a nic swójski formular.",
+	"changeauthor-success": "Twójo změnjenje jo se wuspěšnje pśewjadło.",
+	"changeauthor-logentry": "Awtora za $2 $1 wót $3 do $4 změnjony",
+	"log-name-changeauth": "Protokol změnow awtorow",
+	"right-changeauthor": "Awtora wersije změniś"
+}
