@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "Er is een erg vreemde fout opgetreden.\nProbeer het nogmaals.\nAls u deze foutmelding elke keer weer ziet, is er waarschijnlijk iets mis met de database.",
 	"changeauthor-invalidform": "Gebruik het formulier van de [[Special:ChangeAuthor|speciale pagina]], in plaats van een aangepast formulier.",
 	"changeauthor-success": "Uw verzoek is verwerkt.",
-	"changeauthor-logentry": "Auteur van $2 van $1 gewijzigd van $3 naar $4",
 	"log-name-changeauth": "Auteurswijzigingenlogboek",
 	"right-changeauthor": "De auteur van een bewerking wijzigen"
 }

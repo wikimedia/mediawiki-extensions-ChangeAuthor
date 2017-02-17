@@ -22,8 +22,7 @@
 	"changeauthor-weirderror": "حدث خطأ غريب جدا.\nمن فضلك حاول القيام بطلبك مرة ثانية.\nلو استمر هذا الخطأ، إذا فقاعدة البيانات على الأرجح مكسورة.",
 	"changeauthor-invalidform": "من فضلك استخدم الاستمارة الموفرة بواسطة [[Special:ChangeAuthor|الصفحة الخاصة]] بدلا من استمارة معدلة.",
 	"changeauthor-success": "طلبك تمت معالجته بنجاح.",
-	"changeauthor-logentry": "غير مؤلف $2 ل$1 من $3 إلى $4",
-	"log-name-changeauth": "سجل تغيير المؤلفين",
 	"changeauthor-rev": "ن$1",
+	"log-name-changeauth": "سجل تغيير المؤلفين",
 	"right-changeauthor": "تغيير مؤلف مراجعة"
 }

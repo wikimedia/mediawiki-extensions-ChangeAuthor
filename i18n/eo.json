@@ -20,7 +20,6 @@
 	"changeauthor-nosuchtitle": "Estas neniu pagxo titolata \"$1\".",
 	"changeauthor-weirderror": "Tre stranga eraro okazis.\nBonvolu reprovi vian peton.\nSe ĉi tiu eraro daŭras okazi, tiel la datumbazo verŝajne estas rompita.",
 	"changeauthor-success": "Via peto estis traktita sukcese.",
-	"changeauthor-logentry": "Ŝanĝis aŭtoron de $2 de $1 de $3 al $4",
 	"log-name-changeauth": "Protokolo pri ŝanĝoj de aŭtoroj",
 	"right-changeauthor": "Ŝanĝi la aŭtoro de revizio"
 }

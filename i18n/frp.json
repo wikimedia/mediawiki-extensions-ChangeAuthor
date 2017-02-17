@@ -18,8 +18,7 @@
 	"changeauthor-revview": "Vèrsion #$1 de $2",
 	"changeauthor-nosuchtitle": "Ègziste gins d’articllo avouéc lo titro « $1 ».",
 	"changeauthor-success": "Voutra requéta at étâ trètâ avouéc reusséta.",
-	"changeauthor-logentry": "Changement a l’ôtor de $2 de $1 dês $3 de vers $4",
-	"log-name-changeauth": "Jornal des changements fêts per l’ôtor",
 	"changeauthor-rev": "v$1",
+	"log-name-changeauth": "Jornal des changements fêts per l’ôtor",
 	"right-changeauthor": "Changiér l’ôtor d’una vèrsion"
 }

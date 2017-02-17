@@ -22,7 +22,6 @@
 	"changeauthor-weirderror": "Desila se nepredviđena greška.\nMolimo ponovite Vaš upit.\nAko se ova greška nastavi ponavljati, vjerovatno je baza podataka u kvaru.",
 	"changeauthor-invalidform": "Molimo koristite obrazac koji je postavljen na [[Special:ChangeAuthor|posebnoj stranici]] a ne ručno postavljeni.",
 	"changeauthor-success": "Vaš zahtjev je uspješno obrađen.",
-	"changeauthor-logentry": "Promijenjen autor revizije $2 stranice $1 sa $3 na $4",
 	"log-name-changeauth": "Zapisnik promjene autora",
 	"right-changeauthor": "Promjena autora revizije"
 }

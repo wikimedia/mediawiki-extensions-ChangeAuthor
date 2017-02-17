@@ -22,6 +22,5 @@
 	"changeauthor-weirderror": "एक अलगही गलती मिली हैं।\nकॄपया पुन: यत्न करें।\nअगर यह गलती फिर से आती हैं, तो इसका मतलब डाटाबेसमें बडी समस्या हो सकता हैं।",
 	"changeauthor-invalidform": "खुद तैयार किया फार्म इस्तेमाल करने के बजाय Special:ChangeAuthor का इस्तेमाल करें",
 	"changeauthor-success": "आपकी रिक्वेस्टको प्रोसेस कर दिया हैं।",
-	"changeauthor-logentry": "$1 के $2 अवतरणका लेखक $3 से $4 को बदल दिया हैं",
 	"log-name-changeauth": "लेखक बदलाव सूची"
 }

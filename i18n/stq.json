@@ -22,8 +22,7 @@
 	"changeauthor-weirderror": "N gjucht säildenen Failer is aptreeden. Wierhoal dien Annerenge. Wan dissen Failer fonnäien apträt, is fermoudelk ju Doatenboank fernäild.",
 	"changeauthor-invalidform": "Benutsje dät Formular ap ju [[Special:ChangeAuthor|Spezioalsiede]].",
 	"changeauthor-success": "Dian Annerenge wuude mäd Ärfoulch truchfierd.",
-	"changeauthor-logentry": "annerde Autorennoome fon ju $2 fon $1 fon $3 ap $4",
-	"log-name-changeauth": "Autorennoome-Annerengslogbouk",
 	"changeauthor-rev": "Version $1",
+	"log-name-changeauth": "Autorennoome-Annerengslogbouk",
 	"right-changeauthor": "Annerje dän Autor fon ne Revision"
 }

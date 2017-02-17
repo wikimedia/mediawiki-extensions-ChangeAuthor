@@ -22,7 +22,6 @@
 	"changeauthor-weirderror": "E seli sältene Fähler isch ufträtte. Bitte widerhol Dyyni Änderig. Wänn dää Fähler nomol uftritt, isch wahrschyns d Datebank hii.",
 	"changeauthor-invalidform": "Bitte bruuch s Formular uf dr [[Special:ChangeAuthor|Spezialsyte]].",
 	"changeauthor-success": "Dyyni Änderig isch erfolgryych durgfiert wore.",
-	"changeauthor-logentry": "het dr Autorename vu dr $2 vu $1 vu $3 uf $4 gänderet",
 	"log-name-changeauth": "Autorename-Änderigslogbuech",
 	"right-changeauthor": "Dr Autor vun ere Version ändere"
 }

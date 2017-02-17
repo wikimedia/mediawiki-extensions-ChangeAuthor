@@ -21,7 +21,6 @@
 	"changeauthor-weirderror": "Një gabim shumë e çuditshme ka ndodhur. Ju lutemi të rigjykuar kërkesën tuaj. Nëse ky gabim mban treguar deri, baza e të dhënave është prishur ndoshta.",
 	"changeauthor-invalidform": "Ju lutem përdorni formularin e dhënë nga [[Special:ChangeAuthor|faqe speciale]] në vend të një forme me porosi.",
 	"changeauthor-success": "Kërkesa juaj ka qenë i proceduar me sukses.",
-	"changeauthor-logentry": "Changed autor i $2 e $1 nga $3 deri 4$",
 	"log-name-changeauth": "ndryshim Author log",
 	"right-changeauthor": "Ndryshimi autor i një rishikim"
 }

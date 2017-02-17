@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "En merkelig feil oppsto. Vennligst prøv igjen. Om denne feilen vedvarer er det trolig noe galt med databasen.",
 	"changeauthor-invalidform": "Bruk skjemaet på [[Special:ChangeAuthor|spesialsiden]] i stedet for å bruke et egendefinert skjema.",
 	"changeauthor-success": "Forespørselen har blitt utført.",
-	"changeauthor-logentry": "Endret opphavsperson til $2 av $1 fra $3 til $4",
 	"log-name-changeauth": "Logg for opphavspersonsendringer",
 	"right-changeauthor": "Endre forfatteren av en versjon"
 }

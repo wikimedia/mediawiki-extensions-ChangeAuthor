@@ -22,7 +22,6 @@
 	"changeauthor-weirderror": "Aya éror anu ahéng.\nCoba ulang pamundut anjeun.\nMun tetep éror, meureun pangkalan datana ruksak.",
 	"changeauthor-invalidform": "Paké formulir anu disadiakeun dina [[Special:ChangeAuthor|kaca husus]] batan maké formulir biasa.",
 	"changeauthor-success": "Pamundut anjeun geus anggeus diolah.",
-	"changeauthor-logentry": "Panyusun $2 geus robah dina $1, ti $3 jadi $4",
 	"log-name-changeauth": "Log robahan panyusun",
 	"right-changeauthor": "Ngaganti panulis hiji révisi"
 }

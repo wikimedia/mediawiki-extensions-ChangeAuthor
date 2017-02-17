@@ -28,7 +28,6 @@
 	"changeauthor-weirderror": "Wystąpił nieznany błąd.\nSpróbuj powtórzyć polecenie.\nJeśli błąd wystąpi ponownie, prawdopodobnie uszkodzona jest baza danych.",
 	"changeauthor-invalidform": "Zamiast tej strony co zazwyczaj użyj [[Special:ChangeAuthor|strony specjalnej]].",
 	"changeauthor-success": "Twoje polecenie zostało wykonane z powodzeniem.",
-	"changeauthor-logentry": "zmienił autora wersji $2 strony $1 z $3 na $4",
 	"log-name-changeauth": "Rejestr zmiany autora",
 	"right-changeauthor": "Zmiana autora wersji"
 }

@@ -23,7 +23,6 @@
 	"changeauthor-weirderror": "发生错误，请重试。如果错误仍持读发生，数据库可能遭到损坏。",
 	"changeauthor-invalidform": "请使用[[Special:ChangeAuthor]]的表单处理，谢谢。",
 	"changeauthor-success": "处理完成",
-	"changeauthor-logentry": "更改[[$1]]修订版本$2的作者从 $3 到 $4",
 	"log-name-changeauth": "作者更改日志",
 	"right-changeauthor": "更换特定修订版本作者"
 }

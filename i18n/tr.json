@@ -23,7 +23,6 @@
 	"changeauthor-weirderror": "Çok garip bir hata oluştu.\nLütfen isteğinizi tekrar deneyin.\nEğer bu hata görünmeye devam ederse, muhtemelen veritabanı bozulmuştur.",
 	"changeauthor-invalidform": "Lütfen özel bir form yerine [[Special:ChangeAuthor|özel sayfa]] tarafından sağlanan formu kullanın.",
 	"changeauthor-success": "İsteğiniz başarıyla işlendi.",
-	"changeauthor-logentry": "$1 sayfasının $2 revizyonu yazarı $3 iken $4 olarak değiştirildi",
 	"log-name-changeauth": "Yazar değişim günlüğü",
 	"right-changeauthor": "Bir revizyonun yazarını değiştir"
 }

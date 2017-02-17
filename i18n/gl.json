@@ -24,8 +24,7 @@
 	"changeauthor-weirderror": "Produciuse un erro moi estraño. Realice outra vez a consulta. Se este erro sigue aparecendo, probabelmente a base de datos está mal.",
 	"changeauthor-invalidform": "Por favor, utilice o formulario fornecido pola [[Special:ChangeAuthor|páxina especial]] no canto dun formulario personalizado.",
 	"changeauthor-success": "A súa petición foi procesada con éxito.",
-	"changeauthor-logentry": "Cambie autor de $2 de $1 a $3 de $4",
-	"log-name-changeauth": "Rexistro dos cambios do autor",
 	"changeauthor-rev": "r$1",
+	"log-name-changeauth": "Rexistro dos cambios do autor",
 	"right-changeauthor": "Cambiar o autor dunha revisión"
 }

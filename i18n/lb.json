@@ -23,8 +23,7 @@
 	"changeauthor-weirderror": "E seelene Feeler ass geschitt.\nProbéiert w.e.g. nach eng Kéier.\nWann dëse Feeler sech widderhëlt dann ass d'Datebank waarscheinlech futti.",
 	"changeauthor-invalidform": "Benotzt w.e.g. de Formulaire op der Säit [[Special:ChangeAuthor|Spezialsäit]] (éischter wéi een anere Formulaire).",
 	"changeauthor-success": "Är Ufro gouf duerchgefouert.",
-	"changeauthor-logentry": "Den Auteur gouf vun $2 op $1 vum $3 op den $4 geännert",
-	"log-name-changeauth": "Lëscht vun den Ännerunge vun dësem Auteur",
 	"changeauthor-rev": "Versioun $1",
+	"log-name-changeauth": "Lëscht vun den Ännerunge vun dësem Auteur",
 	"right-changeauthor": "Den auteur vun enger Versioun änneren"
 }

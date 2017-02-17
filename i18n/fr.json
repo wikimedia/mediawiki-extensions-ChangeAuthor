@@ -7,7 +7,8 @@
 			"IAlex",
 			"Sherbrooke",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Gomoko"
 		]
 	},
 	"changeauthor": "Changer l'auteur des révisions",
@@ -28,8 +29,10 @@
 	"changeauthor-weirderror": "Une erreur s'est produite. Prière d'essayer à nouveau. Si cette erreur est apparue à plusieurs reprises, la base de données est probablement corrompue.",
 	"changeauthor-invalidform": "Prière d'utiliser le formulaire généré par la [[Special:ChangeAuthor|page spéciale]] plutôt qu'un formulaire personnel",
 	"changeauthor-success": "Votre requête a été traitée avec succès.",
-	"changeauthor-logentry": "Modification de l'auteur de $2 de $1 depuis $3 vers $4",
-	"log-name-changeauth": "Journal des changements faits par l'auteur",
 	"changeauthor-rev": "r$1",
+	"log-name-changeauth": "Journal des changements faits par l'auteur",
+	"log-description-changeauth": "Voici un journal des modifications pour les auteurs des révisions.",
+	"logentry-changeauth-changeauth": "$1 a modifié l’auteur de {{int:Changeauthor-rev|$4}} de $3 de $5 en $6",
+	"action-changeauthor": "modifier l’auteur d’une révision",
 	"right-changeauthor": "Modifier l'auteur d'une révision"
 }

@@ -24,8 +24,7 @@
 	"changeauthor-weirderror": "אירעה שגיאה מוזרה ביותר.\nאנא נסו שנית לשלוח את הבקשה.\nאם שגיאה זו ממשיכה להופיע, כנראה שמסד הנתונים פגום.",
 	"changeauthor-invalidform": "אנא השתמשו בטופס הנמצא ב[[Special:ChangeAuthor|דף המיוחד]] ולא בטופס מותאם אישית.",
 	"changeauthor-success": "בקשתכם עובדה בהצלחה.",
-	"changeauthor-logentry": "שינה את הכותב של $2 של $1 מ$3 ל$4",
-	"log-name-changeauth": "יומן שינויי כותבים",
 	"changeauthor-rev": "גרסה $1",
+	"log-name-changeauth": "יומן שינויי כותבים",
 	"right-changeauthor": "שינוי מחבר של גרסה"
 }

@@ -4,7 +4,8 @@
 			"Rancher",
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Milicevic01"
 		]
 	},
 	"changeauthor": "Промени аутора ревизије",
@@ -21,8 +22,7 @@
 	"changeauthor-revview": "Измена $1 од $2",
 	"changeauthor-nosuchtitle": "Не постоји страница под називом \"$1\".",
 	"changeauthor-success": "Баш захтев је био успешно обрађен.",
-	"changeauthor-logentry": "Промењен аутор $2 на $1, са $3 на $4",
-	"log-name-changeauth": "Историја промене аутора",
 	"changeauthor-rev": "изм. $1",
+	"log-name-changeauth": "Историја промене аутора",
 	"right-changeauthor": "Промени аутора ревизије"
 }

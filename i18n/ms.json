@@ -22,8 +22,7 @@
 	"changeauthor-weirderror": "Ralat yang amat pelik terjadi\nSila cuba lagi permohonan anda.\nJika ralat ini masih tidak reda, mungkin pangkalan data rosak.",
 	"changeauthor-invalidform": "Sila gunakan borang yang disediakan oleh [[Special:ChangeAuthor|laman khas ini]] daripada sebarang borang tersuai.",
 	"changeauthor-success": "Permohonan anda berjaya diproses.",
-	"changeauthor-logentry": "Pengarang $2 dalam $1 diubah daripada $3 kepada $4",
-	"log-name-changeauth": "Log perubahan pengarang",
 	"changeauthor-rev": "r$1",
+	"log-name-changeauth": "Log perubahan pengarang",
 	"right-changeauthor": "Mengubah pengarang semakan"
 }

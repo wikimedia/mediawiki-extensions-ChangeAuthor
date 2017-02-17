@@ -27,8 +27,7 @@
 	"changeauthor-weirderror": "予測不能なエラーが発生しました。もう一度操作してください。それでもエラーが発生する場合は、恐らくデータベースが破壊されています。",
 	"changeauthor-invalidform": "独自のフォームではなく、[[Special:ChangeAuthor|特別ページ]]が提供するフォームを利用してください。",
 	"changeauthor-success": "要求された処理が完了しました。",
-	"changeauthor-logentry": "$1 の$2 の著者を $3 から $4 へ変更しました",
-	"log-name-changeauth": "投稿者変更記録",
 	"changeauthor-rev": "第 $1 版",
+	"log-name-changeauth": "投稿者変更記録",
 	"right-changeauthor": "版の投稿者を変更"
 }

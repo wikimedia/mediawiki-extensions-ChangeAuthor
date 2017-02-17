@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michaello",
-			"Rancher"
+			"Rancher",
+			"Milicevic01"
 		]
 	},
 	"changeauthor": "Promeni autora revizije",
@@ -19,8 +20,7 @@
 	"changeauthor-revview": "Izmena $1 od $2",
 	"changeauthor-nosuchtitle": "Ne postoji stranica pod nazivom \"$1\".",
 	"changeauthor-success": "Baš zahtev je bio uspešno obrađen.",
-	"changeauthor-logentry": "Promenjen autor $2 na $1, sa $3 na $4",
-	"log-name-changeauth": "Istorija promene autora",
 	"changeauthor-rev": "izm. $1",
+	"log-name-changeauth": "Istorija promene autora",
 	"right-changeauthor": "Promeni autora revizije"
 }

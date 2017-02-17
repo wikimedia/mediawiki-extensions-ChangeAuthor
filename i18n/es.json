@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "Un error muy extraño ocurrió.\nPor favor reintente su solicitud.\nSi este error sigue apareciendo, la base de datos está problablemente averiada.",
 	"changeauthor-invalidform": "Por favor usar el formulario proveído por la [[Special:ChangeAuthor|página especial]] en lugar de un formulario personalizado.",
 	"changeauthor-success": "Su solicitud ha sido procesada exitosamente.",
-	"changeauthor-logentry": "Cambiado autor de $2 de $1 de $3 a $4",
 	"log-name-changeauth": "Registro de cambio de autor",
 	"right-changeauthor": "Cambiar el autor de una revisión"
 }

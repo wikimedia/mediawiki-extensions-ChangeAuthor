@@ -22,8 +22,7 @@
 	"changeauthor-weirderror": "Un error multo estranie ha occurrite.\nPer favor reproba tu requesta.\nSi iste error persiste, le base de datos es probabilemente defectuose.",
 	"changeauthor-invalidform": "Per favor usa le formulario providite per le [[Special:ChangeAuthor|pagina special]] e non un formulario personalisate.",
 	"changeauthor-success": "Tu requesta ha essite processate con successo.",
-	"changeauthor-logentry": "Cambiava le autor del version $2 del pagina $1 de $3 a $4",
-	"log-name-changeauth": "Registro de cambiamentos de autores",
 	"changeauthor-rev": "v$1",
+	"log-name-changeauth": "Registro de cambiamentos de autores",
 	"right-changeauthor": "Cambiar le autor de un version"
 }

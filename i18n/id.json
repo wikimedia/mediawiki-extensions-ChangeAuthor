@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "Terjadi kesalahan yang sangat tidak biasa.\nHarap coba mengulang permintaan Anda.\nJika kesalahan ini tetap terulang, kemungkinan terjadi kerusakan di basis data.",
 	"changeauthor-invalidform": "Harap gunakan formulir yang disediakan di [[Special:ChangeAuthor|halaman istimewa]] dan bukan formulir kustom.",
 	"changeauthor-success": "Permintaan Anda telah berhasil diproses.",
-	"changeauthor-logentry": "Mengubah penulis revisi $2 halaman $1 dari $3 menjadi $4",
 	"log-name-changeauth": "Log perubahan penulis",
 	"right-changeauthor": "Mengubah penulis suatu revisi"
 }

@@ -22,7 +22,7 @@
 	"changeauthor-weirderror": "Naganap ang isang napakapambihirang kamalian.\nPakisubok muli ang iyong paghiling.\nKapag nagpatuloy sa paglitaw ang ganitong kamalian, may sira marahil ang kalipunan ng dato.",
 	"changeauthor-invalidform": "Pakigamit ang pormularyong ibinigay ng [[Special:ChangeAuthor|natatanging pahina]] sa halip na ang isang pinasadyang pormularyo.",
 	"changeauthor-success": "Matagumpay na naisagawa ang kahilingan mo.",
-	"changeauthor-logentry": "Binago ang may-akda ng $2 na may $1 mula sa $3 na naging $4",
+	"changeauthor-rev": "r$1",
 	"log-name-changeauth": "Talaan ng pagbago sa may-akda",
 	"right-changeauthor": "Baguhin ang may-akda ng isang pagbabago"
 }

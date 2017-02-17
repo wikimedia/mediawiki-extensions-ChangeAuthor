@@ -25,7 +25,6 @@
 	"changeauthor-weirderror": "Ha ocorregut un error poc comú.\nSi us plau, intenteu-ho de nou.\nSi l'error persisteix, és probable que la base de dades estigui avariada.",
 	"changeauthor-invalidform": "Useu el formulari de la [[Special:ChangeAuthor|pàgina especial]] adient.",
 	"changeauthor-success": "La vostra petició ha estat processada satisfactòriament.",
-	"changeauthor-logentry": "S'ha canviat l'autor, de $3 a $4, per a $2 de $1",
 	"log-name-changeauth": "Registre de canvis d'autor",
 	"right-changeauthor": "Canviar l'autoria d'una modificació"
 }

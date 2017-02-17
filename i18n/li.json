@@ -22,7 +22,6 @@
 	"changeauthor-weirderror": "D'r is 'n erg vraemde fout opgetraoje.\nPerbeer 't nog 'ns.\nEs doe dees foutmeljing jedere kier weer zuus, is de database allezelaeve kepot.",
 	"changeauthor-invalidform": "Gebroek 't formeleer van de [[Special:ChangeAuthor|speciaal pagina]], in plaats van 'n aangepas formeleer.",
 	"changeauthor-success": "Diene aanvraog is verwirk.",
-	"changeauthor-logentry": "Outäör van $2 van $1 aangepas van $3 nao $4",
 	"log-name-changeauth": "Outäörsaanpassingelogbook",
 	"right-changeauthor": "De outäör van 'n bewirking aanpasse"
 }

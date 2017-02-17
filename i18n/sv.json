@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "Ett mycket konstigt fel inträffade. Försök en gång till. Om samma fel upprepas så är databasen förmodligen trasig.",
 	"changeauthor-invalidform": "Var vänlig använd formuläret som finns på [[Special:ChangeAuthor|specialsidan]], istället för ett formulär som någon annan skapat.",
 	"changeauthor-success": "Upphovsmansändringen är genomförd.",
-	"changeauthor-logentry": "ändrade upphovsman för $2 av $1 från $3 till $4",
 	"log-name-changeauth": "Upphovsmansändringslogg",
 	"right-changeauthor": "Ändra författaren för en version"
 }

@@ -22,7 +22,6 @@
 	"changeauthor-weirderror": "Prišlo je do zelo nenavadne napake.\nProsimo, ponovite svojo zahtevo.\nČe se ta napaka ne preneha pojavljati, je zbirka podatkov verjetno poškodovana.",
 	"changeauthor-invalidform": "Namesto obrazca po meri, prosimo, uporabite obrazec na [[Special:ChangeAuthor|posebni strani]].",
 	"changeauthor-success": "Vaša zahteva je bila uspešno obdelana.",
-	"changeauthor-logentry": "je spremenil(-a) avtorja $2 strani $1 iz $3 v $4",
 	"log-name-changeauth": "Dnevnik sprememb avtorjev",
 	"right-changeauthor": "Spreminjanje avtorjev redakcij"
 }

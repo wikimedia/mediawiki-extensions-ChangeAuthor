@@ -23,7 +23,6 @@
 	"changeauthor-weirderror": "Có lỗi lạ xuất hiện.\nXin hãy thử yêu cầu lại.\nNếu lỗi này tiếp tục hiện ra, có lẽ cơ sở dữ liệu đã bị tổn hại.",
 	"changeauthor-invalidform": "Xin hãy dùng mẫu tại [[Special:ChangeAuthor|trang đặc biệt]] chứ đừng dùng mẫu tự tạo.",
 	"changeauthor-success": "Yêu cầu của bạn đã được thực hiện xong.",
-	"changeauthor-logentry": "Đã đổi tác giả của phiên bản $2 của trang $1 từ $3 thành $4",
 	"log-name-changeauth": "Nhật trình thay đổi tác giả",
 	"right-changeauthor": "Đổi tác giả của phiên bản"
 }

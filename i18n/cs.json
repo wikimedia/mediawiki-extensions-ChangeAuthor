@@ -24,7 +24,6 @@
 	"changeauthor-weirderror": "Vyskytla se velmi zvláštní chyba. Prosím, opakujte váš požadavek. Pokud se tato chyba bude vyskytovat i nadále, databáze je poškozená.",
 	"changeauthor-invalidform": "Prosím, použijte formulář na [[Special:ChangeAuthor|speciální stránce]] spíše než vlastní formulář.",
 	"changeauthor-success": "Vaše požadavky byly úspěšně zpracovány.",
-	"changeauthor-logentry": "Autor $2 z $1 byl změněn z $3 na $4",
 	"log-name-changeauth": "Záznam změn autorů",
 	"right-changeauthor": "Měnit autora revize"
 }

@@ -27,11 +27,10 @@
 	"changeauthor-weirderror": "Tapahtui hyvin outo virhe.\nYritä uudestaan.\nJos tämä virhe toistuu, tietokanta on luultavasti rikki.",
 	"changeauthor-invalidform": "Käytä [[Special:ChangeAuthor|toimintosivun lomaketta]] oman lomakkeen sijasta.",
 	"changeauthor-success": "Pyyntö on suoritettu onnistuneesti.",
-	"changeauthor-logentry": "Muutti sivun $2 version $1 tekijän $3 tekijäksi $4",
+	"changeauthor-rev": "$1",
 	"log-name-changeauth": "Tekijämuutosloki",
 	"log-description-changeauth": "Tämä on loki muutoksista muokkausversioiden tekijöihin.",
 	"logentry-changeauth-changeauth": "$1 muutti sivun $3 version {{int:Changeauthor-rev|$4}} tekijän $5 tekijäksi $6",
-	"changeauthor-rev": "$1",
 	"action-changeauthor": "vaihtaa version tekijätietoa",
 	"right-changeauthor": "Vaihtaa version tekijätietoa"
 }

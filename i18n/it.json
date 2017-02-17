@@ -23,7 +23,6 @@
 	"changeauthor-weirderror": "Si è verificato un errore molto strano.\nProva a ripetere la richiesta.\nSe l'errore dovesse persistere, il database è probabilmente rotto.",
 	"changeauthor-invalidform": "Utilizza il modulo presente nella [[Special:ChangeAuthor|pagina speciale]] piuttosto che un modulo personalizzato.",
 	"changeauthor-success": "La tua richiesta è stata eseguita con successo.",
-	"changeauthor-logentry": "Modificato l'autore di $2 di $1 da $3 a $4",
 	"log-name-changeauth": "Log delle modifiche autori",
 	"right-changeauthor": "Modifica l'autore di una revisione"
 }
