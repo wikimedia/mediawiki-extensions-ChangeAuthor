@@ -7,7 +7,8 @@
 			"Matma Rex",
 			"McMonster",
 			"Sp5uhe",
-			"Wpedzich"
+			"Wpedzich",
+			"Chrumps"
 		]
 	},
 	"changeauthor": "Zmień autora wersji",
@@ -29,5 +30,6 @@
 	"changeauthor-invalidform": "Zamiast tej strony co zazwyczaj użyj [[Special:ChangeAuthor|strony specjalnej]].",
 	"changeauthor-success": "Twoje polecenie zostało wykonane z powodzeniem.",
 	"log-name-changeauth": "Rejestr zmiany autora",
+	"action-changeauthor": "zmiany autora wersji",
 	"right-changeauthor": "Zmiana autora wersji"
 }
