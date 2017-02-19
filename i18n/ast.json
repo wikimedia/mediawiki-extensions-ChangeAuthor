@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"changeauthor": "Camudar l'autor de revisión",
+	"changeauthor-desc": "Permite cambiar l'autor d'una revisión",
+	"changeauthor-title": "Cambiar l'autor d'una revisión",
+	"changeauthor-search-box": "Buscar revisiones",
+	"changeauthor-pagename-or-revid": "Nome de la páxina o ID de revisión:",
+	"changeauthor-pagenameform-go": "Dir",
+	"changeauthor-comment": "Comentariu:",
+	"changeauthor-changeauthors-multi": "Camudar {{PLURAL:$1|l'autor|los autores}}",
+	"changeauthor-explanation-multi": "Con esti formulariu puedes camudar los autores de la revisión.\nSólo cambia un nome d'usuariu o más na llista de más abaxo, amiesta un comentariu (opcional) y fai click nel botón de «Cambiar autor(es)».",
+	"changeauthor-changeauthors-single": "Cambiar autor",
+	"changeauthor-explanation-single": "Con esti formulariu puedes cambiar un autor de la revisión.\nSólo cambia'l nome d'usuariu más abaxo, amiesta un comentariu (opcional) y fai click nel botón de «Cambiar autor».",
+	"changeauthor-invalid-username": "Nome d'usuariu «$1» inválidu.",
+	"changeauthor-nosuchuser": "Nun existe l'usuariu «$1».",
+	"changeauthor-revview": "Revisión #$1 de $2"
+}
