@@ -22,6 +22,6 @@
 	"changeauthor-weirderror": "Una error s'es producha. Ensajatz tornamai. Se aquesta error es apareguda mantun còp, la banca de donadas es probablament corrompuda.",
 	"changeauthor-invalidform": "Utilizatz lo formulari generit per [[Special:ChangeAuthor|la pagina especiala]] puslèu qu'un formulari personal",
 	"changeauthor-success": "Vòstra requèsta es estada tractada amb succès.",
-	"log-name-changeauth": "Jornal dels cambiaments faches per l'autor",
+	"log-name-changeauth": "Jornal dels cambiaments faits per l'autor",
 	"right-changeauthor": "Modificar l'autor d'una revision"
 }

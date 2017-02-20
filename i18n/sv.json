@@ -3,7 +3,8 @@
 		"authors": [
 			"Lejonel",
 			"M.M.S.",
-			"Najami"
+			"Najami",
+			"WikiPhoenix"
 		]
 	},
 	"changeauthor": "Ändra upphovsman för sidversion",
@@ -25,5 +26,7 @@
 	"changeauthor-invalidform": "Var vänlig använd formuläret som finns på [[Special:ChangeAuthor|specialsidan]], istället för ett formulär som någon annan skapat.",
 	"changeauthor-success": "Upphovsmansändringen är genomförd.",
 	"log-name-changeauth": "Upphovsmansändringslogg",
+	"log-description-changeauth": "Detta är en ändringslogg till författarna av sidversionerna.",
+	"logentry-changeauth-changeauth": "$1 ändrade författare för {{int:Changeauthor-rev|$4}} av $3 från $5 till $6",
 	"right-changeauthor": "Ändra författaren för en version"
 }

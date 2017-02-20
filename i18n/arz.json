@@ -24,6 +24,6 @@
 	"changeauthor-invalidform": "من فضلك استخدم الاستمارة الموفرة بواسطة [[Special:ChangeAuthor|الصفحة الخاصة]] بدلا من استمارة معدلة.",
 	"changeauthor-success": "طلبك تمت معالجته بنجاح.",
 	"changeauthor-rev": "ن$1",
-	"log-name-changeauth": "سجل تغيير المؤلفين",
+	"log-name-changeauth": "سجل التغيير بتاع المؤلفين",
 	"right-changeauthor": "غير مؤلف مراجعة"
 }
