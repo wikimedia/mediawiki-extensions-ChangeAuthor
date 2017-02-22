@@ -12,7 +12,7 @@
 	"changeauthor-pagename-or-revid": "Tên trang hay số phiên bản:",
 	"changeauthor-pagenameform-go": "Tìm kiếm",
 	"changeauthor-comment": "Lý do:",
-	"changeauthor-changeauthors-multi": "Đổi {{PLURAL:$1||}}tác giả",
+	"changeauthor-changeauthors-multi": "Đổi {{PLURAL:$1}}tác giả",
 	"changeauthor-explanation-multi": "Với mẫu này bạn có thể thay đổi tác giả phiên bản.\nChỉ cần thay đổi một hoặc nhiều tên người dùng trong danh sách phía dưới, thêm một lời chú thích (tùy chọn) và nhấn nút 'Đổi tác giả'.",
 	"changeauthor-changeauthors-single": "Đổi tác giả",
 	"changeauthor-explanation-single": "Với mẫu này bạn có thể thay đổi tác giả phiên bản,\nChỉ cần thay đổi tên người dùng ở dưới, thêm một chú thích (tùy chọn) và nhấn vào nút 'Đổi tác giả'.",
