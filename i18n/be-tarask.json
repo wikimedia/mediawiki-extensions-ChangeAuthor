@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"changeauthor": "Зьмена аўтарства вэрсіі",
@@ -24,5 +25,6 @@
 	"changeauthor-invalidform": "Калі ласка, выкарыстоўвайце форму на [[Special:ChangeAuthor|спэцыяльнай старонцы]], а не якую-небудзь іншую.",
 	"changeauthor-success": "Ваш запыт быў пасьпяхова выкананы.",
 	"log-name-changeauth": "Журнал зьменаў аўтарства",
+	"log-description-changeauth": "Гэта журнал зьменаў аўтараў вэрсіяў.",
 	"right-changeauthor": "зьмена аўтарства вэрсіі"
 }
