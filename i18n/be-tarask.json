@@ -27,5 +27,6 @@
 	"log-name-changeauth": "Журнал зьменаў аўтарства",
 	"log-description-changeauth": "Гэта журнал зьменаў аўтараў вэрсіяў.",
 	"logentry-changeauth-changeauth": "$1 зьмяніў аўтара {{int:Changeauthor-rev|$4}} старонкі $3 з $5 на $6",
+	"action-changeauthor": "зьмену аўтара вэрсіі",
 	"right-changeauthor": "зьмена аўтарства вэрсіі"
 }
