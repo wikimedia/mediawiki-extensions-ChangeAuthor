@@ -25,5 +25,8 @@
 	"changeauthor-invalidform": "Bruk skjemaet på [[Special:ChangeAuthor|spesialsiden]] i stedet for å bruke et egendefinert skjema.",
 	"changeauthor-success": "Forespørselen har blitt utført.",
 	"log-name-changeauth": "Logg for opphavspersonsendringer",
+	"log-description-changeauth": "Dette er en logg over endringer av revisjoners forfattere.",
+	"logentry-changeauth-changeauth": "$1 forandret forfatteren av {{int:Changeauthor-rev|$4}} fra $3 fra $5 til $6",
+	"action-changeauthor": "endre forfatteren av en revisjon",
 	"right-changeauthor": "Endre forfatteren av en versjon"
 }
