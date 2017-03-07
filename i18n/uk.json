@@ -3,7 +3,8 @@
 		"authors": [
 			"AS",
 			"Ahonc",
-			"Prima klasy4na"
+			"Prima klasy4na",
+			"Piramidion"
 		]
 	},
 	"changeauthor": "Зміна автора редагування",
@@ -25,5 +26,8 @@
 	"changeauthor-invalidform": "Будь ласка, використовуйте форму на [[Special:ChangeAuthor|спеціальній сторінці]], а не якусь іншу.",
 	"changeauthor-success": "Ваш запити успішно оброблений.",
 	"log-name-changeauth": "Журнал змін авторів",
+	"log-description-changeauth": "Це — журнал змін авторів версій.",
+	"logentry-changeauth-changeauth": "$1 змінив автора {{int:Changeauthor-rev|$4}} $3 з $5 на $6",
+	"action-changeauthor": "зміну автора версії",
 	"right-changeauthor": "Зміна автора редагування"
 }
