@@ -3,7 +3,8 @@
 		"authors": [
 			"Alma",
 			"Toliño",
-			"Xosé"
+			"Xosé",
+			"Banjo"
 		]
 	},
 	"changeauthor": "Mudar a revisión do autor",
@@ -26,5 +27,6 @@
 	"changeauthor-success": "A súa petición foi procesada con éxito.",
 	"changeauthor-rev": "r$1",
 	"log-name-changeauth": "Rexistro dos cambios do autor",
+	"action-changeauthor": "cambiar o autor dunha revisión",
 	"right-changeauthor": "Cambiar o autor dunha revisión"
 }
