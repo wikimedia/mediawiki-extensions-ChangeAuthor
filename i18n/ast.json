@@ -17,5 +17,14 @@
 	"changeauthor-explanation-single": "Con esti formulariu puedes cambiar un autor de la revisión.\nSólo cambia'l nome d'usuariu más abaxo, amiesta un comentariu (opcional) y fai click nel botón de «Cambiar autor».",
 	"changeauthor-invalid-username": "Nome d'usuariu «$1» inválidu.",
 	"changeauthor-nosuchuser": "Nun existe l'usuariu «$1».",
-	"changeauthor-revview": "Revisión #$1 de $2"
+	"changeauthor-revview": "Revisión #$1 de $2",
+	"changeauthor-nosuchtitle": "Nun hai nenguna páxina llamada «$1».",
+	"changeauthor-weirderror": "Asocedió un error mui estrañu.\nTenta nuevamente la solicitú.\nSi sigue apaeciendo esti error, la base de datos probablemente ta frañada.",
+	"changeauthor-invalidform": "Por favor usa'l formulariu qu'ufre la [[Special:ChangeAuthor|páxina especial]] en llugar d'un formulariu personalizáu.",
+	"changeauthor-success": "La to solicitú procesóse correutamente.",
+	"log-name-changeauth": "Rexistru de cambios d'autor",
+	"log-description-changeauth": "Esti ye'l rexistru de cambios de los autores de revisiones.",
+	"logentry-changeauth-changeauth": "$1 cambió l'autor de {{int:Changeauthor-rev|$4}} de $3 dende $5 a $6",
+	"action-changeauthor": "cambiar l'autor d'una revisión",
+	"right-changeauthor": "Cambiar l'autor d'una revisión"
 }
