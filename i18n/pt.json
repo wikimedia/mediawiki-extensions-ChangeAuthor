@@ -4,7 +4,8 @@
 			"555",
 			"Hamilton Abreu",
 			"Malafaya",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Fúlvio"
 		]
 	},
 	"changeauthor": "Alterar autor de revisão",
@@ -26,5 +27,7 @@
 	"changeauthor-invalidform": "Por favor, utilize o formulário fornecido pela [[Special:ChangeAuthor|página especial]] em vez de um formulário personalizado.",
 	"changeauthor-success": "O seu pedido foi processado com sucesso.",
 	"log-name-changeauth": "Registo de alterações de autor",
+	"log-description-changeauth": "Este é um registo de alterações para os autores das revisões.",
+	"action-changeauthor": "Alterar o autor de uma revisão",
 	"right-changeauthor": "Alterar o autor de uma revisão"
 }
