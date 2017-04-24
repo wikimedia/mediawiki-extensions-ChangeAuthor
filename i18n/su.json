@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kandar"
+			"Kandar",
+			"Uchup19"
 		]
 	},
 	"changeauthor": "Robah panyusun révisi",
 	"changeauthor-desc": "Pikeun ngarobah panyusun révisi",
 	"changeauthor-title": "Robah panyusun révisi",
-	"changeauthor-search-box": "Sungsi révisi",
+	"changeauthor-search-box": "Paluruh révisi",
 	"changeauthor-pagename-or-revid": "Ngaran kaca atawa ID révisi:",
 	"changeauthor-pagenameform-go": "Jung",
 	"changeauthor-comment": "Pamanggih:",
