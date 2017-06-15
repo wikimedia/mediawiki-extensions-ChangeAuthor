@@ -51,11 +51,9 @@ class ChangeAuthor extends SpecialPage {
 		$this->setHeaders();
 
 		// Check permissions
-		if ( !$this->userCanExecute( $this->getUser() ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
+		$this->checkPermissions();
 
+		// check if database is in read-only mode
 		$this->checkReadOnly();
 
 		$out->setPageTitle( $this->msg( 'changeauthor-title' ) );
