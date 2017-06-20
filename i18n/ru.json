@@ -3,7 +3,8 @@
 		"authors": [
 			"Ferrer",
 			"Kaganer",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Facenapalm"
 		]
 	},
 	"changeauthor": "Изменение автора правки",
@@ -25,5 +26,8 @@
 	"changeauthor-invalidform": "Пожалуйста, используйте форму на [[Special:ChangeAuthor|служебной странице]], а не какую-либо другую.",
 	"changeauthor-success": "Запрос успешно обработан.",
 	"log-name-changeauth": "Журнал изменения авторов",
+	"log-description-changeauth": "Это лог изменения авторства версий",
+	"logentry-changeauth-changeauth": "$1 изменил авторство {{int:Changeauthor-rev|$4}} на $3 с $5 на $6",
+	"action-changeauthor": "изменение авторства версии",
 	"right-changeauthor": "изменение автора правки"
 }
