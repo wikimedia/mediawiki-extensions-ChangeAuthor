@@ -24,5 +24,8 @@
 	"changeauthor-success": "Tu requesta ha essite processate con successo.",
 	"changeauthor-rev": "v$1",
 	"log-name-changeauth": "Registro de cambiamentos de autores",
+	"log-description-changeauth": "Isto es un registro de cambiamentos de autor de versiones.",
+	"logentry-changeauth-changeauth": "$1 cambiava le autor del {{int:Changeauthor-rev|$4}} de $3 ab $5 a $6",
+	"action-changeauthor": "cambiar le autor de un version",
 	"right-changeauthor": "Cambiar le autor de un version"
 }
