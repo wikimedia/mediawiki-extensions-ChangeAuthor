@@ -28,5 +28,6 @@
 	"log-name-changeauth": "Upphovsmansändringslogg",
 	"log-description-changeauth": "Detta är en ändringslogg till författarna av sidversionerna.",
 	"logentry-changeauth-changeauth": "$1 ändrade författare för {{int:Changeauthor-rev|$4}} av $3 från $5 till $6",
+	"action-changeauthor": "ändra författaren av en sidversion",
 	"right-changeauthor": "Ändra författaren för en version"
 }
