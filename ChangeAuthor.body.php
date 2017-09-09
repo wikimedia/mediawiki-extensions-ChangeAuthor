@@ -227,7 +227,7 @@ class ChangeAuthor extends SpecialPage {
 	private function buildRevisionList( $title, $errMsg = '' ) {
 		global $wgScript;
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			'revision',
 			Revision::selectFields(),
