@@ -377,10 +377,10 @@ class ChangeAuthor extends SpecialPage {
 			$logId = $logEntry->insert();
 			$logEntry->publish( $logId );
 
-			wfSuppressWarnings();
+			MediaWiki\suppressWarnings();
 			$editcounts[$users[1]->getId()]++;
 			$editcounts[$users[0]->getId()]--;
-			wfRestoreWarnings();
+			MediaWiki\restoreWarnings();
 		}
 
 		foreach ( $editcounts as $userId => $mutation ) {
