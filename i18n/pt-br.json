@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"changeauthor": "Alterar autor de revisão",
@@ -23,5 +24,8 @@
 	"changeauthor-invalidform": "Por favor, utilize o formulário fornecido pela [[Special:ChangeAuthor|página especial]] em vez de um formulário personalizado.",
 	"changeauthor-success": "O seu pedido foi processado com sucesso.",
 	"log-name-changeauth": "Registro de alterações de autor",
+	"log-description-changeauth": "Este é um registo de alterações dos autores de revisões.",
+	"logentry-changeauth-changeauth": "$1 alterou o autor da revisão {{int:Changeauthor-rev|$4}} da página $3, de $5 para $6",
+	"action-changeauthor": "alterar o autor de uma revisão",
 	"right-changeauthor": "Alterar o autor de uma revisão"
 }
