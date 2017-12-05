@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"changeauthor": "සංශෝධක කතෘ වෙනස් කරන්න",
+	"changeauthor-search-box": "සංශෝධන සොයන්න",
+	"changeauthor-pagenameform-go": "යන්න",
+	"changeauthor-comment": "පරිකථනය:",
+	"changeauthor-changeauthors-single": "කතෘ වෙනස් කරන්න",
+	"changeauthor-invalid-username": "වකන්ගු නොවන පරිශීලක නාමය \"$1\".",
+	"changeauthor-nosuchuser": "\"$1\" පරිශීලකයෙකු නැත."
+}

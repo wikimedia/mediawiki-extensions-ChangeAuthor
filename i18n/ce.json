@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sasan700"
+			"Sasan700",
+			"Умар"
 		]
 	},
-	"changeauthor-search-box": "Нисдинарш лахар"
+	"changeauthor-search-box": "Нисдинарш лахар",
+	"changeauthor-comment": "Билгалдаккхар:",
+	"changeauthor-invalid-username": "Хилийта иш йоцу декъашхочун цӀе"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alison"
+			"Alison",
+			"පසිඳු කාවින්ද"
 		]
 	},
+	"changeauthor-pagenameform-go": "Gabh",
 	"changeauthor-comment": "Nóta tráchta:",
 	"changeauthor-invalid-username": "Ainm úsáideoir \"$1\" neamhbhailí.",
 	"changeauthor-nosuchuser": "Níl úsáideoir \"$1\".",

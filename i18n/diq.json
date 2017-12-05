@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Mirzali"
+		]
+	},
+	"changeauthor": "Nuskarê çımraviyarnayışi bıvurnên",
+	"changeauthor-desc": "Vurnayışê nuskarê de çımraviyarnayışi rê mısade dano",
+	"changeauthor-title": "Nuskarê yew çımraviyarnayışi bıvurnên",
+	"changeauthor-search-box": "Çımraviyarnayışan cı geyrên",
+	"changeauthor-pagename-or-revid": "Nameyê pele ya zi kamiya çımraviyarnayışi:",
+	"changeauthor-pagenameform-go": "Şo",
+	"changeauthor-comment": "Mışewre:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Nuskari|Nuskaran}} bıvurnên",
+	"changeauthor-explanation-multi": "Ebe nê formi ra şıma şenê nuskaranê çımraviyarnayışi bıvurnên.\nLista cêrene de tenya nameyê yewi ya zi zehf karberan bıvurnên, yew mışewre ilawe kerên (ixtıyari) u gecega \"Nuskari (nuskaran) bıvurnên\" bıtıknên.",
+	"changeauthor-changeauthors-single": "Nuskari bıvurnên",
+	"changeauthor-explanation-single": "Ebe nê formi ra şıma şenê yew nuskarê çımraviyarnayışi bıvurnên.\nCêr tenya nameyê karberi bıvurnên, yew mışewre ilawe kerên (ixtıyari) u gecega \"Nuskari bıvurnên\" bıtıknên.",
+	"changeauthor-invalid-username": "\"$1\" nameyê karberê nêvêrdey.",
+	"changeauthor-nosuchuser": "Karbero de zey \"$1\" çıniyo.",
+	"changeauthor-revview": "$2 ra #$1 çım ra viyarnayış",
+	"changeauthor-nosuchtitle": "\"$1\" name dı pele çıniya.",
+	"changeauthor-weirderror": "Xetê da zehf ğeribe amê meydan.\nKerem kerên, waştışê xo anciya bıcerebnên.\nNa xeta ke hewna asena, beno ke bıngehê melumati biyo xırabe."
+}

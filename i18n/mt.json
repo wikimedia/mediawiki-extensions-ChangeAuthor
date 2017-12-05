@@ -5,6 +5,23 @@
 			"Roderick Mallia"
 		]
 	},
+	"changeauthor": "Biddel l-awtur tar-reviżjoni",
+	"changeauthor-desc": "Jippermetti li tbiddel l-awtur ta' reviżjoni",
+	"changeauthor-title": "Biddel l-awturi ta' reviżjoni",
+	"changeauthor-search-box": "Fittex reviżjonijiet",
+	"changeauthor-pagename-or-revid": "Isem tal-paġna jew ID tar-reviżjoni:",
 	"changeauthor-pagenameform-go": "Mur",
-	"changeauthor-comment": "Kumment:"
+	"changeauthor-comment": "Kumment:",
+	"changeauthor-changeauthors-multi": "Biddel l-{{PLURAL:$1|awtur|awturi}}",
+	"changeauthor-explanation-multi": "B'din il-formola inti tista' tbiddel l-awturi ta' reviżjonijiet.\nBiddel biss wieħed jew iktar ismijiet tal-utent fil-lista t'hawn taħt, żid kumment (jekk tarah utli) u klikkja fuq il-buttuna \"Biddel l-awtur\".",
+	"changeauthor-changeauthors-single": "Biddel l-awtur",
+	"changeauthor-explanation-single": "B'din il-formola inti tista' tbiddel l-awtur ta' reviżjoni.\nBiddel biss l-isem tal-utent hawn taħt, żid kumment (jekk tarah utli) u klikkja fuq il-buttuna \"Biddel l-awtur\".",
+	"changeauthor-invalid-username": "Isem tal-utent \"$1\" invalidu.",
+	"changeauthor-nosuchuser": "L-ebda utent ma jeżisti bl-isem \"$1\".",
+	"changeauthor-revview": "Reviżjoni #$1 ta' $2",
+	"changeauthor-nosuchtitle": "M'hemm l-ebda paġna jisimha \"$1\".",
+	"changeauthor-weirderror": "Inqalgħet problema stramba.\nJekk jogħġbok ipprova ibgħat ir-rikjesta tiegħek.\nJekk dan l-iżball jibqa' jintwera, id-databażi hija probabbilment miksura.",
+	"changeauthor-invalidform": "Jekk jogħġbok uża l-formola preżenti fil-[[Special:ChangeAuthor|paġna speċjali]] minflok dik personalizzata.",
+	"changeauthor-success": "Ir-rikjesta tiegħek ġiet proċessata b'suċċess.",
+	"right-changeauthor": "Ibiddel l-awtur ta' reviżjoni"
 }

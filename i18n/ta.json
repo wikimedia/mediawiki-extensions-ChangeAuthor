@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"TRYPPN"
+			"TRYPPN",
+			"Karthi.dr"
 		]
 	},
 	"changeauthor-search-box": "திருத்தங்களைத் தேடு",
@@ -9,6 +10,9 @@
 	"changeauthor-pagenameform-go": "செல்",
 	"changeauthor-comment": "கருத்து:",
 	"changeauthor-changeauthors-single": "ஆசிரியரை மாற்றவும்",
+	"changeauthor-invalid-username": "செல்லாத பயனர் பெயர்  \"$1\".",
 	"changeauthor-nosuchuser": "\"$1\" என்று ஒரு பயனர் இல்லை.",
-	"changeauthor-nosuchtitle": "\"$1\" என்று ஒரு பக்கம் இல்லை."
+	"changeauthor-nosuchtitle": "\"$1\" என்று ஒரு பக்கம் இல்லை.",
+	"changeauthor-weirderror": "பெரிய பிழை ஒன்று நிகழ்ந்து விட்டது. \nதயவுசெய்து வேண்டுகோளை மறுபடியும் முயற்சிக்கவும்.\nஇதே பிழை மறுபடி மறுபடி வருமாயின், உங்கள் தரவுத்தளம் முறிந்திருக்க வாய்ப்புள்ளது.",
+	"changeauthor-success": "உங்கள் வேண்டுகோள் வெற்றிகரமாகச் செயல்படுத்தப்பட்டது."
 }
