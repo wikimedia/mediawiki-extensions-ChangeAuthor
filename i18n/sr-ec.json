@@ -5,11 +5,12 @@
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Milicevic01"
+			"Milicevic01",
+			"Zoranzoki21"
 		]
 	},
 	"changeauthor": "Промени аутора ревизије",
-	"changeauthor-desc": "Омогући промене аутора ревизија",
+	"changeauthor-desc": "Омогући промене аутора измена",
 	"changeauthor-title": "Промени аутора неке ревизије",
 	"changeauthor-search-box": "Претражи измене",
 	"changeauthor-pagename-or-revid": "Име странице или ИД ревизије:",
