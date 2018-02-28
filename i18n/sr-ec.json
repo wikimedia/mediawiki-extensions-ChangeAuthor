@@ -6,12 +6,13 @@
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
 			"Milicevic01",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Acamicamacaraca"
 		]
 	},
-	"changeauthor": "Промени аутора ревизије",
+	"changeauthor": "Промени аутора измене",
 	"changeauthor-desc": "Омогући промене аутора измена",
-	"changeauthor-title": "Промени аутора неке ревизије",
+	"changeauthor-title": "Промени аутора измене",
 	"changeauthor-search-box": "Претражи измене",
 	"changeauthor-pagename-or-revid": "Име странице или ИД ревизије:",
 	"changeauthor-pagenameform-go": "Иди",
@@ -25,5 +26,5 @@
 	"changeauthor-success": "Баш захтев је био успешно обрађен.",
 	"changeauthor-rev": "изм. $1",
 	"log-name-changeauth": "Историја промене аутора",
-	"right-changeauthor": "Промени аутора ревизије"
+	"right-changeauthor": "Промена аутора измене"
 }
