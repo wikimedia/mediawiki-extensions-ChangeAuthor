@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pahles"
+			"Pahles",
+			"Ooswesthoesbes"
 		]
 	},
 	"changeauthor": "Outäör versie aanpasse",
@@ -23,5 +24,8 @@
 	"changeauthor-invalidform": "Gebroek 't formeleer van de [[Special:ChangeAuthor|speciaal pagina]], in plaats van 'n aangepas formeleer.",
 	"changeauthor-success": "Diene aanvraog is verwirk.",
 	"log-name-changeauth": "Outäörsaanpassingelogbook",
+	"log-description-changeauth": "Dit is 'n logbook van verangeringe in de sjrievers van versies.",
+	"logentry-changeauth-changeauth": "$1 verangerde de sjriever van {{int:Changeauthor-rev|$4}} van $3 van $5 nao $6",
+	"action-changeauthor": "veranger de sjriever van 'n versie",
 	"right-changeauthor": "De outäör van 'n bewirking aanpasse"
 }
