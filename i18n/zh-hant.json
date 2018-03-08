@@ -3,7 +3,8 @@
 		"authors": [
 			"Alex S.H. Lin",
 			"Horacewai2",
-			"Waihorace"
+			"Waihorace",
+			"Kly"
 		]
 	},
 	"changeauthor": "更改修訂版本作者",
@@ -25,5 +26,8 @@
 	"changeauthor-invalidform": "請使用[[Special:ChangeAuthor]]的表單處理，謝謝。",
 	"changeauthor-success": "處理完成",
 	"log-name-changeauth": "作者更改日誌",
+	"log-description-changeauth": "此為更改修定版本之作者的日誌。",
+	"logentry-changeauth-changeauth": "$1 將 $3 裡修訂版本 {{int:Changeauthor-rev|$4}} 的作者從 $5 改為 $6",
+	"action-changeauthor": "更改修訂版本的作者",
 	"right-changeauthor": "更換特定修訂版本作者"
 }
