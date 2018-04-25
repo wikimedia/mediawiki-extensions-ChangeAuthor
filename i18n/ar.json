@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"changeauthor": "تغيير مؤلف المراجعة",
@@ -24,5 +25,8 @@
 	"changeauthor-success": "طلبك تمت معالجته بنجاح.",
 	"changeauthor-rev": "ن$1",
 	"log-name-changeauth": "سجل تغيير المؤلفين",
+	"log-description-changeauth": "هذا سجل تغييرات مؤلفي المراجعات.",
+	"logentry-changeauth-changeauth": "$1 غيَّر مؤلف {{int:Changeauthor-rev|$4}} من $3 من $5 إلى $6",
+	"action-changeauthor": "تغيير مؤلف المراجعة",
 	"right-changeauthor": "تغيير مؤلف مراجعة"
 }
