@@ -4,7 +4,8 @@
 			"Alex S.H. Lin",
 			"Horacewai2",
 			"Waihorace",
-			"Kly"
+			"Kly",
+			"LNDDYL"
 		]
 	},
 	"changeauthor": "更改修訂版本作者",
@@ -28,6 +29,6 @@
 	"log-name-changeauth": "作者更改日誌",
 	"log-description-changeauth": "此為更改修定版本之作者的日誌。",
 	"logentry-changeauth-changeauth": "$1 將 $3 裡修訂版本 {{int:Changeauthor-rev|$4}} 的作者從 $5 改為 $6",
-	"action-changeauthor": "更改修訂版本的作者",
+	"action-changeauthor": "變更修訂版本的作者",
 	"right-changeauthor": "更換特定修訂版本作者"
 }
