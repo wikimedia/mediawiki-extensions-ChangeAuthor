@@ -9,7 +9,7 @@
  * @ingroup Extensions
  * @author Roan Kattouw <roan.kattouw@home.nl>
  * @copyright Copyright © 2007 Roan Kattouw
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @license http://www.gnu.org/copyleft/gpl.html GPL-3.0-or-later
  *
  * An extension that allows changing the author of a revision
  * Written for the Bokt Wiki <http://www.bokt.nl/wiki/> by Roan Kattouw <roan.kattouw@home.nl>
