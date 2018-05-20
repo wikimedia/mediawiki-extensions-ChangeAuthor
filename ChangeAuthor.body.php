@@ -134,17 +134,17 @@ class ChangeAuthor extends SpecialPage {
 	 */
 	private function buildInitialForm( $errMsg = '' ) {
 		global $wgScript;
-		$retval = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $wgScript ) );
+		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'list' );
 		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'legend', array(), $this->msg( 'changeauthor-search-box' )->text() );
+		$retval .= Xml::element( 'legend', [], $this->msg( 'changeauthor-search-box' )->text() );
 		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-pagename-or-revid' )->text(),
 				'pagename-revid', 'pagename-revid' );
 		$retval .= Xml::submitButton( $this->msg( 'changeauthor-pagenameform-go' )->text() );
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', array( 'color' => 'red' ), $errMsg );
+			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
 			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
 		}
 		$retval .= Xml::closeElement( 'fieldset' );
@@ -170,8 +170,8 @@ class ChangeAuthor extends SpecialPage {
 			$curLink = Linker::linkKnown(
 				$title,
 				$this->msg( 'cur' )->text(),
-				array(),
-				array( 'oldid' => $rev->getId(), 'diff' => 'cur' )
+				[],
+				[ 'oldid' => $rev->getId(), 'diff' => 'cur' ]
 			);
 		}
 
@@ -181,18 +181,18 @@ class ChangeAuthor extends SpecialPage {
 			$lastLink = Linker::linkKnown(
 				$title,
 				$this->msg( 'last' )->text(),
-				array(),
-				array(
+				[],
+				[
 					'oldid' => 'prev',
 					'diff' => $rev->getId()
-				)
+				]
 			);
 		}
 
 		// Build oldid link
 		$date = $this->getLanguage()->timeanddate( wfTimestamp( TS_MW, $rev->getTimestamp() ), true );
 		if ( $rev->userCan( Revision::DELETED_TEXT ) ) {
-			$link = Linker::linkKnown( $title, $date, array(), array( 'oldid' => $rev->getId() ) );
+			$link = Linker::linkKnown( $title, $date, [], [ 'oldid' => $rev->getId() ] );
 		} else {
 			$link = $date;
 		}
@@ -231,12 +231,12 @@ class ChangeAuthor extends SpecialPage {
 		$res = $dbr->select(
 			'revision',
 			Revision::selectFields(),
-			array( 'rev_page' => $title->getArticleID() ),
+			[ 'rev_page' => $title->getArticleID() ],
 			__METHOD__,
-			array( 'ORDER BY' => 'rev_timestamp DESC', 'LIMIT' => 50 )
+			[ 'ORDER BY' => 'rev_timestamp DESC', 'LIMIT' => 50 ]
 		);
 
-		$revs = array();
+		$revs = [];
 		while ( ( $r = $dbr->fetchObject( $res ) ) ) {
 			$revs[] = new Revision( $r );
 		}
@@ -246,12 +246,12 @@ class ChangeAuthor extends SpecialPage {
 			return $this->msg( 'changeauthor-weirderror' )->text();
 		}
 
-		$retval = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $wgScript ) );
+		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetpage', $title->getPrefixedDBkey() );
 		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'p', array(), $this->msg( 'changeauthor-explanation-multi' )->text() );
+		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-multi' )->text() );
 		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-comment' )->text(), 'comment', 'comment', 50 );
 		$retval .= Xml::submitButton(
 			$this->msg( 'changeauthor-changeauthors-multi',
@@ -260,10 +260,10 @@ class ChangeAuthor extends SpecialPage {
 		);
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', array( 'color' => 'red' ), $errMsg );
+			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
 			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
 		}
-		$retval .= Xml::element( 'h2', array(), $title->getPrefixedText() );
+		$retval .= Xml::element( 'h2', [], $title->getPrefixedText() );
 		$retval .= Xml::openElement( 'ul' );
 		$count = count( $revs );
 		foreach ( $revs as $i => $rev ) {
@@ -284,20 +284,20 @@ class ChangeAuthor extends SpecialPage {
 	 */
 	private function buildOneRevForm( $rev, $errMsg = '' ) {
 		global $wgScript;
-		$retval = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $wgScript ) );
+		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetrev', $rev->getId() );
 		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'p', array(), $this->msg( 'changeauthor-explanation-single' )->text() );
+		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-single' )->text() );
 		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-comment' )->text(), 'comment', 'comment' );
 		$retval .= Xml::submitButton( $this->msg( 'changeauthor-changeauthors-single' )->text() );
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', array( 'color' => 'red' ), $errMsg );
+			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
 			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
 		}
-		$retval .= Xml::element( 'h2', array(), $this->msg( 'changeauthor-revview', $rev->getId(), $rev->getTitle()->getPrefixedText() )->text() );
+		$retval .= Xml::element( 'h2', [], $this->msg( 'changeauthor-revview', $rev->getId(), $rev->getTitle()->getPrefixedText() )->text() );
 		$retval .= Xml::openElement( 'ul' );
 		$retval .= $this->buildRevisionLine( $rev, $rev->getTitle() );
 		$retval .= Xml::closeElement( 'ul' );
@@ -314,7 +314,7 @@ class ChangeAuthor extends SpecialPage {
 	private function parseChangeRequest() {
 		$request = $this->getRequest();
 		$vals = $request->getValues();
-		$retval = array();
+		$retval = [];
 		foreach ( $vals as $name => $val ) {
 			if ( substr( $name, 0, 9 ) != 'user-new-' ) {
 				continue;
@@ -336,7 +336,7 @@ class ChangeAuthor extends SpecialPage {
 				return $this->msg( 'changeauthor-invalidform' )->text();
 			}
 			if ( $old->getName() != $new->getName() ) {
-				$retval[$revid] = array( $old, $new );
+				$retval[$revid] = [ $old, $new ];
 			}
 		}
 		return $retval;
@@ -351,16 +351,16 @@ class ChangeAuthor extends SpecialPage {
 	private function changeRevAuthors( $authors, $comment ) {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->begin();
-		$editcounts = array(); // Array to keep track of EC mutations; key=userid, value=mutation
+		$editcounts = []; // Array to keep track of EC mutations; key=userid, value=mutation
 
 		foreach ( $authors as $id => $users ) {
 			$dbw->update(
 				'revision',
-				/* SET */array(
+				/* SET */[
 					'rev_user' => $users[1]->getId(),
 					'rev_user_text' => $users[1]->getName()
-				),
-				array( 'rev_id' => $id ), // WHERE
+				],
+				[ 'rev_id' => $id ], // WHERE
 				__METHOD__
 			);
 			$rev = Revision::newFromId( $id );
@@ -369,11 +369,11 @@ class ChangeAuthor extends SpecialPage {
 			$logEntry->setPerformer( $this->getUser() );
 			$logEntry->setTarget( $rev->getTitle() );
 			$logEntry->setComment( $comment );
-			$logEntry->setParameters( array(
+			$logEntry->setParameters( [
 				'4::revid' => $id,
 				'5::originalauthor' => $users[0]->getName(),
 				'6::newauthor' => $users[1]->getName(),
-			) );
+			] );
 			$logId = $logEntry->insert();
 			$logEntry->publish( $logId );
 
@@ -392,8 +392,8 @@ class ChangeAuthor extends SpecialPage {
 			}
 			$dbw->update(
 				'user',
-				array( "user_editcount=user_editcount$mutation" ),
-				array( 'user_id' => $userId ),
+				[ "user_editcount=user_editcount$mutation" ],
+				[ 'user_id' => $userId ],
 				__METHOD__
 			);
 			if ( $dbw->affectedRows() == 0 ) {
@@ -402,13 +402,13 @@ class ChangeAuthor extends SpecialPage {
 				$count = $dbw->selectField(
 					'revision',
 					'COUNT(rev_user)',
-					array( 'rev_user' => $userId ),
+					[ 'rev_user' => $userId ],
 					__METHOD__
 				);
 				$dbw->update(
 					'user',
-					array( 'user_editcount' => $count ),
-					array( 'user_id' => $userId ),
+					[ 'user_editcount' => $count ],
+					[ 'user_id' => $userId ],
 					__METHOD__
 				);
 			}
