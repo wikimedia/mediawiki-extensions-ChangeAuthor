@@ -29,7 +29,7 @@
 		"changeauth/*": "LogFormatter"
 	},
 	"AutoloadClasses": {
-		"ChangeAuthor": "ChangeAuthor.body.php"
+		"ChangeAuthor": "includes/ChangeAuthor.php"
 	},
 	"AvailableRights": [
 		"changeauthor"
