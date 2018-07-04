@@ -350,7 +350,7 @@ class ChangeAuthor extends SpecialPage {
 	 */
 	private function changeRevAuthors( $authors, $comment ) {
 		$dbw = wfGetDB( DB_MASTER );
-		$dbw->begin();
+		$dbw->startAtomic( __METHOD__ );
 		$editcounts = []; // Array to keep track of EC mutations; key=userid, value=mutation
 
 		foreach ( $authors as $id => $users ) {
@@ -414,6 +414,6 @@ class ChangeAuthor extends SpecialPage {
 			}
 		}
 
-		$dbw->commit();
+		$dbw->endAtomic( __METHOD__ );
 	}
 }
