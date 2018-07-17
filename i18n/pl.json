@@ -8,7 +8,8 @@
 			"McMonster",
 			"Sp5uhe",
 			"Wpedzich",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"changeauthor": "Zmień autora wersji",
@@ -30,6 +31,8 @@
 	"changeauthor-invalidform": "Zamiast tej strony co zazwyczaj użyj [[Special:ChangeAuthor|strony specjalnej]].",
 	"changeauthor-success": "Twoje polecenie zostało wykonane z powodzeniem.",
 	"log-name-changeauth": "Rejestr zmiany autora",
+	"log-description-changeauth": "Ten rejestr przedstawia zmiany w autorach wersji.",
+	"logentry-changeauth-changeauth": "$1 {{GENDER:$1|zmienił|zmieniła}} autora wersji {{int:Changeauthor-rev|$4}} artykułu „$3” z $5 na $6",
 	"action-changeauthor": "zmiany autora wersji",
 	"right-changeauthor": "Zmiana autora wersji"
 }
