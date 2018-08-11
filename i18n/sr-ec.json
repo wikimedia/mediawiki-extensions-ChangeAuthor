@@ -7,14 +7,15 @@
 			"Михајло Анђелковић",
 			"Milicevic01",
 			"Zoranzoki21",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
 	"changeauthor": "Промени аутора измене",
 	"changeauthor-desc": "Омогући промене аутора измена",
 	"changeauthor-title": "Промени аутора измене",
 	"changeauthor-search-box": "Претражи измене",
-	"changeauthor-pagename-or-revid": "Име странице или ИД ревизије:",
+	"changeauthor-pagename-or-revid": "Име странице или ID измене:",
 	"changeauthor-pagenameform-go": "Иди",
 	"changeauthor-comment": "Коментар:",
 	"changeauthor-changeauthors-multi": "Промени {{PLURAL:$1|аутора|ауторе}}",
