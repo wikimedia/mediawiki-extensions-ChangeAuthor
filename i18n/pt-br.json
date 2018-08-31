@@ -16,7 +16,7 @@
 	"changeauthor-explanation-multi": "Através deste formulário, pode alterar os autores de revisões. Simplesmente mude um ou mais nomes de utilizador na lista abaixo, adicione um comentário (opcional) e clique no botão 'Alterar autor(es)'.",
 	"changeauthor-changeauthors-single": "Alterar autor",
 	"changeauthor-explanation-single": "Através deste formulário, pode alterar o autor de uma revisão. Simplesmente mude o nome de utilizador abaixo, adicione um comentário (opcional) e clique no botão 'Alterar autor'.",
-	"changeauthor-invalid-username": "Nome de utilizador \"$1\" inválido.",
+	"changeauthor-invalid-username": "Nome de usuário \"$1\" inválido.",
 	"changeauthor-nosuchuser": "Utilizador \"$1\" não existe.",
 	"changeauthor-revview": "Revisão #$1 de $2",
 	"changeauthor-nosuchtitle": "Não existe nenhuma página chamada \"$1\".",
