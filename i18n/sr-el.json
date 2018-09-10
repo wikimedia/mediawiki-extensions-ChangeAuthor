@@ -6,11 +6,11 @@
 			"Milicevic01"
 		]
 	},
-	"changeauthor": "Promeni autora revizije",
-	"changeauthor-desc": "Omogući promene autora revizija",
-	"changeauthor-title": "Promeni autora neke revizije",
+	"changeauthor": "Promeni autora izmene",
+	"changeauthor-desc": "Omogući promene autora izmena",
+	"changeauthor-title": "Promeni autora neke izmene",
 	"changeauthor-search-box": "Pretraži izmene",
-	"changeauthor-pagename-or-revid": "Ime stranice ili ID revizije:",
+	"changeauthor-pagename-or-revid": "Ime stranice ili ID izmene:",
 	"changeauthor-pagenameform-go": "Idi",
 	"changeauthor-comment": "Komentar:",
 	"changeauthor-changeauthors-multi": "Promeni {{PLURAL:$1|autora|autore}}",
