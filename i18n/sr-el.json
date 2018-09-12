@@ -22,5 +22,5 @@
 	"changeauthor-success": "Baš zahtev je bio uspešno obrađen.",
 	"changeauthor-rev": "izm. $1",
 	"log-name-changeauth": "Istorija promene autora",
-	"right-changeauthor": "Promeni autora revizije"
+	"right-changeauthor": "Promeni autora izmene"
 }
