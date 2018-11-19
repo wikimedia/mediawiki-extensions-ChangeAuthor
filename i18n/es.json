@@ -3,7 +3,8 @@
 		"authors": [
 			"Crazymadlover",
 			"Imre",
-			"Jatrobat"
+			"Jatrobat",
+			"MarcoAurelio"
 		]
 	},
 	"changeauthor": "Cambiar autor de revisión",
@@ -25,5 +26,8 @@
 	"changeauthor-invalidform": "Por favor usar el formulario proveído por la [[Special:ChangeAuthor|página especial]] en lugar de un formulario personalizado.",
 	"changeauthor-success": "Su solicitud ha sido procesada exitosamente.",
 	"log-name-changeauth": "Registro de cambio de autor",
+	"log-description-changeauth": "Este es un registro de cambios a autores de revisiones.",
+	"logentry-changeauth-changeauth": "$1 cambió la autoría de la revisión {{int:Changeauthor-rev|$4}} de la página $3 de $5 a $6",
+	"action-changeauthor": "cambiar el autor de una revisión",
 	"right-changeauthor": "Cambiar el autor de una revisión"
 }
