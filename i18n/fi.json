@@ -6,7 +6,8 @@
 			"Nike",
 			"Silvonen",
 			"Str4nd",
-			"Vililikku"
+			"Vililikku",
+			"Valtlait"
 		]
 	},
 	"changeauthor": "Muuta muokkausversion tekijä",
@@ -17,7 +18,7 @@
 	"changeauthor-pagenameform-go": "Siirry",
 	"changeauthor-comment": "Kommentti",
 	"changeauthor-changeauthors-multi": "Muuta {{PLURAL:$1|tekijää|tekijöitä}}",
-	"changeauthor-explanation-multi": "Voit muuttaa tällä lomakkeella version tekijöitä.\nMuutat vain yhtä tai useampaa käyttäjänimeä alla olevassa listassa, lisäät kommentin (valinnainen) ja napsautat ”Muuta tekijöitä”-painiketta.",
+	"changeauthor-explanation-multi": "Voit muuttaa tällä lomakkeella version tekijöitä.\nMuutat vain yhtä tai useampaa käyttäjänimeä alla olevassa listassa, lisäät kommentin (valinnainen) ja napsautat ”Muuta tekijöitä” -painiketta.",
 	"changeauthor-changeauthors-single": "Muuta tekijä",
 	"changeauthor-explanation-single": "Tällä lomakkeella voit muuttaa version tekijän.\nMuuta käyttäjätunnus, lisää kommentti (valinnainen) ja napsauta ”Muuta tekijä” -painiketta.",
 	"changeauthor-invalid-username": "Virheellinen käyttäjätunnus ”$1”.",
