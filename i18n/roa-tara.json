@@ -4,8 +4,14 @@
 			"Joetaras"
 		]
 	},
+	"changeauthor": "Cange l'autore d'a revisione",
+	"changeauthor-desc": "Permette de cangià l'autore de 'na revisione",
+	"changeauthor-title": "Cange l'autore de 'na revisione",
+	"changeauthor-search-box": "Cirche le revisiune",
+	"changeauthor-pagename-or-revid": "Nome d'a pàgene o ID d'a revisione:",
 	"changeauthor-pagenameform-go": "Veje",
 	"changeauthor-comment": "Commende:",
+	"changeauthor-changeauthors-multi": "Cange {{PLURAL:$1|autore|auture}}",
 	"changeauthor-changeauthors-single": "Cange autore",
 	"changeauthor-nosuchtitle": "Non g'esiste 'na pàgene chiamete \"$1\"."
 }
