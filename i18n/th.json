@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"changeauthor": "เปลี่ยนผู้เขียนรุ่นแก้ไข",
+	"changeauthor-desc": "อนุญาตการเปลี่ยนผู้เขียนของรุ่นแก้ไข",
+	"changeauthor-title": "เปลี่ยนผู้เขียนของรุ่นแก้ไข",
+	"changeauthor-search-box": "ค้นหารุ่นแก้ไข",
+	"changeauthor-pagename-or-revid": "ชื่อหน้าหรือไอดีรุ่นแก้ไข:",
+	"changeauthor-pagenameform-go": "ไป",
+	"changeauthor-comment": "ความเห็น:",
+	"changeauthor-changeauthors-multi": "เปลี่ยน{{PLURAL:$1|ผู้เขียน}}",
+	"changeauthor-explanation-multi": "คุณสามารถเปลี่ยนผู้เขียนรุ่นแก้ไขโดยใช้แบบฟอร์มนี้ได้เพียงเปลี่ยนชื่อผู้ใช้อย่างน้อยหนึ่งชื่อในรายการด้านล่างนี้ เพิ่มความเห็น (ไม่บังคับ) และคลิกปุ่ม \"เปลี่ยนผู้เขียน\"",
+	"changeauthor-changeauthors-single": "เปลี่ยนผู้เขียน",
+	"changeauthor-explanation-single": "คุณสามารถเปลี่ยนผู้เขียนรุ่นแก้ไขโดยใช้แบบฟอร์มนี้ได้เพียงเปลี่ยนชื่อผู้ใช้ด้านล่างนี้ เพิ่มความเห็น (ไม่บังคับ) และคลิกปุ่ม \"เปลี่ยนผู้เขียน\"",
+	"changeauthor-invalid-username": "ชื่อผู้ใช้ไม่ถูกต้อง \"$1\"",
+	"changeauthor-nosuchuser": "ไม่มีผู้ใช้ \"$1\"",
+	"changeauthor-revview": "รุ่นแก้ไข #$1 ของ $2",
+	"changeauthor-nosuchtitle": "ไม่มีหน้าที่มีชื่อ \"$1\"",
+	"changeauthor-weirderror": "เกิดข้อผิดพลาดที่แปลกประหลาด\nโปรดลองทำการขอของคุณอีกครั้ง\nหากข้อผิดพลาดนี้ยังคงปรากฏให้เห็นอยู่ ก็แสดงว่าฐานข้อมูลอาจชำรุดแล้ว",
+	"changeauthor-success": "คำขอของคุณได้ถูกดำเนินการสำเร็จแล้ว",
+	"log-name-changeauth": "รายการบันทึกการเปลี่ยนผู้เขียน",
+	"log-description-changeauth": "นี่คือรายการบันทึกการเปลี่ยนผู้เขียนของรุ่นแก้ไข",
+	"action-changeauthor": "เปลี่ยนผู้เขียนของรุ่นแก้ไข",
+	"right-changeauthor": "เปลี่ยนผู้เขียนของรุ่นแก้ไข"
+}
