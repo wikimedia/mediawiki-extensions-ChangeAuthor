@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"changeauthor": "Promjena autora revizije",
+	"changeauthor-desc": "Omogućuje se smjeniti autora neke revizije",
+	"changeauthor-title": "Mijenjanje autora revizije",
+	"changeauthor-search-box": "Pretraži revizije",
+	"changeauthor-pagename-or-revid": "Ime stranice ili ID revizije:",
+	"changeauthor-pagenameform-go": "Idi",
+	"changeauthor-comment": "Komentar:",
+	"changeauthor-changeauthors-multi": "Smijeni {{PLURAL:$1|autora|autore}}",
+	"changeauthor-explanation-multi": "Sa ovim obrascem možete promijeniti autora revizije.\nJednostavno smijenite jedno ili više korisničkih imena na spisku ispod, dodajte komentar (neobavezno) i kliknite na dugme \"Smijeni autora(e)\"."
+}
