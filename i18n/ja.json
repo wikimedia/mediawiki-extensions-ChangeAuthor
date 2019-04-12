@@ -29,5 +29,6 @@
 	"changeauthor-success": "要求された処理が完了しました。",
 	"changeauthor-rev": "第 $1 版",
 	"log-name-changeauth": "投稿者変更記録",
+	"action-changeauthor": "版の投稿者の変更",
 	"right-changeauthor": "版の投稿者を変更"
 }
