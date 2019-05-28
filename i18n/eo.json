@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"changeauthor": "Ŝanĝu aŭtoron de revizio",
@@ -14,12 +15,17 @@
 	"changeauthor-changeauthors-multi": "Ŝanĝi {{PLURAL:$1|aŭtoron|aŭtorojn}}",
 	"changeauthor-explanation-multi": "Kun ĉi tiu paĝo vi povas ŝanĝi aŭtorojn de revizioj.\nSimple ŝanĝu unu aŭ pliajn salutnomojn en la jena listo, aldonu komenton (nedeviga) kaj klaku la butonon 'Ŝanĝi aŭtoro(j)n'.",
 	"changeauthor-changeauthors-single": "Ŝanĝi aŭtoron",
+	"changeauthor-explanation-single": "Per jena formo vi povas ŝanĝi la aŭtoron de redakto.\nSimple ŝanĝu la jenan uzantnomon, aldonu komenton (laŭvole) kaj alklaku la butonon \"Ŝanĝi aŭtoron\".",
 	"changeauthor-invalid-username": "Nevalida salutnomo \"$1\".",
 	"changeauthor-nosuchuser": "Neniu uzanto \"$1\".",
 	"changeauthor-revview": "Revizio #$1 de $2",
 	"changeauthor-nosuchtitle": "Estas neniu pagxo titolata \"$1\".",
 	"changeauthor-weirderror": "Tre stranga eraro okazis.\nBonvolu reprovi vian peton.\nSe ĉi tiu eraro daŭras okazi, tiel la datumbazo verŝajne estas rompita.",
+	"changeauthor-invalidform": "Bonvolu uzi la formularon provizatan de la [[Special:ChangeAuthor|speciala paĝo]], anstataŭ laŭmenda formularo.",
 	"changeauthor-success": "Via peto estis traktita sukcese.",
 	"log-name-changeauth": "Protokolo pri ŝanĝoj de aŭtoroj",
+	"log-description-changeauth": "Jen protokolo de ŝanĝoj de aŭtoroj de redaktoj.",
+	"logentry-changeauth-changeauth": "$1 ŝanĝis la aŭtoron de {{int:Changeauthor-rev|$4}} de $3 el $5 al $6",
+	"action-changeauthor": "ŝanĝi la aŭtoron de redakto",
 	"right-changeauthor": "Ŝanĝi la aŭtoro de revizio"
 }
