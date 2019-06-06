@@ -25,5 +25,7 @@
 	"changeauthor-invalidform": "별개 양식을 사용하지 말고, [[Special:ChangeAuthor|여기]]의 양식을 사용해주세요.",
 	"changeauthor-success": "요청이 성공적으로 처리되었습니다.",
 	"log-name-changeauth": "저자 변경 기록",
+	"log-description-changeauth": "다음은 판의 저자의 변경 기록입니다.",
+	"action-changeauthor": "판의 저자를 바꾸기",
 	"right-changeauthor": "특정 판의 작성자 이름을 변경하기"
 }
