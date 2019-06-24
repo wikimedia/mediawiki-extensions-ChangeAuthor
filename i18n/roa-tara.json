@@ -12,6 +12,19 @@
 	"changeauthor-pagenameform-go": "Veje",
 	"changeauthor-comment": "Commende:",
 	"changeauthor-changeauthors-multi": "Cange {{PLURAL:$1|autore|auture}}",
+	"changeauthor-explanation-multi": "Cu stu module tu puè cangià le auture d'a revisione.\nCange une o cchiù nome utinde da l'elenghe aqquà sotte, aggiunge 'nu commende (facoltative) e cazze 'u buttone \"Cange l'auture\".",
 	"changeauthor-changeauthors-single": "Cange autore",
-	"changeauthor-nosuchtitle": "Non g'esiste 'na pàgene chiamete \"$1\"."
+	"changeauthor-explanation-single": "Cu stu module tu puè cangià le autore d'a revisione.\nCange 'u nome utende aqquà sotte, aggiunge 'nu commende (facoltative) e cazze 'u buttone \"Cange l'autore\".",
+	"changeauthor-invalid-username": "Nome utende non valide \"$1\".",
+	"changeauthor-nosuchuser": "Nisciune utende \"$1\".",
+	"changeauthor-revview": "Revisione #$1 de $2",
+	"changeauthor-nosuchtitle": "Non g'esiste 'na pàgene chiamete \"$1\".",
+	"changeauthor-weirderror": "'N'errore strane probbie ave assute.\nPe piacere pruève arrete cu 'a richiesta toje.\nCe l'errore angore iesse, probbabbile ca s'ha scuasaciate 'u database.",
+	"changeauthor-invalidform": "Ause 'u module presende jndr'à [[Special:ChangeAuthor|pàgena speciale]] invece ca 'u module personalizzate.",
+	"changeauthor-success": "'A richiesta toje ha state processate.",
+	"log-name-changeauth": "Archivije de le cangiaminde de l'autore",
+	"log-description-changeauth": "Quiste jè 'n'archivije de le cangiaminde de le auture de le revisiune.",
+	"logentry-changeauth-changeauth": "$1 ave cangiate autore de {{int:Changeauthor-rev|$4}} de $3 da $5 a $6",
+	"action-changeauthor": "cange l'autore de 'na revisione",
+	"right-changeauthor": "Cange l'autore de 'na revisione"
 }
