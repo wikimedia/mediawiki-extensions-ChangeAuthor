@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"changeauthor": "Промена на авторот на ревизијата",
@@ -27,5 +28,5 @@
 	"log-description-changeauth": "Ова е дневникна промени во авторите на преработките.",
 	"logentry-changeauth-changeauth": "$1 го смени авторот на {{int:Changeauthor-rev|$4}} на $3 од $5 во $6",
 	"action-changeauthor": "менување на автор на преработка",
-	"right-changeauthor": "Менување на авторот на ревизија"
+	"right-changeauthor": "Менување на автор на преработка"
 }
