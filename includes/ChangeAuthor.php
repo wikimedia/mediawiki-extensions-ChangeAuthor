@@ -163,11 +163,12 @@ class ChangeAuthor extends SpecialPage {
 	 * @return string HTML
 	 */
 	private function buildRevisionLine( $rev, $title, $isFirst = false, $isLast = false ) {
+		$linkRenderer = $this->getLinkRenderer();
 		// Build curlink
 		if ( $isFirst ) {
 			$curLink = $this->msg( 'cur' )->text();
 		} else {
-			$curLink = Linker::linkKnown(
+			$curLink = $linkRenderer->makeKnownLink(
 				$title,
 				$this->msg( 'cur' )->text(),
 				[],
@@ -178,7 +179,7 @@ class ChangeAuthor extends SpecialPage {
 		if ( $isLast ) {
 			$lastLink = $this->msg( 'last' )->text();
 		} else {
-			$lastLink = Linker::linkKnown(
+			$lastLink = $linkRenderer->makeKnownLink(
 				$title,
 				$this->msg( 'last' )->text(),
 				[],
@@ -192,7 +193,7 @@ class ChangeAuthor extends SpecialPage {
 		// Build oldid link
 		$date = $this->getLanguage()->timeanddate( wfTimestamp( TS_MW, $rev->getTimestamp() ), true );
 		if ( $rev->userCan( Revision::DELETED_TEXT ) ) {
-			$link = Linker::linkKnown( $title, $date, [], [ 'oldid' => $rev->getId() ] );
+			$link = $linkRenderer->makeKnownLink( $title, $date, [], [ 'oldid' => $rev->getId() ] );
 		} else {
 			$link = $date;
 		}
