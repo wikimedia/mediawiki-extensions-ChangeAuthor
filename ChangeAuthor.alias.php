@@ -258,6 +258,16 @@ $specialPageAliases['sk'] = [
 	'ChangeAuthor' => [ 'ZmeniťAutora' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'ChangeAuthor' => [ 'ПроменаАутора' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'ChangeAuthor' => [ 'PromenaAutora' ],
+];
+
 /** Albanian (shqip) */
 $specialPageAliases['sq'] = [
 	'ChangeAuthor' => [ 'NdërroAutor' ],
