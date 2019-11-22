@@ -7,7 +7,7 @@
 			"WikiPhoenix"
 		]
 	},
-	"changeauthor": "Ändra upphovsman för sidversion",
+	"changeauthor": "Ändra upphovsman för version",
 	"changeauthor-desc": "Gör det möjligt att ändra upphovsman för sidversioner",
 	"changeauthor-title": "Ändra upphovsman för en sidversion",
 	"changeauthor-search-box": "Välj sidversion eller sida",
