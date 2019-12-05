@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Karduelis"
+			"Karduelis",
+			"BaRaN6161 TURK"
 		]
 	},
 	"changeauthor": "Revizyon yazarını değiştir",
@@ -24,5 +25,8 @@
 	"changeauthor-invalidform": "Lütfen özel bir form yerine [[Special:ChangeAuthor|özel sayfa]] tarafından sağlanan formu kullanın.",
 	"changeauthor-success": "İsteğiniz başarıyla işlendi.",
 	"log-name-changeauth": "Yazar değişim günlüğü",
+	"log-description-changeauth": "Bu, revizyon yazarlarına yapılan değişikliklerin bir kaydıdır.",
+	"logentry-changeauth-changeauth": "$1, {{int:Changeauthor-rev|$4}} yazarını $3'den $5'den $6'ya değiştirdi",
+	"action-changeauthor": "revizyon yazarı değiştir",
 	"right-changeauthor": "Bir revizyonun yazarını değiştir"
 }
