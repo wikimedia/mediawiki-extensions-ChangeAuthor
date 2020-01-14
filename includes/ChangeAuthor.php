@@ -58,7 +58,7 @@ class ChangeAuthor extends SpecialPage {
 
 		$out->setPageTitle( $this->msg( 'changeauthor-title' ) );
 
-		if ( !is_null( $par ) ) {
+		if ( $par !== null ) {
 			$obj = $this->parseTitleOrRevID( $par );
 			if ( $obj instanceof Title ) {
 				if ( $obj->exists() ) {
@@ -78,12 +78,12 @@ class ChangeAuthor extends SpecialPage {
 			$arr = $this->parseChangeRequest();
 			if ( !is_array( $arr ) ) {
 				$targetPage = $request->getVal( 'targetpage' );
-				if ( !is_null( $targetPage ) ) {
+				if ( $targetPage !== null ) {
 					$out->addHTML( $this->buildRevisionList( Title::newFromURL( $targetPage ), $arr ) );
 					return;
 				}
 				$targetRev = $request->getVal( 'targetrev' );
-				if ( !is_null( $targetRev ) ) {
+				if ( $targetRev !== null ) {
 					$out->addHTML( $this->buildOneRevForm( Revision::newFromId( $targetRev ), $arr ) );
 					return;
 				}
@@ -203,7 +203,7 @@ class ChangeAuthor extends SpecialPage {
 		$userText = Html::hidden( "user-old-{$rev->getId()}", $rev->getUserText() ) . $rev->getUserText();
 
 		$size = $rev->getSize();
-		if ( !is_null( $size ) ) {
+		if ( $size !== null ) {
 			if ( $size == 0 ) {
 				$stxt = $this->msg( 'historyempty' )->text();
 			} else {
