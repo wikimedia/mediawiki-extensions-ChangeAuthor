@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Yekrats",
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"changeauthor": "Ŝanĝu aŭtoron de revizio",
@@ -16,7 +17,7 @@
 	"changeauthor-explanation-multi": "Kun ĉi tiu paĝo vi povas ŝanĝi aŭtorojn de revizioj.\nSimple ŝanĝu unu aŭ pliajn salutnomojn en la jena listo, aldonu komenton (nedeviga) kaj klaku la butonon 'Ŝanĝi aŭtoro(j)n'.",
 	"changeauthor-changeauthors-single": "Ŝanĝi aŭtoron",
 	"changeauthor-explanation-single": "Per jena formo vi povas ŝanĝi la aŭtoron de redakto.\nSimple ŝanĝu la jenan uzantnomon, aldonu komenton (laŭvole) kaj alklaku la butonon \"Ŝanĝi aŭtoron\".",
-	"changeauthor-invalid-username": "Nevalida salutnomo \"$1\".",
+	"changeauthor-invalid-username": "Nevalida uzantnomo \"$1\".",
 	"changeauthor-nosuchuser": "Neniu uzanto \"$1\".",
 	"changeauthor-revview": "Revizio #$1 de $2",
 	"changeauthor-nosuchtitle": "Estas neniu pagxo titolata \"$1\".",
