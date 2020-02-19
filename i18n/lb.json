@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"changeauthor": "Auteur vun enger Versioun änneren",
@@ -20,9 +21,9 @@
 	"changeauthor-nosuchuser": "Et gëtt kee Benotzer \"$1\".",
 	"changeauthor-revview": "Versioun #$1 vun $2",
 	"changeauthor-nosuchtitle": "Et gëtt keng Säit mam Numm \"$1\".",
-	"changeauthor-weirderror": "E seelene Feeler ass geschitt.\nProbéiert w.e.g. nach eng Kéier.\nWann dëse Feeler sech widderhëlt dann ass d'Datebank waarscheinlech futti.",
-	"changeauthor-invalidform": "Benotzt w.e.g. de Formulaire op der Säit [[Special:ChangeAuthor|Spezialsäit]] (éischter wéi een anere Formulaire).",
-	"changeauthor-success": "Är Ufro gouf duerchgefouert.",
+	"changeauthor-weirderror": "E seelene Feeler ass geschitt.\nProbéiert wgl. nach eng Kéier.\nWann dëse Feeler sech widderhëlt dann ass d'Datebank waarscheinlech futti.",
+	"changeauthor-invalidform": "Benotzt wgl. de Formulaire op der Säit [[Special:ChangeAuthor|Spezialsäit]] (éischter wéi een anere Formulaire).",
+	"changeauthor-success": "Är Ufro gouf ausgefouert.",
 	"changeauthor-rev": "Versioun $1",
 	"log-name-changeauth": "Lëscht vun den Ännerunge vun dësem Auteur",
 	"action-changeauthor": "den Auteur vun enger Versioun änneren",
