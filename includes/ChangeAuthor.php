@@ -16,6 +16,8 @@
  * For information how to install and use this extension, see the README file.
  */
 
+use MediaWiki\Revision\RevisionRecord;
+
 class ChangeAuthor extends SpecialPage {
 
 	/**
@@ -192,7 +194,11 @@ class ChangeAuthor extends SpecialPage {
 
 		// Build oldid link
 		$date = $this->getLanguage()->timeanddate( wfTimestamp( TS_MW, $rev->getTimestamp() ), true );
-		if ( $rev->userCan( Revision::DELETED_TEXT ) ) {
+		if ( RevisionRecord::userCanBitfield(
+			$rev->getVisibility(),
+			RevisionRecord::DELETED_TEXT,
+			$this->getUser()
+		) ) {
 			$link = $linkRenderer->makeKnownLink( $title, $date, [], [ 'oldid' => $rev->getId() ] );
 		} else {
 			$link = $date;
