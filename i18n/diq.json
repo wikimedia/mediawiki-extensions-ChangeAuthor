@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Erdemaslancan",
 			"Mirzali"
 		]
@@ -20,5 +21,8 @@
 	"changeauthor-nosuchuser": "Karbero de zey \"$1\" çıniyo.",
 	"changeauthor-revview": "$2 ra #$1 çım ra viyarnayış",
 	"changeauthor-nosuchtitle": "\"$1\" name dı pele çıniya.",
-	"changeauthor-weirderror": "Xetê da zehf ğeribe amê meydan.\nKerem kerên, waştışê xo anciya bıcerebnên.\nNa xeta ke hewna asena, beno ke bıngehê melumati biyo xırabe."
+	"changeauthor-weirderror": "Xetê da zehf ğeribe amê meydan.\nKerem kerên, waştışê xo anciya bıcerebnên.\nNa xeta ke hewna asena, beno ke bıngehê melumati biyo xırabe.",
+	"changeauthor-invalidform": "Kerem kerê heruna formê xısusi terefê [[Special:ChangeAuthor|pela xısusi ]] ra deyaye formi bıkarnê.",
+	"changeauthor-success": "Waştışê şıma hewl neqş bıyo",
+	"log-name-changeauth": "Roceka vurnayışê nuştekari"
 }
