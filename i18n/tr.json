@@ -17,8 +17,8 @@
 	"changeauthor-explanation-multi": "Bu form ile revizyon yazarlarını değiştirebilirsiniz.\nSadece, aşağıdaki listedeki bir ya da daha fazla kullanıcı adını değiştirin, bir yorum ekleyin (isteğe bağlı) ve 'Yazar(lar)ı değiştir' düğmesine tıklayın.",
 	"changeauthor-changeauthors-single": "Yazarı değiştir",
 	"changeauthor-explanation-single": "Bu form ile revizyon yazarını değiştirebilirsiniz.\nSadece, aşağıdaki kullanıcı adını değiştirin, bir yorum ekleyin (isteğe bağlı) ve 'Yazarı değiştir' düğmesine tıklayın.",
-	"changeauthor-invalid-username": "\"$1\" geçersiz kullanıcı.",
-	"changeauthor-nosuchuser": "Böyle bir kullanıcı yok \"$1\".",
+	"changeauthor-invalid-username": "\"$1\" geçersiz kullanıcı adı.",
+	"changeauthor-nosuchuser": "Böyle bir \"$1\" kullanıcı yok.",
 	"changeauthor-revview": "$2 sayfasının #$1 revizyonu",
 	"changeauthor-nosuchtitle": "\"$1\" isminde bir sayfa yok.",
 	"changeauthor-weirderror": "Çok garip bir hata oluştu.\nLütfen isteğinizi tekrar deneyin.\nEğer bu hata görünmeye devam ederse, muhtemelen veritabanı bozulmuştur.",
@@ -26,7 +26,7 @@
 	"changeauthor-success": "İsteğiniz başarıyla işlendi.",
 	"log-name-changeauth": "Yazar değişim günlüğü",
 	"log-description-changeauth": "Bu, revizyon yazarlarına yapılan değişikliklerin bir kaydıdır.",
-	"logentry-changeauth-changeauth": "$1, {{int:Changeauthor-rev|$4}} yazarını $3'den $5'den $6'ya değiştirdi",
+	"logentry-changeauth-changeauth": "$1, {{int:Changeauthor-rev|$4}} yazarını $3 sayfasından $5 ile $6 değiştirdi",
 	"action-changeauthor": "revizyon yazarı değiştir",
 	"right-changeauthor": "Bir revizyonun yazarını değiştir"
 }
