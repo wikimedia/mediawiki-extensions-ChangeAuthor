@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Saederup92",
 			"Sarrus"
 		]
 	},
@@ -13,5 +14,6 @@
 	"changeauthor-comment": "Kommentar:",
 	"changeauthor-changeauthors-multi": "Skift {{PLURAL:$1| Forfatter |forfattere}}",
 	"changeauthor-explanation-multi": "Med denne formular kan du ændre en versions forfatter.\nDu skal blot ændre et eller flere brugernavne i oversigten herunder, evt. skrive en begrundelse og derefter klikke på \"Skift forfatter(e)\"-knappen.",
-	"changeauthor-changeauthors-single": "Skift forfatter"
+	"changeauthor-changeauthors-single": "Skift forfatter",
+	"changeauthor-invalid-username": "Brugernavnet \"$1\" er ugyldigt."
 }
