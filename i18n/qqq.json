@@ -6,6 +6,7 @@
 			"Jon Harald Søby",
 			"McDutchie",
 			"Meno25",
+			"MuratTheTurkish",
 			"Purodha",
 			"Siebrand",
 			"The Evil IP address",
@@ -13,7 +14,7 @@
 		]
 	},
 	"changeauthor": "Name of the special page on [[Special:SpecialPages]]",
-	"changeauthor-desc": "{{desc}}",
+	"changeauthor-desc": "{{desc|name=ChangeAuthor|url=https://www.mediawiki.org/wiki/Extension:ChangeAuthor}}",
 	"changeauthor-title": "Title of the [[Special:ChangeAuthor]] special page",
 	"changeauthor-search-box": "Caption of the fieldset on the revision search form",
 	"changeauthor-pagename-or-revid": "Caption of the input box on the revision search form",
