@@ -244,11 +244,11 @@ class ChangeAuthor extends SpecialPage {
 		);
 
 		$revs = [];
-		while ( ( $r = $dbr->fetchObject( $res ) ) ) {
+		foreach ( $res as $r ) {
 			$revs[] = new Revision( $r );
 		}
 
-		if ( empty( $revs ) ) {
+		if ( $revs === [] ) {
 			// That's *very* weird
 			return $this->msg( 'changeauthor-weirderror' )->text();
 		}
