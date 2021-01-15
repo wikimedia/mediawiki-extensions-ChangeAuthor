@@ -36,7 +36,11 @@ class ChangeAuthor extends SpecialPage {
 		return 'pagetools';
 	}
 
-	// @see https://phabricator.wikimedia.org/T123591
+	/**
+	 * @see https://phabricator.wikimedia.org/T123591
+	 *
+	 * @return string
+	 */
 	public function doesWrites() {
 		return true;
 	}
