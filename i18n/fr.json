@@ -22,7 +22,7 @@
 	"changeauthor-explanation-multi": "Avec ce formulaire, vous pouvez changer les auteurs des révisions. Modifiez un ou plusieurs noms d'usager dans la liste, ajoutez un commentaire (facultatif) et cliquez le bouton ''Changer auteur(s)''.",
 	"changeauthor-changeauthors-single": "Changer l'auteur",
 	"changeauthor-explanation-single": "Avec ce formulaire, vous pouvez changer l'auteur d'une révision. Changez le nom d'auteur ci-dessous, ajoutez un commentaire (facultatif) et cliquez sur le bouton ''Changer l'auteur''.",
-	"changeauthor-invalid-username": "Nom d'utilisateur « $1 » invalide",
+	"changeauthor-invalid-username": "Nom d’utilisateur « $1 » incorrect.",
 	"changeauthor-nosuchuser": "Aucun utilisateur « $1 ».",
 	"changeauthor-revview": "Révision #$1 de $2",
 	"changeauthor-nosuchtitle": "Il n'existe aucune page intitulée « $1 »",
