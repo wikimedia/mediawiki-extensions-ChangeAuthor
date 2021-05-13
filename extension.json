@@ -8,7 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ChangeAuthor",
 	"descriptionmsg": "changeauthor-desc",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.36.0"
 	},
 	"type": "specialpage",
 	"SpecialPages": {

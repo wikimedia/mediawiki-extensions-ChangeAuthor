@@ -360,7 +360,7 @@ class ChangeAuthor extends SpecialPage {
 	 * @param mixed $comment Log comment
 	 */
 	private function changeRevAuthors( $authors, $comment ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$dbw->startAtomic( __METHOD__ );
 		$editcounts = []; // Array to keep track of EC mutations; key=userid, value=mutation
 
@@ -409,7 +409,7 @@ class ChangeAuthor extends SpecialPage {
 			);
 			if ( $dbw->affectedRows() == 0 ) {
 				// Let's have mercy on those who don't have a proper DB server
-				// (but not enough to spare their master)
+				// (but not enough to spare their primary database)
 				$count = $dbw->selectField(
 					'revision',
 					'COUNT(rev_user)',
