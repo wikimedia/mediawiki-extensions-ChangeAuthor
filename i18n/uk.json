@@ -3,13 +3,14 @@
 		"authors": [
 			"AS",
 			"Ahonc",
+			"DDPAT",
 			"Piramidion",
 			"Prima klasy4na"
 		]
 	},
-	"changeauthor": "Зміна автора редагування",
-	"changeauthor-desc": "Дозволяє змінювати автора редагування",
-	"changeauthor-title": "Зміна автора редагування",
+	"changeauthor": "Змінити автора змін",
+	"changeauthor-desc": "Дозволяє змінити автора зміни",
+	"changeauthor-title": "Змінити автора перегляду",
 	"changeauthor-search-box": "Пошук редагувань",
 	"changeauthor-pagename-or-revid": "Назва статті або ідентифікатор редагування:",
 	"changeauthor-pagenameform-go": "Уперед",
@@ -22,7 +23,7 @@
 	"changeauthor-nosuchuser": "Нема користувача $1.",
 	"changeauthor-revview": "Версія #$1 з $2",
 	"changeauthor-nosuchtitle": "Нема сторінки з назвою «$1».",
-	"changeauthor-weirderror": "Відбулася дуже дивна помилка.\nБудь ласка, повторіть ваш запит.\nЯкщо помилка виникне знову, то це означає, що база даних імовірно зіпсована",
+	"changeauthor-weirderror": "Сталася дуже дивна помилка.\nБудь ласка, повторіть ваш запит.\nЯкщо помилка виникне знову, то це означає, що база даних імовірно зіпсована",
 	"changeauthor-invalidform": "Будь ласка, використовуйте форму на [[Special:ChangeAuthor|спеціальній сторінці]], а не якусь іншу.",
 	"changeauthor-success": "Ваш запити успішно оброблений.",
 	"log-name-changeauth": "Журнал змін авторів",
