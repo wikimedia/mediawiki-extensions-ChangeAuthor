@@ -8,9 +8,9 @@
 			"Prima klasy4na"
 		]
 	},
-	"changeauthor": "Змінити автора змін",
-	"changeauthor-desc": "Дозволяє змінити автора зміни",
-	"changeauthor-title": "Змінити автора перегляду",
+	"changeauthor": "Зміна автора редагування",
+	"changeauthor-desc": "Дозволяє змінювати автора редагування",
+	"changeauthor-title": "Зміна автора редагування",
 	"changeauthor-search-box": "Пошук редагувань",
 	"changeauthor-pagename-or-revid": "Назва статті або ідентифікатор редагування:",
 	"changeauthor-pagenameform-go": "Уперед",
