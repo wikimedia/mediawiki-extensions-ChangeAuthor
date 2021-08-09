@@ -26,6 +26,7 @@
 	"changeauthor-weirderror": "Сталася дуже дивна помилка.\nБудь ласка, повторіть ваш запит.\nЯкщо помилка виникне знову, то це означає, що база даних імовірно зіпсована",
 	"changeauthor-invalidform": "Будь ласка, використовуйте форму на [[Special:ChangeAuthor|спеціальній сторінці]], а не якусь іншу.",
 	"changeauthor-success": "Ваш запити успішно оброблений.",
+	"changeauthor-rev": "r$1",
 	"log-name-changeauth": "Журнал змін авторів",
 	"log-description-changeauth": "Це — журнал змін авторів версій.",
 	"logentry-changeauth-changeauth": "$1 змінив автора {{int:Changeauthor-rev|$4}} $3 з $5 на $6",
