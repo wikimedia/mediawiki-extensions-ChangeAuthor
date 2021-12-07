@@ -1,8 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mjbmr"
+			"Mjbmr",
+			"Jeeputer"
 		]
 	},
-	"changeauthor-pagenameform-go": "برو"
+	"changeauthor": "تغییر نگارندهٔ نسخه",
+	"changeauthor-desc": "امکان تغییر نگارندهٔ یک نسخهٔ مشخص را فراهم می‌کند",
+	"changeauthor-title": "تغییر نگارندهٔ یک نسخه",
+	"changeauthor-search-box": "جستجوی نسخه‌ها",
+	"changeauthor-pagename-or-revid": "نام صفحه یا شناسهٔ نسخه:",
+	"changeauthor-pagenameform-go": "برو",
+	"changeauthor-comment": "توضیح:",
+	"changeauthor-changeauthors-multi": "تغییر {{PLURAL:$1|نگارنده|نگارنده‌ها}}",
+	"changeauthor-explanation-multi": "با استفاده از این فرم می‌توانید نگارنده‌های نسخه را تغییر دهید.\nبه‌سادگی یک یا چند نام کاربری را در فهرست زیر تغییر دهید، توضیحی وارد کنید (اختیاری) و روی دکمهٔ «تغییر نگارنده(ها)» کلیک کنید.",
+	"changeauthor-changeauthors-single": "تغییر نگارنده",
+	"changeauthor-explanation-single": "با استفاده از این فرم می‌توانید نگارندهٔ یک نسخه را تغییر دهید.\nبه‌سادگی نام کاربری را در زیر تغییر دهید، توضیحی وارد کنید (اختیاری) و روی دکمهٔ «تغییر نگارنده» کلیک کنید.",
+	"changeauthor-invalid-username": "نام کاربری «$1» نامعتبر است.",
+	"changeauthor-nosuchuser": "کاربری با نام «$1» موجود نیست.",
+	"changeauthor-revview": "نسخهٔ شمارهٔ $1 از $2",
+	"changeauthor-nosuchtitle": "صفحه‌ای با عنوان «$1» موجود نیست.",
+	"changeauthor-weirderror": "یک خطای کاملاً ناشناخته رخ داد.\nلطفاً درخواست خود را دوباره ارسال کنید.\nاگر باز هم این خطا را دریافت کردید، احتمالاً پایگاه داده با مشکل مواجه شده‌است.",
+	"changeauthor-invalidform": "لطفاً به‌جای فرم سفارشی، از فرم ارائه‌شده در [[Special:ChangeAuthor|صفحهٔ ویژه]] استفاده کنید.",
+	"changeauthor-success": "درخواست شما با موفقیت پردازش شد.",
+	"log-name-changeauth": "سیاههٔ تغییر نگارنده",
+	"log-description-changeauth": "این سیاهه‌ای است از تغییرات در نگارنده‌های نسخه‌ها.",
+	"logentry-changeauth-changeauth": "$1 نگارندهٔ نسخهٔ {{int:Changeauthor-rev|$4}} در $3 را از $5 به $6 تغییر داد",
+	"action-changeauthor": "تغییر نگارندهٔ یک نسخه",
+	"right-changeauthor": "تغییر نگارندهٔ یک نسخه"
 }

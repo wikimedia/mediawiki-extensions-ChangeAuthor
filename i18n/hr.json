@@ -5,7 +5,8 @@
 			"Dalibor Bosits",
 			"Dnik",
 			"Ex13",
-			"SpeedyGonsales"
+			"SpeedyGonsales",
+			"Ponor"
 		]
 	},
 	"changeauthor": "Promijenite autora inačice",
@@ -15,10 +16,10 @@
 	"changeauthor-pagename-or-revid": "Ime članka ili oznaka (ID) inačice:",
 	"changeauthor-pagenameform-go": "Kreni",
 	"changeauthor-comment": "Komentar:",
-	"changeauthor-changeauthors-multi": "Promijeni {{PLURAL:$1|autora|autora}}",
-	"changeauthor-explanation-multi": "Ovaj obrazac omogućava promjenu autora inačica. Jednostavno promijenite jedno iii više korisničkih imena u donjem popisu, dodajte neobaveznu napomenu i pritisnite tipku 'Promijeni autora(e)'.",
+	"changeauthor-changeauthors-multi": "Promijeni {{PLURAL:$1|autora|autore}}",
+	"changeauthor-explanation-multi": "Ovaj obrazac omogućava promjenu autora inačica. Jednostavno promijenite jedno ili više korisničkih imena u donjem popisu, dodajte neobaveznu napomenu i pritisnite tipku »Promijeni autore«.",
 	"changeauthor-changeauthors-single": "Promijeni autora",
-	"changeauthor-explanation-single": "Ovaj obrazac omogućava promjenu autora inačice. Jednostavno korisničko ime, dodajte neobaveznu napomenu i pritisnite tipku 'Promijeni autora'.",
+	"changeauthor-explanation-single": "Ovaj obrazac omogućava promjenu autora inačice. Promijenite korisničko ime u donjem popisu, dodajte neobaveznu napomenu i pritisnite tipku »Promijeni autora«.",
 	"changeauthor-invalid-username": "Pogrešno ime suradnika \"$1\".",
 	"changeauthor-nosuchuser": "Ne postoji suradnik \"$1\".",
 	"changeauthor-revview": "Inačica $1 str. $2",
