@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shinjiman"
+			"Shinjiman",
+			"Moon0319"
 		]
 	},
 	"changeauthor": "改修訂嘅作者",
@@ -18,7 +19,7 @@
 	"changeauthor-invalid-username": "唔正確嘅用戶名 \"$1\".",
 	"changeauthor-nosuchuser": "無呢位用戶 \"$1\".",
 	"changeauthor-revview": "$2 嘅修訂 #$1",
-	"changeauthor-nosuchtitle": "呢度係無一版係叫 \"$1\".",
+	"changeauthor-nosuchtitle": "呢度冇一版係叫 \"$1\".",
 	"changeauthor-weirderror": "一個好奇怪嘅錯誤發生咗。\n請重試你嘅請求。\n如果個錯誤係不斷出現嘅，個資料庫可能係壞咗。",
 	"changeauthor-invalidform": "請用 Special:ChangeAuthor 畀嘅表格，唔好用自定表格。",
 	"changeauthor-success": "你嘅請求已經成功噉處理好。",
