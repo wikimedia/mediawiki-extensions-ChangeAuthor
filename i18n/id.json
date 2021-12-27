@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Daud I.F. Argana",
 			"IvanLanin",
 			"Rex"
 		]
@@ -25,5 +26,8 @@
 	"changeauthor-invalidform": "Harap gunakan formulir yang disediakan di [[Special:ChangeAuthor|halaman istimewa]] dan bukan formulir kustom.",
 	"changeauthor-success": "Permintaan Anda telah berhasil diproses.",
 	"log-name-changeauth": "Log perubahan penulis",
+	"log-description-changeauth": "Ini adalah catatan perubahan penulis revisi.",
+	"logentry-changeauth-changeauth": "$1 mengubah penulis {{int:Changeauthor-rev|$4}} dari $3 dari $5 menjadi $6",
+	"action-changeauthor": "mengubah penulis suatu revisi",
 	"right-changeauthor": "Mengubah penulis suatu revisi"
 }
