@@ -17,6 +17,7 @@
  */
 
 use MediaWiki\Revision\RevisionRecord;
+use Wikimedia\AtEase\AtEase;
 
 class ChangeAuthor extends SpecialPage {
 
@@ -388,10 +389,10 @@ class ChangeAuthor extends SpecialPage {
 			$logId = $logEntry->insert();
 			$logEntry->publish( $logId );
 
-			Wikimedia\suppressWarnings();
+			AtEase::suppressWarnings();
 			$editcounts[$users[1]->getId()]++;
 			$editcounts[$users[0]->getId()]--;
-			Wikimedia\restoreWarnings();
+			AtEase::restoreWarnings();
 		}
 
 		foreach ( $editcounts as $userId => $mutation ) {
