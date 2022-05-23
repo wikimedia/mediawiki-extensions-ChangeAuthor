@@ -3,7 +3,8 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Joseph",
-			"Karduelis"
+			"Karduelis",
+			"SaldırganSincap"
 		]
 	},
 	"changeauthor": "Revizyon yazarını değiştir",
@@ -26,7 +27,7 @@
 	"changeauthor-success": "İsteğiniz başarıyla işlendi.",
 	"log-name-changeauth": "Yazar değişim günlüğü",
 	"log-description-changeauth": "Bu, revizyon yazarlarına yapılan değişikliklerin bir kaydıdır.",
-	"logentry-changeauth-changeauth": "$1, {{int:Changeauthor-rev|$4}} yazarını $3 sayfasından $5 ile $6 değiştirdi",
+	"logentry-changeauth-changeauth": "$1, {{int:Changeauthor-rev|$4}} yazarının $3 sayfasından $5 ile $6 olarak değiştirdi",
 	"action-changeauthor": "revizyon yazarı değiştir",
 	"right-changeauthor": "Bir revizyonun yazarını değiştir"
 }
