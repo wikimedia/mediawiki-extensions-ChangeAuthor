@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zaheen"
+			"Zaheen",
+			"Aishik Rehman"
 		]
 	},
 	"changeauthor": "সংশোধন লেখক পরিবর্তন",
@@ -11,7 +12,7 @@
 	"changeauthor-pagename-or-revid": "পাতার নাম বা সংশোধন আইডি:",
 	"changeauthor-pagenameform-go": "চলো",
 	"changeauthor-comment": "মন্তব্য:",
-	"changeauthor-changeauthors-multi": "লেখক(দের) পরিবর্তন করুন",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|লেখক|লেখকদের}} পরিবর্তন করুন",
 	"changeauthor-explanation-multi": "এই ফর্মটির সাহায্যে আপনি সংশোধনের লেখকদের পরিবর্তন করতে পারবেন। নিচের তালিকার এক বা একাধিক ব্যবহারকারী নাম পরিবর্তন করুন, একটি মন্তব্য যোগ করুন (ঐচ্ছিক) এবং 'লেখক(গণ) পরিবর্তন করা হোক' বোতামটিতে ক্লিক করুন।",
 	"changeauthor-changeauthors-single": "লেখক পরিবর্তন",
 	"changeauthor-explanation-single": "এই ফর্মটির সাহায্যে আপনি একটি সংশোধনের লেখক পরিবর্তন করতে পারবেন। নিচের ব্যবহারকারী নামটি পরিবর্তন করুন, একটি মন্তব্য যোগ করুন (ঐচ্ছিক) এবং 'লেখক পরিবর্তন করা হোক' বোতামটিতে ক্লিক করুন।",
@@ -20,7 +21,7 @@
 	"changeauthor-revview": "$2-এর সংশোধন নং $1",
 	"changeauthor-nosuchtitle": "\"$1\" শিরোনামের কোন পাতা নেই।",
 	"changeauthor-weirderror": "একটি খুবই অদ্ভুত ত্রুটি ঘটেছে। দয়া করে আপনার অনুরোধটি দিয়ে আবার চেষ্টে করুন। এই ত্রুটিটি যদি বারবার দেখাতে থাকে, তবে সম্ভবত ডাটাবেজ কাজ করছে না।",
-	"changeauthor-invalidform": "কাস্টম ফর্মের পরিবর্তে অনুগ্রহ করে Special:ChangeAuthor-এর দেয়া ফর্মটি ব্যবহার করুন।",
+	"changeauthor-invalidform": "কাস্টম ফর্মের পরিবর্তে অনুগ্রহ করে [[Special:ChangeAuthor|বিশেষ পাতায়]] দেওয়া ফর্মটি ব্যবহার করুন।",
 	"changeauthor-success": "আপনার অনুরোধটি সফলভাবে প্রক্রিয়া করা হয়েছে।",
 	"log-name-changeauth": "লেখক পরিবর্তন লগ"
 }
