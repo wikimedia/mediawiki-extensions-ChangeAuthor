@@ -16,17 +16,71 @@
  * For information how to install and use this extension, see the README file.
  */
 
+use MediaWiki\Config\ServiceOptions;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\PageIdentity;
+use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\User\ActorNormalization;
+use MediaWiki\User\UserFactory;
+use MediaWiki\User\UserRigorOptions;
 use Wikimedia\AtEase\AtEase;
+use Wikimedia\IPUtils;
+use Wikimedia\Rdbms\ILoadBalancer;
+use Wikimedia\Rdbms\SelectQueryBuilder;
 
 class ChangeAuthor extends SpecialPage {
 
+	private const CONSTRUCTOR_OPTIONS = [
+		MainConfigNames::Script
+	];
+
+	/** @var RevisionLookup */
+	private $revisionLookup;
+
+	/** @var Config */
+	private $config;
+
+	/** @var UserFactory */
+	private $userFactory;
+
+	/** @var CommentStore */
+	private $commentStore;
+
+	/** @var ActorNormalization */
+	private $actorNormalization;
+
 	/**
-	 * Constructor
+	 * @param RevisionLookup $revisionLookup
+	 * @param Config $config
+	 * @param UserFactory $userFactory
+	 * @param CommentStore $commentStore
+	 * @param ActorNormalization $actorNormalization
+	 * @param ILoadBalancer $loadBalancer
 	 */
-	public function __construct() {
-		parent::__construct( 'ChangeAuthor'/* class */, 'changeauthor'/* restriction */ );
+	public function __construct(
+		RevisionLookup $revisionLookup,
+		Config $config,
+		UserFactory $userFactory,
+		CommentStore $commentStore,
+		ActorNormalization $actorNormalization,
+		ILoadBalancer $loadBalancer
+	) {
+		$options = new ServiceOptions( self::CONSTRUCTOR_OPTIONS, $config );
+		$options->assertRequiredOptions( self::CONSTRUCTOR_OPTIONS );
+
+		$this->revisionLookup = $revisionLookup;
+		$this->config = $config;
+		$this->userFactory = $userFactory;
+		$this->commentStore = $commentStore;
+		$this->actorNormalization = $actorNormalization;
+		$this->loadBalancer = $loadBalancer;
+
+		parent::__construct(
+			'ChangeAuthor'/* class */,
+			'changeauthor'/* restriction */
+		);
 	}
 
 	/**
@@ -72,10 +126,14 @@ class ChangeAuthor extends SpecialPage {
 				if ( $obj->exists() ) {
 					$out->addHTML( $this->buildRevisionList( $obj ) );
 				} else {
-					$out->addHTML( $this->buildInitialForm( $this->msg( 'changeauthor-nosuchtitle', $obj->getPrefixedText() )->text() ) );
+					$out->addHTML(
+						$this->buildInitialForm(
+							$this->msg( 'changeauthor-nosuchtitle', $obj->getPrefixedText() )->text()
+						)
+					);
 				}
 				return;
-			} elseif ( $obj instanceof Revision ) {
+			} elseif ( $obj instanceof RevisionRecord ) {
 				$out->addHTML( $this->buildOneRevForm( $obj ) );
 				return;
 			}
@@ -92,7 +150,8 @@ class ChangeAuthor extends SpecialPage {
 				}
 				$targetRev = $request->getVal( 'targetrev' );
 				if ( $targetRev !== null ) {
-					$out->addHTML( $this->buildOneRevForm( Revision::newFromId( $targetRev ), $arr ) );
+					$revision = $this->revisionLookup->getRevisionById( $targetRev );
+					$out->addHTML( $this->buildOneRevForm( $revision, $arr ) );
 					return;
 				}
 				$out->addHTML( $this->buildInitialForm() );
@@ -108,9 +167,13 @@ class ChangeAuthor extends SpecialPage {
 				if ( $obj->exists() ) {
 					$out->addHTML( $this->buildRevisionList( $obj ) );
 				} else {
-					$out->addHTML( $this->buildInitialForm( $this->msg( 'changeauthor-nosuchtitle', $obj->getPrefixedText() )->text() ) );
+					$out->addHTML(
+						$this->buildInitialForm(
+							$this->msg( 'changeauthor-nosuchtitle', $obj->getPrefixedText() )->text()
+						)
+					);
 				}
-			} elseif ( $obj instanceof Revision ) {
+			} elseif ( $obj instanceof RevisionRecord ) {
 				$out->addHTML( $this->buildOneRevForm( $obj ) );
 			}
 			return;
@@ -121,17 +184,17 @@ class ChangeAuthor extends SpecialPage {
 	/**
 	 * Parse what can be a revision ID or an article name
 	 * @param mixed $str Revision ID or an article name
-	 * @return Title or Revision object, or NULL
+	 * @return Title|RevisionRecord|null
 	 */
 	private function parseTitleOrRevID( $str ) {
-		$retval = false;
+		$result = false;
 		if ( is_numeric( $str ) ) {
-			$retval = Revision::newFromID( $str );
+			$result = $this->revisionLookup->getRevisionById( $str );
 		}
-		if ( !$retval ) {
-			$retval = Title::newFromURL( $str );
+		if ( !$result ) {
+			$result = Title::newFromURL( $str );
 		}
-		return $retval;
+		return $result;
 	}
 
 	/**
@@ -164,20 +227,20 @@ class ChangeAuthor extends SpecialPage {
 	 * Builds a line for revision $rev
 	 * Helper to buildRevisionList() and buildOneRevForm()
 	 *
-	 * @param Revision $rev Revision object
-	 * @param Title $title Title object
+	 * @param RevisionRecord $rev Revision object
+	 * @param PageIdentity $pageIdentity
 	 * @param bool $isFirst Set to true if $rev is the first revision
 	 * @param bool $isLast Set to true if $rev is the last revision
 	 * @return string HTML
 	 */
-	private function buildRevisionLine( $rev, $title, $isFirst = false, $isLast = false ) {
+	private function buildRevisionLine( $rev, $pageIdentity, $isFirst = false, $isLast = false ) {
 		$linkRenderer = $this->getLinkRenderer();
 		// Build curlink
 		if ( $isFirst ) {
 			$curLink = $this->msg( 'cur' )->text();
 		} else {
 			$curLink = $linkRenderer->makeKnownLink(
-				$title,
+				$pageIdentity,
 				$this->msg( 'cur' )->text(),
 				[],
 				[ 'oldid' => $rev->getId(), 'diff' => 'cur' ]
@@ -188,7 +251,7 @@ class ChangeAuthor extends SpecialPage {
 			$lastLink = $this->msg( 'last' )->text();
 		} else {
 			$lastLink = $linkRenderer->makeKnownLink(
-				$title,
+				$pageIdentity,
 				$this->msg( 'last' )->text(),
 				[],
 				[
@@ -205,14 +268,19 @@ class ChangeAuthor extends SpecialPage {
 			RevisionRecord::DELETED_TEXT,
 			$this->getUser()
 		) ) {
-			$link = $linkRenderer->makeKnownLink( $title, $date, [], [ 'oldid' => $rev->getId() ] );
+			$link = $linkRenderer->makeKnownLink( $pageIdentity, $date, [], [ 'oldid' => $rev->getId() ] );
 		} else {
 			$link = $date;
 		}
 
 		// Build user textbox
-		$userBox = Xml::input( "user-new-{$rev->getId()}", 50, $this->getRequest()->getVal( "user-{$rev->getId()}", $rev->getUserText() ) );
-		$userText = Html::hidden( "user-old-{$rev->getId()}", $rev->getUserText() ) . $rev->getUserText();
+		$userName = $rev->getUser()->getName();
+		$userBox = Xml::input(
+			"user-new-{$rev->getId()}",
+			50,
+			$this->getRequest()->getVal( "user-{$rev->getId()}", $rev->getUser()->getName() )
+		);
+		$userText = Html::hidden( "user-old-{$rev->getId()}", $userName ) . $userName;
 
 		$size = $rev->getSize();
 		if ( $size !== null ) {
@@ -225,7 +293,7 @@ class ChangeAuthor extends SpecialPage {
 			$stxt = ''; // Stop PHP from whining about unset variables
 		}
 		$comment = MediaWikiServices::getInstance()->getCommentFormatter()
-			->formatBlock( $rev->getComment(), $title );
+			->formatBlock( $rev->getComment()->text, Title::castFromPageIdentity( $pageIdentity ) );
 
 		// Now put it all together
 		return "<li>($curLink) ($lastLink) $link . . $userBox ($userText) $stxt $comment</li>\n";
@@ -239,20 +307,21 @@ class ChangeAuthor extends SpecialPage {
 	 * @return string HTML
 	 */
 	private function buildRevisionList( $title, $errMsg = '' ) {
-		global $wgScript;
+		$script = $this->config->get( MainConfigNames::Script );
 
-		$dbr = wfGetDB( DB_REPLICA );
-		$res = $dbr->select(
-			'revision',
-			Revision::selectFields(),
-			[ 'rev_page' => $title->getArticleID() ],
-			__METHOD__,
-			[ 'ORDER BY' => 'rev_timestamp DESC', 'LIMIT' => 50 ]
-		);
+		$dbr = $this->loadBalancer->getConnection( DB_REPLICA );
+		$res = $dbr->newSelectQueryBuilder()
+			->select( '*' )
+			->from( 'revision' )
+			->where( [ 'rev_page' => $title->getArticleID() ] )
+			->orderBy( 'rev_timestamp', SelectQueryBuilder::SORT_DESC )
+			->limit( 50 )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 
 		$revs = [];
 		foreach ( $res as $r ) {
-			$revs[] = new Revision( $r );
+			$revs[] = $this->revisionLookup->getRevisionById( $r->rev_id );
 		}
 
 		if ( $revs === [] ) {
@@ -260,7 +329,7 @@ class ChangeAuthor extends SpecialPage {
 			return $this->msg( 'changeauthor-weirderror' )->text();
 		}
 
-		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
+		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetpage', $title->getPrefixedDBkey() );
@@ -292,13 +361,14 @@ class ChangeAuthor extends SpecialPage {
 	/**
 	 * Builds a form that allows changing one revision's author
 	 *
-	 * @param Revision $rev Revision object
+	 * @param RevisionRecord $rev Revision object
 	 * @param string $errMsg Error message
 	 * @return string HTML
 	 */
 	private function buildOneRevForm( $rev, $errMsg = '' ) {
-		global $wgScript;
-		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
+		$script = $this->config->get( MainConfigNames::Script );
+
+		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetrev', $rev->getId() );
@@ -311,9 +381,13 @@ class ChangeAuthor extends SpecialPage {
 			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
 			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
 		}
-		$retval .= Xml::element( 'h2', [], $this->msg( 'changeauthor-revview', $rev->getId(), $rev->getTitle()->getPrefixedText() )->text() );
+		$retval .= Xml::element(
+			'h2',
+			[],
+			$this->msg( 'changeauthor-revview', $rev->getId(), $rev->getPage()->getPrefixedText() )->text()
+		);
 		$retval .= Xml::openElement( 'ul' );
-		$retval .= $this->buildRevisionLine( $rev, $rev->getTitle() );
+		$retval .= $this->buildRevisionLine( $rev, $rev->getPage() );
 		$retval .= Xml::closeElement( 'ul' );
 		$retval .= Xml::closeElement( 'fieldset' );
 		$retval .= Xml::closeElement( 'form' );
@@ -323,6 +397,7 @@ class ChangeAuthor extends SpecialPage {
 	/**
 	 * Extracts an array needed by changeRevAuthors() from the context-sensitive
 	 * WebRequest object
+	 *
 	 * @return array
 	 */
 	private function parseChangeRequest() {
@@ -338,14 +413,17 @@ class ChangeAuthor extends SpecialPage {
 				continue;
 			}
 
-			$new = User::newFromName( $val, false );
+			$new = $this->userFactory->newFromName( $val, UserRigorOptions::RIGOR_NONE );
 			if ( !$new ) { // Can this even happen?
 				return $this->msg( 'changeauthor-invalid-username', $val )->text();
 			}
-			if ( $new->getId() == 0 && $val != 'MediaWiki default' && !User::isIP( $new->getName() ) ) {
+			if ( $new->getId() == 0 && $val != 'MediaWiki default' && !IPUtils::isIPAddress( $new->getName() ) ) {
 				return $this->msg( 'changeauthor-nosuchuser', $val )->text();
 			}
-			$old = User::newFromName( $request->getVal( "user-old-$revid" ), false );
+			$old = $this->userFactory->newFromName(
+				$request->getVal( "user-old-$revid" ),
+				UserRigorOptions::RIGOR_NONE
+			);
 			if ( !$old->getName() ) {
 				return $this->msg( 'changeauthor-invalidform' )->text();
 			}
@@ -363,25 +441,25 @@ class ChangeAuthor extends SpecialPage {
 	 * @param mixed $comment Log comment
 	 */
 	private function changeRevAuthors( $authors, $comment ) {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = $this->loadBalancer->getConnection( DB_PRIMARY );
 		$dbw->startAtomic( __METHOD__ );
 		$editcounts = []; // Array to keep track of EC mutations; key=userid, value=mutation
 
 		foreach ( $authors as $id => $users ) {
+			/** @var User[] $users */
 			$dbw->update(
 				'revision',
 				/* SET */[
-					'rev_user' => $users[1]->getId(),
-					'rev_user_text' => $users[1]->getName()
+					'rev_actor' => $this->actorNormalization->findActorId( $users[1], $dbw ),
 				],
 				[ 'rev_id' => $id ], // WHERE
 				__METHOD__
 			);
-			$rev = Revision::newFromId( $id );
+			$rev = $this->revisionLookup->getRevisionById( $id );
 
 			$logEntry = new ManualLogEntry( 'changeauth', 'changeauth' );
 			$logEntry->setPerformer( $this->getUser() );
-			$logEntry->setTarget( $rev->getTitle() );
+			$logEntry->setTarget( $rev->getPageAsLinkTarget() );
 			$logEntry->setComment( $comment );
 			$logEntry->setParameters( [
 				'4::revid' => $id,

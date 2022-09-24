@@ -1,6 +1,6 @@
 {
 	"name": "ChangeAuthor",
-	"version": "1.2.3",
+	"version": "1.3.0",
 	"author": [
 		"Roan Kattouw"
 	],
@@ -8,11 +8,21 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ChangeAuthor",
 	"descriptionmsg": "changeauthor-desc",
 	"requires": {
-		"MediaWiki": ">= 1.38.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"type": "specialpage",
 	"SpecialPages": {
-		"ChangeAuthor": "ChangeAuthor"
+		"ChangeAuthor": {
+			"class": "ChangeAuthor",
+			"services": [
+				"RevisionLookup",
+				"MainConfig",
+				"UserFactory",
+				"CommentStore",
+				"ActorNormalization",
+				"DBLoadBalancer"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"ChangeAuthor": [
@@ -34,5 +44,5 @@
 	"AvailableRights": [
 		"changeauthor"
 	],
-	"manifest_version": 1
+	"manifest_version": 2
 }
