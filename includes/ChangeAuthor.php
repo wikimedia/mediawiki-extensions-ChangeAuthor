@@ -16,6 +16,7 @@
  * For information how to install and use this extension, see the README file.
  */
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use Wikimedia\AtEase\AtEase;
 
@@ -223,7 +224,8 @@ class ChangeAuthor extends SpecialPage {
 		} else {
 			$stxt = ''; // Stop PHP from whining about unset variables
 		}
-		$comment = Linker::commentBlock( $rev->getComment(), $title );
+		$comment = MediaWikiServices::getInstance()->getCommentFormatter()
+			->formatBlock( $rev->getComment(), $title );
 
 		// Now put it all together
 		return "<li>($curLink) ($lastLink) $link . . $userBox ($userText) $stxt $comment</li>\n";
