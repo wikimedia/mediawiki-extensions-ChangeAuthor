@@ -8,7 +8,7 @@
 	},
 	"changeauthor": "Promeni autora izmene",
 	"changeauthor-desc": "Omogući promene autora izmena",
-	"changeauthor-title": "Promeni autora neke izmene",
+	"changeauthor-title": "Promeni autora izmene",
 	"changeauthor-search-box": "Pretraži izmene",
 	"changeauthor-pagename-or-revid": "Ime stranice ili ID izmene:",
 	"changeauthor-pagenameform-go": "Idi",
@@ -22,5 +22,5 @@
 	"changeauthor-success": "Baš zahtev je bio uspešno obrađen.",
 	"changeauthor-rev": "izm. $1",
 	"log-name-changeauth": "Istorija promene autora",
-	"right-changeauthor": "Promeni autora izmene"
+	"right-changeauthor": "Promena autora izmene"
 }
