@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"changeauthor": "Spremeni avtorja redakcije",
@@ -10,11 +11,11 @@
 	"changeauthor-search-box": "Iskanje redakcij",
 	"changeauthor-pagename-or-revid": "Ime strani ali ID redakcije:",
 	"changeauthor-pagenameform-go": "Pojdi",
-	"changeauthor-comment": "Pripomba:",
+	"changeauthor-comment": "Komentar:",
 	"changeauthor-changeauthors-multi": "Spremeni {{PLURAL:$1|avtorja|avtorje}}",
-	"changeauthor-explanation-multi": "S tem obrazcem lahko spremenite avtorje redakcije.\nNa spodnjem seznamu preprosto spremenite eno ali več uporabniških imen, dodajte pripombo (po želji) in kliknite gumb »Spremeni avtorje«.",
+	"changeauthor-explanation-multi": "S tem obrazcem lahko spremenite avtorje redakcije.\nNa spodnjem seznamu preprosto spremenite eno ali več uporabniških imen, dodajte komentar (izbirno) in kliknite gumb »Spremeni avtorje«.",
 	"changeauthor-changeauthors-single": "Spremeni avtorja",
-	"changeauthor-explanation-single": "S tem obrazcem lahko spremenite avtorja redakcije.\nSpodaj preprosto spremenite uporabniško ime, dodajte pripombo (po želji) in kliknite gumb »Spremeni avtorja«.",
+	"changeauthor-explanation-single": "S tem obrazcem lahko spremenite avtorja redakcije.\nSpodaj preprosto spremenite uporabniško ime, dodajte komentar (izbirno) in kliknite gumb »Spremeni avtorja«.",
 	"changeauthor-invalid-username": "Neveljavno uporabniško ime »$1«.",
 	"changeauthor-nosuchuser": "Uporabnik »$1« ne obstaja.",
 	"changeauthor-revview": "Redakcija #$1 $2",
@@ -22,6 +23,10 @@
 	"changeauthor-weirderror": "Prišlo je do zelo nenavadne napake.\nProsimo, ponovite svojo zahtevo.\nČe se ta napaka ne preneha pojavljati, je zbirka podatkov verjetno poškodovana.",
 	"changeauthor-invalidform": "Namesto obrazca po meri, prosimo, uporabite obrazec na [[Special:ChangeAuthor|posebni strani]].",
 	"changeauthor-success": "Vaša zahteva je bila uspešno obdelana.",
+	"changeauthor-rev": "r$1",
 	"log-name-changeauth": "Dnevnik sprememb avtorjev",
+	"log-description-changeauth": "To je dnevnik sprememb avtorjev redakcij.",
+	"logentry-changeauth-changeauth": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} avtorja {{int:Changeauthor-rev|$4}} strani $3 iz $5 v $6",
+	"action-changeauthor": "spreminjanje avtorja redakcije",
 	"right-changeauthor": "Spreminjanje avtorjev redakcij"
 }
