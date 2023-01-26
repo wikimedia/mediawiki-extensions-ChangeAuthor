@@ -444,13 +444,12 @@ class ChangeAuthor extends SpecialPage {
 		$dbw = $this->loadBalancer->getConnection( DB_PRIMARY );
 		$dbw->startAtomic( __METHOD__ );
 		$editcounts = []; // Array to keep track of EC mutations; key=userid, value=mutation
-
 		foreach ( $authors as $id => $users ) {
 			/** @var User[] $users */
 			$dbw->update(
 				'revision',
 				/* SET */[
-					'rev_actor' => $this->actorNormalization->findActorId( $users[1], $dbw ),
+					'rev_actor' => $this->actorNormalization->acquireActorId( $users[1], $dbw ),
 				],
 				[ 'rev_id' => $id ], // WHERE
 				__METHOD__
