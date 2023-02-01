@@ -20,7 +20,7 @@
 	"changeauthor-nosuchuser": "Uporabnik »$1« ne obstaja.",
 	"changeauthor-revview": "Redakcija #$1 $2",
 	"changeauthor-nosuchtitle": "Stran z imenom »$1« ne obstaja.",
-	"changeauthor-weirderror": "Prišlo je do zelo nenavadne napake.\nProsimo, ponovite svojo zahtevo.\nČe se ta napaka ne preneha pojavljati, je zbirka podatkov verjetno poškodovana.",
+	"changeauthor-weirderror": "Prišlo je do zelo nenavadne napake.\nProsimo, ponovite svoj zahtevek.\nČe se ta napaka ne preneha pojavljati, je podatkovna zbirka verjetno poškodovana.",
 	"changeauthor-invalidform": "Namesto obrazca po meri, prosimo, uporabite obrazec na [[Special:ChangeAuthor|posebni strani]].",
 	"changeauthor-success": "Vaša zahteva je bila uspešno obdelana.",
 	"changeauthor-rev": "r$1",
