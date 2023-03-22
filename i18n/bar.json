@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Man77"
+			"Man77",
+			"Mucalexx"
 		]
 	},
-	"changeauthor": "Autor vu ana Veasion ändan",
+	"changeauthor": "Autor voh aner Versión éndern",
 	"changeauthor-desc": "Ealaubt s'Ändan vum Autor vu ana Version",
 	"changeauthor-title": "Autor vu ana Veasion ändan",
 	"changeauthor-search-box": "Veasion suacha",
@@ -20,8 +21,9 @@
 	"changeauthor-revview": "Veasion #$1 vu $2",
 	"changeauthor-nosuchtitle": "Es gibt ka Seitn „$1“ ned.",
 	"changeauthor-weirderror": "Då is iatst a söitsãma Fehla passiad. Sei so guad und probia's nu amåi. Wãnn's nu amåi zu dem Fehla kimmd, håd de Datnbank wåascheinli a grebas Problem.",
-	"changeauthor-invalidform": "Sei so guad und nimm s'Foamular auf da [[Special:ChangeAuthor|Spezialseitn]].",
+	"changeauthor-invalidform": "Sei asó guad und nimms Formular auf da [[Special:ChangeAuthor|Spezialseiten]].",
 	"changeauthor-success": "Dei Ändarung is eafoigreich duachgfüahd woan.",
+	"changeauthor-rev": "Versión $1",
 	"log-name-changeauth": "Autoanändarungs-Logbiachl",
 	"right-changeauthor": "In Autoan vu ana Veasion ändan"
 }
