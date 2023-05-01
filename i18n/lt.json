@@ -2,11 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Hugo.arg"
+			"Hugo.arg",
+			"Nokeoo"
 		]
 	},
 	"changeauthor-pagenameform-go": "Pirmyn",
 	"changeauthor-comment": "Pastabos:",
 	"changeauthor-changeauthors-single": "Keisti autorių",
-	"changeauthor-nosuchtitle": "Nėra puslapio pavadinimu \" $1 \"."
+	"changeauthor-invalid-username": "Negalimas vartotojo vardas „$1“.",
+	"changeauthor-nosuchuser": "Nėra naudotojo „$1“.",
+	"changeauthor-nosuchtitle": "Nėra puslapio pavadinimu \" $1 \".",
+	"changeauthor-weirderror": "Įvyko labai keista klaida.\nPrašome dar kartą pateikti užklausą.\nJei ši klaida rodoma ir toliau, duomenų bazė tikriausiai neveikia.",
+	"changeauthor-invalidform": "Naudokite [[Special:ChangeAuthor|specialaus puslapio]] pateiktą, o ne tinkintą formą.",
+	"changeauthor-success": "Jūsų užklausa buvo sėkmingai apdorota.",
+	"log-name-changeauth": "Autoriaus pakeitimų žurnalas",
+	"logentry-changeauth-changeauth": "$1 pakeitė {{int:Changeauthor-rev|$4}} $3 autorių iš $5 į $6"
 }
