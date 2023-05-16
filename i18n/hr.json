@@ -26,7 +26,7 @@
 	"changeauthor-nosuchtitle": "Nema članka koji se zove \"$1\".",
 	"changeauthor-weirderror": "Dogodila se vrlo čudna greška. Molimo, ponovite zahtjev. Ako se greška ponovi, baza podataka je vjerojatno oštećena.",
 	"changeauthor-invalidform": "Molimo koristite obrazac na [[Special:ChangeAuthor|posebnoj stranici]] umjesto vlastitog obrasca.",
-	"changeauthor-success": "Vaš zahtjev je uspješno obrađen.",
+	"changeauthor-success": "Vaš zahtjev uspješno je obrađen.",
 	"log-name-changeauth": "Evidencija mijenjanja autorstva",
 	"right-changeauthor": "Izmjeni autora inačice"
 }
