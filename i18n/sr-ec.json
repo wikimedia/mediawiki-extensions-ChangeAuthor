@@ -25,7 +25,7 @@
 	"changeauthor-nosuchuser": "Нема корисника \"$1\".",
 	"changeauthor-revview": "Измена $1 од $2",
 	"changeauthor-nosuchtitle": "Не постоји страница под називом \"$1\".",
-	"changeauthor-success": "Баш захтев је био успешно обрађен.",
+	"changeauthor-success": "Захтев је обрађен.",
 	"changeauthor-rev": "изм. $1",
 	"log-name-changeauth": "Историја промене аутора",
 	"right-changeauthor": "Промена аутора измене"
