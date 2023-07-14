@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"changeauthor-explanation-multi": "With this form you can change revision authors.\nSimply change one or more usernames in the list below, add a comment (optional) and click the 'Change author(s)' button.",
+	"changeauthor-explanation-single": "With this form you can change a revision author.\nSimply change the username below, add a comment (optional) and click the 'Change author' button.",
+	"changeauthor-nosuchuser": "No such user '$1'.",
+	"changeauthor-nosuchtitle": "There is no page called '$1'."
+}
