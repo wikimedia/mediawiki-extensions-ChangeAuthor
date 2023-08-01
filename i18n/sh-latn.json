@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"changeauthor": "Promjena autora revizije",
+	"changeauthor-desc": "Omogućuje se smjeniti autora neke revizije",
+	"changeauthor-title": "Mijenjanje autora revizije",
+	"changeauthor-search-box": "Pretraži revizije",
+	"changeauthor-pagename-or-revid": "Ime stranice ili ID revizije:",
+	"changeauthor-pagenameform-go": "Idi",
+	"changeauthor-comment": "Komentar:",
+	"changeauthor-changeauthors-multi": "Smijeni {{PLURAL:$1|autora|autore}}",
+	"changeauthor-explanation-multi": "Sa ovim obrascem možete promijeniti autora revizije.\nJednostavno smijenite jedno ili više korisničkih imena na spisku ispod, dodajte komentar (neobavezno) i kliknite na dugme \"Smijeni autora(e)\".",
+	"changeauthor-changeauthors-single": "Smijeni autora",
+	"changeauthor-explanation-single": "S ovim obrascem možete smijeniti autora jedne revizije.\nJednostavno smijenite korisničko ime ispod, dodajte komentar (neobavezno) i kliknite na dugme \"Smijeni autora\".",
+	"changeauthor-invalid-username": "Nevaljano korisničko ime \"$1\".",
+	"changeauthor-nosuchuser": "Nema korisnika po imenu \"$1\".",
+	"changeauthor-revview": "Revizija #$1 od $2",
+	"changeauthor-nosuchtitle": "Nema stranice koja se zove \"$1\"",
+	"changeauthor-weirderror": "Dogodila se vrlo čudna greška.\nMolimo, ponovite zahtjev.\nAko se ova greška nastavi pojavljivati, to vjerojatno znači da je baza podataka oštećena.",
+	"changeauthor-invalidform": "Molimo koristite obrazac na [[Special:ChangeAuthor|specijalnoj stranici]], a ne neki drugi.",
+	"changeauthor-success": "Vaš zahtjev je uspješno obrađen.",
+	"log-name-changeauth": "Evidencija mijenjanja autorstva",
+	"log-description-changeauth": "Ovo je dnevnikpromjena u autorima obrade.",
+	"logentry-changeauth-changeauth": "$1 smijenio/-la je autora {{int:Changeauthor-rev|$4}} $3 od $5 u $6",
+	"action-changeauthor": "mijenjanje autora inačice",
+	"right-changeauthor": "Mijenjanje autora revizije"
+}
