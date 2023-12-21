@@ -27,7 +27,7 @@
 	"changeauthor-rev": "r$1",
 	"log-name-changeauth": "Dnevnik sprememb avtorjev",
 	"log-description-changeauth": "To je dnevnik sprememb avtorjev redakcij.",
-	"logentry-changeauth-changeauth": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil/a}} avtorja {{int:Changeauthor-rev|$4}} strani $3 iz $5 v $6",
+	"logentry-changeauth-changeauth": "$1 je {{GENDER:$1|spremenil|spremenila|spremenil_a}} avtorja {{int:Changeauthor-rev|$4}} strani $3 iz $5 v $6",
 	"action-changeauthor": "spreminjanje avtorja redakcije",
 	"right-changeauthor": "Spreminjanje avtorjev redakcij"
 }
