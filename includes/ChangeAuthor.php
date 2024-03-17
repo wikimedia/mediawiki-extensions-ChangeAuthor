@@ -78,7 +78,7 @@ class ChangeAuthor extends SpecialPage {
 		$this->loadBalancer = $loadBalancer;
 
 		parent::__construct(
-			'ChangeAuthor'/* class */,
+			'ChangeAuthor', /* class */
 			'changeauthor'/* restriction */
 		);
 	}
