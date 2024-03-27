@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jeeputer",
-			"Mjbmr"
+			"Mjbmr",
+			"Ebraminio"
 		]
 	},
 	"changeauthor": "تغییر نگارندهٔ نسخه",
@@ -20,7 +21,7 @@
 	"changeauthor-nosuchuser": "کاربری با نام «$1» موجود نیست.",
 	"changeauthor-revview": "نسخهٔ شمارهٔ $1 از $2",
 	"changeauthor-nosuchtitle": "صفحه‌ای با عنوان «$1» موجود نیست.",
-	"changeauthor-weirderror": "یک خطای کاملاً ناشناخته رخ داد.\nلطفاً درخواست خود را دوباره ارسال کنید.\nاگر باز هم این خطا را دریافت کردید، احتمالاً پایگاه داده با مشکل مواجه شده‌است.",
+	"changeauthor-weirderror": "یک خطای کاملاً ناشناخته رخ داد.\nلطفاً درخواست خود را دوباره ارسال کنید.\nاگر باز هم این خطا را دریافت کردید، احتمالاً پایگاه داده با مشکل مواجه شده است.",
 	"changeauthor-invalidform": "لطفاً به‌جای فرم سفارشی، از فرم ارائه‌شده در [[Special:ChangeAuthor|صفحهٔ ویژه]] استفاده کنید.",
 	"changeauthor-success": "درخواست شما با موفقیت پردازش شد.",
 	"log-name-changeauth": "سیاههٔ تغییر نگارنده",
