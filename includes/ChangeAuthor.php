@@ -51,6 +51,9 @@ class ChangeAuthor extends SpecialPage {
 	/** @var ActorNormalization */
 	private $actorNormalization;
 
+	/** @var ILoadBalancer */
+	private $loadBalancer;
+
 	/**
 	 * @param RevisionLookup $revisionLookup
 	 * @param Config $config
