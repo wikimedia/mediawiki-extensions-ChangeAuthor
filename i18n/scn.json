@@ -10,5 +10,5 @@
 	"changeauthor-changeauthors-multi": "Cancia {{PLURAL:$1|auturi|autura}}",
 	"changeauthor-changeauthors-single": "Cancia auturi",
 	"changeauthor-invalid-username": "Nomu utenti nun vàliddu \"$1\".",
-	"changeauthor-nosuchuser": "Nuddu utenti \"$1\"."
+	"changeauthor-nosuchuser": "Nuḍḍu utenti \"$1\"."
 }
