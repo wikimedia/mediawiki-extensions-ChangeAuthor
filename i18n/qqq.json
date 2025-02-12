@@ -10,7 +10,8 @@
 			"Purodha",
 			"Siebrand",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"Matma Rex"
 		]
 	},
 	"changeauthor": "Name of the special page on [[Special:SpecialPages]]",
@@ -34,7 +35,7 @@
 	"changeauthor-rev": "{{optional}}",
 	"log-name-changeauth": "Displayed on top of Special:Log/changeauth and in the list of available logs.",
 	"log-description-changeauth": "{{doc-logpage}}",
-	"logentry-changeauth-changeauth": "{{Logentry}}\nAdditional parameter:\n* $4: the ID of the revision whose author was changed. This becomes the $1 in {{msg-mw|Changeauthor-rev}}.",
+	"logentry-changeauth-changeauth": "{{Logentry}}\nAdditional parameter:\n* $4 - the ID of the revision whose author was changed. This becomes the $1 in {{msg-mw|Changeauthor-rev}}.",
 	"action-changeauthor": "{{doc-action|changeauthor}}",
 	"right-changeauthor": "{{doc-right|changeauthor}}"
 }
