@@ -19,7 +19,7 @@
 	"changeauthor-nosuchuser": "Nema korisnika \"$1\".",
 	"changeauthor-revview": "Izmena $1 od $2",
 	"changeauthor-nosuchtitle": "Ne postoji stranica pod nazivom \"$1\".",
-	"changeauthor-success": "Baš zahtev je bio uspešno obrađen.",
+	"changeauthor-success": "Zahtev je obrađen.",
 	"changeauthor-rev": "izm. $1",
 	"log-name-changeauth": "Istorija promene autora",
 	"right-changeauthor": "Promena autora izmene"
