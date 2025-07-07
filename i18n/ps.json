@@ -1,12 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"changeauthor": "د بياکتنې ليکوال بدلول",
+	"changeauthor-desc": "د بياکتنې ليکوال بدلولو ته پرېښولی ورکوي",
+	"changeauthor-title": "د يوې بياکتنې ليکوال بدلول",
+	"changeauthor-search-box": "بياکتنې پلټل",
+	"changeauthor-pagename-or-revid": "د مخ يا بياکتنې پېژند:",
 	"changeauthor-pagenameform-go": "ورځه",
-	"changeauthor-comment": "تبصره:",
+	"changeauthor-comment": "څرگندونه:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|ليکوال|ليکوالان}} بدلول",
+	"changeauthor-explanation-multi": "دې فورمې سره تاسو د بياکتنې ليکوالان بدلولی شئ.\nپه ساده ډول په لاندې لړليک کې يو يا ډېر کارن‌نومونه بدل کړئ، څرگندونه ورگډه کړئ (اختياري) او په \"ليکوال(ان) بدلول\" تڼۍ باندې وټوکئ.",
 	"changeauthor-changeauthors-single": "ليکوال بدلول",
+	"changeauthor-explanation-single": "دې فورمې سره تاسو د بياکتنې ليکوال بدلولی شئ.\nپه ساده ډول په لاندې لړليک کې يو يا ډېر کارن‌نومونه بدل کړئ، څرگندونه ورگډه کړئ (اختياري) او په \"ليکوال بدلول\" تڼۍ باندې وټوکئ.",
+	"changeauthor-invalid-username": "ناسم کارن‌نوم \"$1\".",
+	"changeauthor-nosuchuser": "د \"$1\" په څېر هيڅ کارن نشته.",
+	"changeauthor-revview": "د #$1 څخه $2 بياکتنه",
 	"changeauthor-nosuchtitle": "داسې هېڅ کوم مخ نشته چې نوم يې \"$1\" وي.",
-	"changeauthor-success": "ستاسو غوښتنه په برياليتوب سره پلي شوه."
+	"changeauthor-weirderror": "يوه ناپېژانده تېروتنه رامنځته شوه.\nمهرباني وکړئ بيا غوښتنه وکړئ.\nکه بيا هم دا تېروتنه رامخې ته شي؛ نو شايد اومتوک له ستونزې سره مخ دی.",
+	"changeauthor-invalidform": "مهرباني وکړئ د دودیزې فورمې پرځای د [[Special:ChangeAuthor|ځانگ يې مخ]] لخوا چمتو شوې فورمه وکاروئ.",
+	"changeauthor-success": "ستاسو غوښتنه په برياليتوب سره پلي شوه.",
+	"log-name-changeauth": "د ليکوال بدلون يادښت",
+	"log-description-changeauth": "دا د بیاکتنو لیکوالانو د بدلونونو يادښت دی.",
+	"logentry-changeauth-changeauth": "$1 د {{int:Changeauthor-rev|$4}} $3 ليکوال له $5 څخه $6 ته بدل کړ.",
+	"action-changeauthor": "د يوې بياکتنې ليکوال بدلول",
+	"right-changeauthor": "د يوې بياکتنې ليکوال بدلول"
 }
