@@ -298,12 +298,17 @@ $specialPageAliases['vep'] = [
 	'ChangeAuthor' => [ 'VajehtadaAvtorad' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'ChangeAuthor' => [ 'ChangeAuthor' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'ChangeAuthor' => [ '更改作者' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'ChangeAuthor' => [ '更改作者' ],
+	'ChangeAuthor' => [ '變更作者', '更改作者' ],
 ];
