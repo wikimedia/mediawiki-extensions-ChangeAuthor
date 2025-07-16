@@ -6,6 +6,9 @@
 		]
 	},
 	"changeauthor-search-box": "Нисдинарш лахар",
+	"changeauthor-pagenameform-go": "ДӀагӀо",
 	"changeauthor-comment": "Билгалдаккхар:",
+	"changeauthor-changeauthors-multi": "{{PLURAL:$1|Автор}} хийцар",
+	"changeauthor-changeauthors-single": "Автор хийцар",
 	"changeauthor-invalid-username": "Хилийта иш йоцу декъашхочун цӀе"
 }
