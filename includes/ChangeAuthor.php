@@ -124,7 +124,7 @@ class ChangeAuthor extends SpecialPage {
 		// check if database is in read-only mode
 		$this->checkReadOnly();
 
-		$out->setPageTitle( $this->msg( 'changeauthor-title' ) );
+		$out->setPageTitle( $this->msg( 'changeauthor-title' )->escaped() );
 
 		if ( $par !== null ) {
 			$obj = $this->parseTitleOrRevID( $par );
