@@ -8,7 +8,9 @@
 			"Silvonen",
 			"Str4nd",
 			"Valtlait",
-			"Vililikku"
+			"Vililikku",
+			"Samoasambia",
+			"Valtlai"
 		]
 	},
 	"changeauthor": "Muuta muokkausversion tekijä",
@@ -26,7 +28,7 @@
 	"changeauthor-nosuchuser": "Käyttäjää ”$1” ei ole olemassa.",
 	"changeauthor-revview": "Versio #$1/$2",
 	"changeauthor-nosuchtitle": "Sivua nimeltä ”$1” ei ole.",
-	"changeauthor-weirderror": "Tapahtui hyvin outo virhe.\nYritä uudestaan.\nJos tämä virhe toistuu, tietokanta on luultavasti rikki.",
+	"changeauthor-weirderror": "Tapahtui hyvin outo virhe.\nYritä uudelleen.\nJos tämä virhe toistuu, tietokanta on luultavasti rikki.",
 	"changeauthor-invalidform": "Käytä [[Special:ChangeAuthor|toimintosivun lomaketta]] oman lomakkeen sijasta.",
 	"changeauthor-success": "Pyyntö on suoritettu onnistuneesti.",
 	"changeauthor-rev": "$1",
