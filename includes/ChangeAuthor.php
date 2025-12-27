@@ -216,9 +216,9 @@ class ChangeAuthor extends SpecialPage {
 		$retval .= Html::hidden( 'action', 'list' );
 		$retval .= Xml::openElement( 'fieldset' );
 		$retval .= Xml::element( 'legend', [], $this->msg( 'changeauthor-search-box' )->text() );
-		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-pagename-or-revid' )->text(),
-				'pagename-revid', 'pagename-revid' );
-		$retval .= Xml::submitButton( $this->msg( 'changeauthor-pagenameform-go' )->text() );
+		$retval .= Html::label( $this->msg( 'changeauthor-pagename-or-revid' )->text(), 'pagename-revid' ) .
+			"\u{00A0}" . Html::input( 'pagename-revid', '', 'text', [ 'id' => 'pagename-revid' ] );
+		$retval .= Html::submitButton( $this->msg( 'changeauthor-pagenameform-go' )->text(), [] );
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
 			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
@@ -281,10 +281,11 @@ class ChangeAuthor extends SpecialPage {
 
 		// Build user textbox
 		$userName = $rev->getUser()->getName();
-		$userBox = Xml::input(
+		$userBox = Html::input(
 			"user-new-{$rev->getId()}",
-			50,
-			$this->getRequest()->getVal( "user-{$rev->getId()}", $rev->getUser()->getName() )
+			$this->getRequest()->getVal( "user-{$rev->getId()}", $rev->getUser()->getName() ),
+			'text',
+			[ 'size' => 50 ]
 		);
 		$userText = Html::hidden( "user-old-{$rev->getId()}", $userName ) . $userName;
 
@@ -341,11 +342,13 @@ class ChangeAuthor extends SpecialPage {
 		$retval .= Html::hidden( 'targetpage', $title->getPrefixedDBkey() );
 		$retval .= Xml::openElement( 'fieldset' );
 		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-multi' )->text() );
-		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-comment' )->text(), 'comment', 'comment', 50 );
-		$retval .= Xml::submitButton(
+		$retval .= Html::label( $this->msg( 'changeauthor-comment' )->text(), 'comment' ) .
+			"\u{00A0}" . Html::input( 'comment', '', 'text', [ 'id' => 'comment', 'size' => 50 ] );
+		$retval .= Html::submitButton(
 			$this->msg( 'changeauthor-changeauthors-multi',
 				count( $revs )
-			)->parse()
+			)->parse(),
+			[]
 		);
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
@@ -380,8 +383,9 @@ class ChangeAuthor extends SpecialPage {
 		$retval .= Html::hidden( 'targetrev', $rev->getId() );
 		$retval .= Xml::openElement( 'fieldset' );
 		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-single' )->text() );
-		$retval .= Xml::inputLabel( $this->msg( 'changeauthor-comment' )->text(), 'comment', 'comment' );
-		$retval .= Xml::submitButton( $this->msg( 'changeauthor-changeauthors-single' )->text() );
+		$retval .= Html::label( $this->msg( 'changeauthor-comment' )->text(), 'comment' )
+			. "\u{00A0}" . Html::input( 'comment', '', 'text', [ 'id' => 'comment' ] );
+		$retval .= Html::submitButton( $this->msg( 'changeauthor-changeauthors-single' )->text(), [] );
 		if ( $errMsg != '' ) {
 			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
 			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
