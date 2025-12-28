@@ -211,21 +211,21 @@ class ChangeAuthor extends SpecialPage {
 	 */
 	private function buildInitialForm( $errMsg = '' ) {
 		global $wgScript;
-		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
+		$retval = Html::openElement( 'form', [ 'method' => 'post', 'action' => $wgScript ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'list' );
-		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'legend', [], $this->msg( 'changeauthor-search-box' )->text() );
+		$retval .= Html::openElement( 'fieldset' );
+		$retval .= Html::element( 'legend', [], $this->msg( 'changeauthor-search-box' )->text() );
 		$retval .= Html::label( $this->msg( 'changeauthor-pagename-or-revid' )->text(), 'pagename-revid' ) .
 			"\u{00A0}" . Html::input( 'pagename-revid', '', 'text', [ 'id' => 'pagename-revid' ] );
 		$retval .= Html::submitButton( $this->msg( 'changeauthor-pagenameform-go' )->text(), [] );
 		if ( $errMsg != '' ) {
-			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
-			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
+			$retval .= Html::openElement( 'p' ) . Html::openElement( 'b' );
+			$retval .= Html::element( 'font', [ 'color' => 'red' ], $errMsg );
+			$retval .= Html::closeElement( 'b' ) . Html::closeElement( 'p' );
 		}
-		$retval .= Xml::closeElement( 'fieldset' );
-		$retval .= Xml::closeElement( 'form' );
+		$retval .= Html::closeElement( 'fieldset' );
+		$retval .= Html::closeElement( 'form' );
 		return $retval;
 	}
 
@@ -336,12 +336,12 @@ class ChangeAuthor extends SpecialPage {
 			return $this->msg( 'changeauthor-weirderror' )->text();
 		}
 
-		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
+		$retval = Html::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetpage', $title->getPrefixedDBkey() );
-		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-multi' )->text() );
+		$retval .= Html::openElement( 'fieldset' );
+		$retval .= Html::element( 'p', [], $this->msg( 'changeauthor-explanation-multi' )->text() );
 		$retval .= Html::label( $this->msg( 'changeauthor-comment' )->text(), 'comment' ) .
 			"\u{00A0}" . Html::input( 'comment', '', 'text', [ 'id' => 'comment', 'size' => 50 ] );
 		$retval .= Html::submitButton(
@@ -351,19 +351,19 @@ class ChangeAuthor extends SpecialPage {
 			[]
 		);
 		if ( $errMsg != '' ) {
-			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
-			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
+			$retval .= Html::openElement( 'p' ) . Html::openElement( 'b' );
+			$retval .= Html::element( 'font', [ 'color' => 'red' ], $errMsg );
+			$retval .= Html::closeElement( 'b' ) . Html::closeElement( 'p' );
 		}
-		$retval .= Xml::element( 'h2', [], $title->getPrefixedText() );
-		$retval .= Xml::openElement( 'ul' );
+		$retval .= Html::element( 'h2', [], $title->getPrefixedText() );
+		$retval .= Html::openElement( 'ul' );
 		$count = count( $revs );
 		foreach ( $revs as $i => $rev ) {
 			$retval .= $this->buildRevisionLine( $rev, $title, ( $i == 0 ), ( $i == $count - 1 ) );
 		}
-		$retval .= Xml::closeElement( 'ul' );
-		$retval .= Xml::closeElement( 'fieldset' );
-		$retval .= Xml::closeElement( 'form' );
+		$retval .= Html::closeElement( 'ul' );
+		$retval .= Html::closeElement( 'fieldset' );
+		$retval .= Html::closeElement( 'form' );
 		return $retval;
 	}
 
@@ -377,30 +377,30 @@ class ChangeAuthor extends SpecialPage {
 	private function buildOneRevForm( $rev, $errMsg = '' ) {
 		$script = $this->config->get( MainConfigNames::Script );
 
-		$retval = Xml::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
+		$retval = Html::openElement( 'form', [ 'method' => 'post', 'action' => $script ] );
 		$retval .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedDBkey() );
 		$retval .= Html::hidden( 'action', 'change' );
 		$retval .= Html::hidden( 'targetrev', $rev->getId() );
-		$retval .= Xml::openElement( 'fieldset' );
-		$retval .= Xml::element( 'p', [], $this->msg( 'changeauthor-explanation-single' )->text() );
+		$retval .= Html::openElement( 'fieldset' );
+		$retval .= Html::element( 'p', [], $this->msg( 'changeauthor-explanation-single' )->text() );
 		$retval .= Html::label( $this->msg( 'changeauthor-comment' )->text(), 'comment' )
 			. "\u{00A0}" . Html::input( 'comment', '', 'text', [ 'id' => 'comment' ] );
 		$retval .= Html::submitButton( $this->msg( 'changeauthor-changeauthors-single' )->text(), [] );
 		if ( $errMsg != '' ) {
-			$retval .= Xml::openElement( 'p' ) . Xml::openElement( 'b' );
-			$retval .= Xml::element( 'font', [ 'color' => 'red' ], $errMsg );
-			$retval .= Xml::closeElement( 'b' ) . Xml::closeElement( 'p' );
+			$retval .= Html::openElement( 'p' ) . Html::openElement( 'b' );
+			$retval .= Html::element( 'font', [ 'color' => 'red' ], $errMsg );
+			$retval .= Html::closeElement( 'b' ) . Html::closeElement( 'p' );
 		}
-		$retval .= Xml::element(
+		$retval .= Html::element(
 			'h2',
 			[],
 			$this->msg( 'changeauthor-revview', $rev->getId(), $rev->getPage()->getPrefixedText() )->text()
 		);
-		$retval .= Xml::openElement( 'ul' );
+		$retval .= Html::openElement( 'ul' );
 		$retval .= $this->buildRevisionLine( $rev, $rev->getPage() );
-		$retval .= Xml::closeElement( 'ul' );
-		$retval .= Xml::closeElement( 'fieldset' );
-		$retval .= Xml::closeElement( 'form' );
+		$retval .= Html::closeElement( 'ul' );
+		$retval .= Html::closeElement( 'fieldset' );
+		$retval .= Html::closeElement( 'form' );
 		return $retval;
 	}
 
