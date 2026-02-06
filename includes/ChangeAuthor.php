@@ -28,7 +28,6 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\ActorNormalization;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserRigorOptions;
-use Wikimedia\AtEase\AtEase;
 use Wikimedia\IPUtils;
 use Wikimedia\Rdbms\ILoadBalancer;
 use Wikimedia\Rdbms\SelectQueryBuilder;
@@ -478,10 +477,10 @@ class ChangeAuthor extends SpecialPage {
 			$logId = $logEntry->insert();
 			$logEntry->publish( $logId );
 
-			AtEase::suppressWarnings();
+			$editcounts[$users[1]->getId()] ??= 0;
+			$editcounts[$users[0]->getId()] ??= 0;
 			$editcounts[$users[1]->getId()]++;
 			$editcounts[$users[0]->getId()]--;
-			AtEase::restoreWarnings();
 		}
 
 		foreach ( $editcounts as $userId => $mutation ) {
