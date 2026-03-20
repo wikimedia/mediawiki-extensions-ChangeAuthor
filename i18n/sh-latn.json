@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -19,8 +20,8 @@
 	"changeauthor-nosuchuser": "Nema korisnika po imenu \"$1\".",
 	"changeauthor-revview": "Revizija #$1 od $2",
 	"changeauthor-nosuchtitle": "Nema stranice koja se zove \"$1\"",
-	"changeauthor-weirderror": "Dogodila se vrlo čudna greška.\nMolimo, ponovite zahtjev.\nAko se ova greška nastavi pojavljivati, to vjerojatno znači da je baza podataka oštećena.",
-	"changeauthor-invalidform": "Molimo koristite obrazac na [[Special:ChangeAuthor|specijalnoj stranici]], a ne neki drugi.",
+	"changeauthor-weirderror": "Dogodila se vrlo čudna greška.\nPonovite zahtjev.\nAko se ova greška nastavi pojavljivati, to vjerojatno znači da je baza podataka oštećena.",
+	"changeauthor-invalidform": "Koristite obrazac na [[Special:ChangeAuthor|specijalnoj stranici]], a ne neki drugi.",
 	"changeauthor-success": "Vaš zahtjev je uspješno obrađen.",
 	"log-name-changeauth": "Evidencija mijenjanja autorstva",
 	"log-description-changeauth": "Ovo je dnevnikpromjena u autorima obrade.",
