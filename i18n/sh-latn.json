@@ -13,7 +13,7 @@
 	"changeauthor-pagenameform-go": "Idi",
 	"changeauthor-comment": "Komentar:",
 	"changeauthor-changeauthors-multi": "Promijeni {{PLURAL:$1|autora|autore}}",
-	"changeauthor-explanation-multi": "Sa ovim obrascem možete promijeniti autora revizije.\nJednostavno promijenite jedno ili više korisničkih imena na spisku ispod, dodajte komentar (neobavezno) i kliknite na dugme 'Promijeni autora(e)'.",
+	"changeauthor-explanation-multi": "Sa ovim obrascem možete promijeniti autora izmjene.\nJednostavno promijenite jedno ili više korisničkih imena na listi ispod, dodajte komentar (neobavezno) i kliknite na dugme 'Promijeni autora(e)'.",
 	"changeauthor-changeauthors-single": "Promijeni autora",
 	"changeauthor-explanation-single": "S ovim obrascem možete promijeniti autora revizije.\nJednostavno promijenite korisničko ime ispod, dodajte komentar (neobavezno) i kliknite na dugme 'Promijeni autora'.",
 	"changeauthor-invalid-username": "Neispravno korisničko ime \"$1\".",
@@ -26,6 +26,6 @@
 	"log-name-changeauth": "Evidencija mijenjanja autorstva",
 	"log-description-changeauth": "Ovo je dnevnikpromjena u autorima obrade.",
 	"logentry-changeauth-changeauth": "$1 promijenio/-la je autora {{int:Changeauthor-rev|$4}} $3 od $5 u $6",
-	"action-changeauthor": "mijenjanje autora inačice",
+	"action-changeauthor": "mijenjanje autora izmjene",
 	"right-changeauthor": "Mijenjanje autora revizije"
 }
