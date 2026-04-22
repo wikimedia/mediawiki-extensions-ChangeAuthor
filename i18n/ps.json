@@ -17,7 +17,7 @@
 	"changeauthor-changeauthors-single": "ليکوال بدلول",
 	"changeauthor-explanation-single": "دې فورمې سره تاسو د بياکتنې ليکوال بدلولی شئ.\nپه ساده ډول په لاندې لړليک کې يو يا ډېر کارن‌نومونه بدل کړئ، څرگندونه ورگډه کړئ (اختياري) او په \"ليکوال بدلول\" تڼۍ باندې وټوکئ.",
 	"changeauthor-invalid-username": "ناسم کارن‌نوم \"$1\".",
-	"changeauthor-nosuchuser": "د \"$1\" په څېر هيڅ کارن نشته.",
+	"changeauthor-nosuchuser": "د \"$1\" په څېر هېڅ کارن نشته.",
 	"changeauthor-revview": "د #$1 څخه $2 بياکتنه",
 	"changeauthor-nosuchtitle": "داسې هېڅ کوم مخ نشته چې نوم يې \"$1\" وي.",
 	"changeauthor-weirderror": "يوه ناپېژانده تېروتنه رامنځته شوه.\nمهرباني وکړئ بيا غوښتنه وکړئ.\nکه بيا هم دا تېروتنه رامخې ته شي؛ نو شايد اومتوک له ستونزې سره مخ دی.",
