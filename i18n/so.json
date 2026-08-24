@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"changeauthor": "Beddel qoraaga dib u eegista",
+	"changeauthor-desc": "Waxay oggolaanaysaa beddelidda qoraaga dib u eegista.",
+	"changeauthor-title": "Beddel qoraaga dib u eegista",
+	"changeauthor-search-box": "Raadi dib u eegisyada",
+	"changeauthor-pagename-or-revid": "Magaca bogga ama aqoonsiga dib u eegista:",
+	"changeauthor-pagenameform-go": "Ugu dub",
+	"changeauthor-comment": "Faallo:",
+	"changeauthor-changeauthors-multi": "Beddel {{PLURAL:$1|qoraaga|qorayaasha}}",
+	"changeauthor-explanation-multi": "Foomkan waxaad ku beddeli kartaa qorayaasha dib u eegista.\nSi fudud u beddel hal ama in ka badan oo magacyada isticmaalayaasha ah ee ku jira liiska hoose, ku dar faallo (ikhtiyaari), kadibna guji badhanka \"Beddel qoraaga/qorayaasha\".",
+	"changeauthor-changeauthors-single": "Beddel qoraaga",
+	"changeauthor-explanation-single": "Foomkan waxaad ku beddeli kartaa qoraaga dib-u-eegista.\nSi fudud u beddel magaca isticmaalaha ee hoose, ku dar faallo (ikhtiyaari), kadibna guji badhanka \"Beddel qoraaga\".",
+	"changeauthor-invalid-username": "Magaca isticmaalaha aan sax ahayn \"$1\".",
+	"changeauthor-nosuchuser": "Ma jiro isticmaale noocaas ah \"$1\".",
+	"changeauthor-revview": "Dib u eegista #$1 ee $2",
+	"changeauthor-nosuchtitle": "Ma jiro bog la yiraahdo \"$1\".",
+	"changeauthor-weirderror": "Khalad aad u yaab badan ayaa dhacay.\nFadlan mar kale isku day codsigaaga.\nHaddii khaladkani uu sii muuqdo, kaydka xogta ayaa laga yaabaa inuu xumaaday.",
+	"changeauthor-invalidform": "Fadlan isticmaal foomka uu bixiyo [[Special:ChangeAuthor|bogga gaarka ah]] halkii aad ka isticmaali lahayd foom gaar ah.",
+	"changeauthor-success": "Codsigaaga si guul leh ayaa loo fuliyay.",
+	"log-name-changeauth": "Diiwaanka beddelka qoraaga",
+	"log-description-changeauth": "Kani waa diiwaanka isbeddellada lagu sameeyay qorayaasha dib u eegista.",
+	"logentry-changeauth-changeauth": "$1 wuxuu beddelay qoraaga {{int:Changeauthor-rev|$4}} ee $3 laga bilaabo $5 loona beddelay $6",
+	"action-changeauthor": "Beddel qoraaga dib u eegista",
+	"right-changeauthor": "Beddel qoraaga dib u eegista"
+}
