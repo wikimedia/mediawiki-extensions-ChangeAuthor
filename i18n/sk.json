@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"changeauthor": "Zmeniť autora revízie",
@@ -24,6 +25,8 @@
 	"changeauthor-invalidform": "Prosím, použite formulár na [[Special:ChangeAuthor|špeciálnej stránke]] radšej ako vlastný formulár.",
 	"changeauthor-success": "Vaša požiadavka bola úspešne spracovaná.",
 	"log-name-changeauth": "Záznam zmien autorov",
+	"log-description-changeauth": "Toto je záznam zmien autorov revízií.",
+	"logentry-changeauth-changeauth": "$1 zmenil autora {{int:Changeauthor-rev|$4}} na stránke $3 z $5 na $6",
 	"action-changeauthor": "zmeniť autora revízie",
 	"right-changeauthor": "Zmeniť autora revízie"
 }
